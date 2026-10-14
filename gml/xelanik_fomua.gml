@@ -1,0 +1,168 @@
+// FoM-UA: save compatibility for the Ukrainian ("ukr") language.
+//
+// A save keeps the player's pronoun choice per language:
+//     ARI.pronouns = { eng: "they_them", fra: "they_them", ... }
+// A save made before "ukr" existed has no "ukr" entry. The journal's Customization page reads
+//     PRONOUNS[$ "ukr"][$ ARI.pronouns[$ "ukr"]]
+// and indexing with undefined throws ("bad index `undefined`", CustomizationMenu.gml, set_up_fields),
+// so opening that page on an old save crashes the game.
+//
+// This adds the missing entry as soon as a save is loaded. It changes nothing else, does nothing while
+// the "ukr" language is not installed, and is safe to run every frame, which is how MMAPI runs queued
+// functions.
+//
+// It also localizes the few places where the game bakes English into a sprite or a code literal and offers no
+// per-language hook: the tutorial cards, the kitchen level label of the cooking menu, and the "Lvl N" label of the
+// journal's Player page and the Load Game list. Each piece is isolated: a failure in one never touches the others.
+
+function __xelanik_fomua_runtime() {
+    if (global[$ "__xelanik_fomua"] == undefined) {
+        global.__xelanik_fomua = { registered: false, cards_done: false, kitchen_original: undefined, kitchen_ukr: undefined, kitchen_failed: false };
+    }
+    return global.__xelanik_fomua;
+}
+
+function xelanik_fomua_register() {
+    var _rt = __xelanik_fomua_runtime();
+    if (_rt.registered) return;
+    _rt.registered = true;
+
+    mmapi_register(xelanik_fomua_backfill_pronouns);
+    mmapi_register(xelanik_fomua_tutorial_cards);
+    mmapi_register(xelanik_fomua_kitchen_backplate);
+    mmapi_on("ui.menu_opened", xelanik_fomua_menu_opened);
+}
+
+// The cooking menu's backplate has "Lvl" baked into it and is named in fiddle/ui/crafting/cooking.toml without a
+// language suffix. COOKING_UI_DATA's "sprites" Map is read each time the menu initializes, so the right sprite is
+// chosen by the current language on every frame (cheap) and switching language at runtime stays correct.
+function xelanik_fomua_kitchen_backplate() {
+    var _rt = __xelanik_fomua_runtime();
+    if (_rt.kitchen_failed) return;
+    // COOKING_UI_DATA is a Map (load_crafting_ui_data returns Map(data)) and so is its "sprites" entry.
+    if (!is_struct(COOKING_UI_DATA)) return;
+    var _sprites = COOKING_UI_DATA.get("sprites");
+    if (!is_struct(_sprites)) return;
+
+    if (_rt.kitchen_original == undefined) {
+        try {
+            _rt.kitchen_ukr = string_to_asset("spr_ui_cooking_backplate_ukr");
+        } catch (_e) {
+            _rt.kitchen_failed = true;
+            mmapi_log_warn("xelanik_fomua", "The Ukrainian cooking backplate is missing: " + string(_e));
+            return;
+        }
+        _rt.kitchen_original = _sprites.get("backplate");
+    }
+    var _wanted = local_language() == "ukr" ? _rt.kitchen_ukr : _rt.kitchen_original;
+    if (_sprites.get("backplate") != _wanted) _sprites.set("backplate", _wanted);
+}
+
+// "Lvl N" is built in code (format("Lvl {}", ...)) on the journal's Player page and in the Load Game list, so no
+// language file can translate it. When one of those menus opens, find the label and swap its prefix for the
+// translated "misc_local/renown_lvl_insert".
+function xelanik_fomua_localize_lvl(_node) {
+    if (_node == undefined || _node[$ "freed"] == true) return;
+
+    var _text = undefined;
+    try { _text = _node.get_text(); } catch (_e) {}
+    if (is_string(_text) && string_length(_text) > 4 && string_copy(_text, 1, 4) == "Lvl ") {
+        _node.set_text(local_get("misc_local/renown_lvl_insert") + " " + string_copy(_text, 5, string_length(_text) - 4));
+        return;
+    }
+
+    var _children = _node[$ "children"];
+    if (!is_array(_children)) return;
+    for (var i = 0; i < array_length(_children); i++) {
+        xelanik_fomua_localize_lvl(_children[i]);
+    }
+}
+
+function xelanik_fomua_menu_opened(_ctx) {
+    if (local_language() != "ukr") return;
+    var _menu = _ctx.menu;
+    if (_menu == undefined) return;
+
+    try {
+        if (_menu[$ "type"] == Menu.Player) xelanik_fomua_localize_lvl(_menu.journal.left_body);
+        else if (_menu[$ "type"] == Menu.Load) xelanik_fomua_localize_lvl(_menu.backplate);
+    } catch (_e) {
+        mmapi_warn_rate_limited("xelanik_fomua.lvl", "xelanik_fomua", "Could not localize the Lvl label: " + string(_e));
+    }
+}
+
+// Tutorial cards are screenshots with baked English text. fiddle/ui/tutorials lists a sprite per language per step
+// (sprite.<lang>, falling back to sprite.eng), and parse_tutorials() resolves them once into TUTORIALS[t].steps[s].sprite,
+// an array indexed like local_get_all_languages(). The cards we ship are named <name>_ukr next to the vanilla
+// <name>_eng; this points the "ukr" slot of every step whose English card has such a twin at it. Done once, after
+// the tutorials are parsed. xelanik_fomua_card_names() is generated by the build and lists only cards we ship, so
+// the game is never asked for an asset that does not exist.
+function xelanik_fomua_has_card(_base) {
+    var _names = xelanik_fomua_card_names();
+    for (var i = 0; i < array_length(_names); i++) {
+        if (_names[i] == _base) return true;
+    }
+    return false;
+}
+
+function xelanik_fomua_tutorial_cards() {
+    var _rt = __xelanik_fomua_runtime();
+    if (_rt.cards_done) return;
+    if (!is_array(TUTORIALS)) return;
+
+    var _languages = local_get_all_languages();
+    var _slot = -1;
+    for (var i = 0; i < array_length(_languages); i++) {
+        if (_languages[i] == "ukr") { _slot = i; break; }
+    }
+    if (_slot < 0) return;
+    _rt.cards_done = true;
+
+    var _raw = fiddle_get("ui/tutorials");
+    var _replaced = 0;
+    for (var t = 0; t < Tutorial.LEN; t++) {
+        var _raw_tutorial = _raw[$ tutorial_to_string(t)];
+        var _tutorial = TUTORIALS[t];
+        if (_raw_tutorial == undefined || _tutorial == undefined) continue;
+        for (var s = 0; s < array_length(_raw_tutorial.steps); s++) {
+            var _eng = _raw_tutorial.steps[s].sprite[$ "eng"];
+            if (!is_string(_eng) || string_length(_eng) < 5) continue;
+            if (string_copy(_eng, string_length(_eng) - 3, 4) != "_eng") continue;
+            var _base = string_copy(_eng, 1, string_length(_eng) - 4);
+            if (!xelanik_fomua_has_card(_base)) continue;
+            _tutorial.steps[s].sprite[_slot] = string_to_asset(_base + "_ukr");
+            _replaced += 1;
+        }
+    }
+    mmapi_log_info("xelanik_fomua", "Pointed " + string(_replaced) + " tutorial cards at their Ukrainian versions.");
+    mmapi_log_flush("xelanik_fomua");
+}
+
+function xelanik_fomua_backfill_pronouns() {
+    // Title screen, or no save loaded yet.
+    if (!is_struct(ARI) || !is_struct(PRONOUNS)) return;
+
+    var _saved = ARI[$ "pronouns"];
+    if (!is_struct(_saved) || struct_exists(_saved, "ukr")) return;
+
+    // The language is not installed (mod removed or disabled in the profile).
+    var _ukr = PRONOUNS[$ "ukr"];
+    if (!is_struct(_ukr)) return;
+
+    // Keep the player's English choice when Ukrainian offers the same option, otherwise use the default.
+    var _choice = _saved[$ "eng"];
+    if (!is_string(_choice) || !struct_exists(_ukr, _choice)) {
+        var _defaults = default_pronouns();
+        _choice = is_struct(_defaults) ? _defaults[$ "ukr"] : undefined;
+        if (!is_string(_choice) || !struct_exists(_ukr, _choice)) _choice = "they_them";
+    }
+
+    _saved[$ "ukr"] = _choice;
+    local_set_pronouns(_saved);
+    mmapi_log_info("xelanik_fomua", "Added the missing 'ukr' pronoun profile (" + _choice + ") to the loaded save.");
+    // Info lines are buffered until 20 accumulate; this one happens rarely, so write it out now.
+    mmapi_log_flush("xelanik_fomua");
+}
+
+mmapi_mod_declare("xelanik_fomua", "0.1.0");
+xelanik_fomua_register();

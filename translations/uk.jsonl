@@ -1,0 +1,1449 @@
+{"format":1}
+{"key":"bell_sounds/default/name","hash":"21b111cbfe","msgstr":"Типовий"}
+{"key":"bell_sounds/gothic/name","hash":"e7dd6b4ae6","msgstr":"Готичний"}
+{"key":"bell_sounds/meow/name","hash":"b2fa1e2b94","msgstr":"Няв"}
+{"key":"bell_sounds/moonlight/name","hash":"2ea8ffc8bc","msgstr":"Місячне світло у моєму вікні"}
+{"key":"bell_sounds/nostalgic/name","hash":"b53839619c","msgstr":"Ностальгійний"}
+{"key":"bell_sounds/school_bell/name","hash":"b5a49e5d00","msgstr":"Шкільний дзвінок"}
+{"key":"bell_sounds/shaking_off_a_storm/name","hash":"82e8c55162","msgstr":"Струшуючи бурю"}
+{"key":"bell_sounds/title_theme/name","hash":"47e94bc303","msgstr":"Головна тема"}
+{"key":"bell_sounds/tsukihotaru/name","hash":"c2286decd8","msgstr":"Цукіхотару","note":"Японська назва (月蛍, «місячна світлячка»), транслітерація."}
+{"key":"cameos/darren/name","hash":"0e32a320e9","msgstr":"Даррен"}
+{"key":"cameos/great_bird/name","hash":"af8a5d5e26","msgstr":"Великий птах"}
+{"key":"cameos/linnet/name","hash":"7c00531ebf","msgstr":"Ліннет"}
+{"key":"cameos/wiscar/name","hash":"ff088f71d9","msgstr":"Віскар"}
+{"key":"cameos/wynne/name","hash":"eb4cc42799","msgstr":"Вінн"}
+{"key":"children/ellie/name","hash":"2a62eef7db","msgstr":"Еллі"}
+{"key":"children/sterling/name","hash":"9351ba1cc5","msgstr":"Стерлінг"}
+{"key":"children/tephra/name","hash":"0f36ecfaa7","msgstr":"Тефра"}
+{"key":"children/rowan/name","hash":"e0ebe4ec4c","msgstr":"Рован"}
+{"key":"children/astrid/name","hash":"86c337f6a0","msgstr":"Астрід"}
+{"key":"children/wilder/name","hash":"8cba9e8dc2","msgstr":"Вайлдер"}
+{"key":"children/rune/name","hash":"f55862c603","msgstr":"Рун"}
+{"key":"children/fray/name","hash":"a9bf0f7463","msgstr":"Фрей"}
+{"key":"children/cedar/name","hash":"4529950e3c","msgstr":"Сідар"}
+{"key":"children/kam/name","hash":"dacb8a8b46","msgstr":"Кем"}
+{"key":"children/brid/name","hash":"279a164d28","msgstr":"Брід"}
+{"key":"children/torin/name","hash":"73e1a2cea9","msgstr":"Торін"}
+{"key":"dates/inn_meal/name","hash":"09a3639273","msgstr":"Обід у заїзді"}
+{"key":"dates/deep_woods_picnic/name","hash":"a0654b6412","msgstr":"Пікнік у Глибокому лісі"}
+{"key":"dates/beach/name","hash":"21fa4d72af","msgstr":"Побачення на пляжі"}
+{"key":"dates/park/name","hash":"bc84cda92c","msgstr":"Побачення в парку"}
+{"key":"dates/gem_cutting/name","hash":"2b32959795","msgstr":"Огранювання коштовностей"}
+{"key":"dates/bathhouse/name","hash":"5fdb10cd1b","msgstr":"Побачення в лазні"}
+{"key":"dates/shooting_star/name","hash":"2ea8505204","msgstr":"Падаюча зірка"}
+{"key":"dates/wedding/name","hash":"43303b0e09","msgstr":"Весілля"}
+{"key":"dates/harvest_dance/name","hash":"186f868d79","msgstr":"Танець врожаю"}
+{"key":"dates/inn_meal/description","hash":"235beab26a","msgstr":"Тепер у вихідні можна запросити партнера до заїзду на обід!"}
+{"key":"dates/deep_woods_picnic/description","hash":"8c3eeed100","msgstr":"Тепер у вихідні можна запросити партнера на пікнік у Глибокий ліс!"}
+{"key":"dates/beach/description","hash":"c5abaa35af","msgstr":"Тепер у вихідні можна запросити партнера на прогулянку пляжем!"}
+{"key":"dates/park/description","hash":"df3ef70e35","msgstr":"Тепер у вихідні можна запросити партнера до парку на Східній дорозі!"}
+{"key":"dates/gem_cutting/description","hash":"0b72b198f9","msgstr":"Тепер у вихідні можна запросити партнера до кузні, щоб разом огранювати коштовності!"}
+{"key":"dates/bathhouse/description","hash":"59c921a38c","msgstr":"Тепер у вихідні можна запросити партнера до лазні!"}
+{"key":"dates/inn_meal/photo_title","hash":"0284713761","msgstr":"Обід у заїзді: {}","note":"{} підставляється в називному відмінку, тому ім'я стоїть після двокрапки."}
+{"key":"dates/deep_woods_picnic/photo_title","hash":"680f75d9ae","msgstr":"Пікнік у Глибокому лісі: {}"}
+{"key":"dates/beach/photo_title","hash":"a9ecaf543a","msgstr":"Побачення на пляжі: {}"}
+{"key":"dates/park/photo_title","hash":"5401d81bba","msgstr":"Побачення в парку: {}"}
+{"key":"dates/gem_cutting/photo_title","hash":"1a8f3d9340","msgstr":"Огранювання коштовностей: {}"}
+{"key":"dates/bathhouse/photo_title","hash":"8403ced819","msgstr":"Побачення в лазні: {}"}
+{"key":"dates/shooting_star/photo_title","hash":"279f6f2dee","msgstr":"Свято падаючої зірки: {}"}
+{"key":"dates/wedding/photo_title","hash":"8d5e888754","msgstr":"Твоє весілля: {}"}
+{"key":"dates/harvest_dance/photo_title","hash":"4b440163b2","msgstr":"Свято врожаю: {}"}
+{"key":"dungeons/dungeons/biomes/0/name","hash":"fda43fb9d2","msgstr":"Верхні шахти"}
+{"key":"dungeons/dungeons/biomes/1/name","hash":"32947bf1cc","msgstr":"Припливні печери"}
+{"key":"dungeons/dungeons/biomes/2/name","hash":"a183b0858f","msgstr":"Глибини землі"}
+{"key":"dungeons/dungeons/biomes/3/name","hash":"703572325b","msgstr":"Лавові печери"}
+{"key":"dungeons/dungeons/biomes/4/name","hash":"ca66c147cf","msgstr":"Стародавні руїни"}
+{"key":"festivals/default/name","hash":"ea3a20e07b","msgstr":"НАЗВА ВІДСУТНЯ","note":"Службова заглушка розробників, гравець її не бачить."}
+{"key":"festivals/animal/name","hash":"699b036a02","msgstr":"Свято тварин"}
+{"key":"festivals/harvest/name","hash":"ce1dcb4587","msgstr":"Свято врожаю"}
+{"key":"festivals/shooting_star/name","hash":"a9146da1fd","msgstr":"Свято падаючої зірки"}
+{"key":"festivals/spring/name","hash":"869856f31d","msgstr":"Весняне свято"}
+{"key":"infusions/fortified/name","hash":"12331c4904","msgstr":"міцності","note":"Назва інфузії стоїть ПІСЛЯ назви предмета (infusion_order = Noun): «Суп міцності». Родовий відмінок підходить до будь-якого роду."}
+{"key":"infusions/hasty/name","hash":"a07f727d3f","msgstr":"прудкості"}
+{"key":"infusions/restorative/name","hash":"c77a42a256","msgstr":"відновлення"}
+{"key":"infusions/lightweight/name","hash":"f1c7459c38","msgstr":"легкості"}
+{"key":"infusions/speedy/name","hash":"5208d78a8f","msgstr":"швидкості"}
+{"key":"infusions/stacking_speed/name","hash":"5208d78a8f","msgstr":"швидкості"}
+{"key":"infusions/magical/name","hash":"307b6d84c6","msgstr":"магії"}
+{"key":"infusions/tireless/name","hash":"4fcb8732d0","msgstr":"невтомності"}
+{"key":"infusions/likeable/name","hash":"d20d338efb","msgstr":"приязні"}
+{"key":"infusions/loveable/name","hash":"7be17162ff","msgstr":"обожнювання"}
+{"key":"infusions/fairy/name","hash":"f46be28784","msgstr":"феї"}
+{"key":"infusions/quality/name","hash":"1b2c08a873","msgstr":"якості"}
+{"key":"infusions/sharp/name","hash":"1a3c4b300d","msgstr":"гостроти"}
+{"key":"infusions/leeching/name","hash":"52bd293550","msgstr":"вампіризму"}
+{"key":"infusions/venom_sword/name","hash":"0eb151b9ef","msgstr":"Отруйний меч"}
+{"key":"infusions/fire_sword/name","hash":"909938b045","msgstr":"Вогняний меч"}
+{"key":"infusions/sure_strike/name","hash":"149e2cf358","msgstr":"Влучний удар","note":"Службова заглушка в оригіналі (рядок з малої літери)."}
+{"key":"infusions/ice_sword/name","hash":"c7158fc3d9","msgstr":"Крижаний меч"}
+{"key":"infusions/fortified/description","hash":"92c24f5f62","msgstr":"Базове здоров'я збільшується на 4."}
+{"key":"infusions/hasty/description","hash":"7c4d3ccb24","msgstr":"Збільшує швидкість пересування на 4 %."}
+{"key":"infusions/restorative/description","hash":"b8d218c1b8","msgstr":"Дає бонус до відновлення здоров'я й витривалості на дві години."}
+{"key":"infusions/lightweight/description","hash":"527ec22c1d","msgstr":"Інструменти з цією інфузією іноді випускають кулі витривалості під час використання."}
+{"key":"infusions/speedy/description","hash":"3a1ba9f238","msgstr":"Збільшує швидкість пересування на 10 % на дві години."}
+{"key":"infusions/stacking_speed/description","hash":"dd0ad65c34","msgstr":"Збільшує твою швидкість на 5 % на 6 годин."}
+{"key":"infusions/magical/description","hash":"d9b518df18","msgstr":"Відновлює одну кулю мани."}
+{"key":"infusions/tireless/description","hash":"cef62d3c0f","msgstr":"Базова витривалість збільшується на 4."}
+{"key":"infusions/likeable/description","hash":"ef02466c4e","msgstr":"Усі вважають цю страву вподобаним подарунком."}
+{"key":"infusions/loveable/description","hash":"9364448fe9","msgstr":"Усі вважають цю страву улюбленим подарунком."}
+{"key":"infusions/fairy/description","hash":"0efb488fb8","msgstr":"Одноразово рятує від непритомності й відновлює 50 % здоров'я та витривалості."}
+{"key":"infusions/quality/description","hash":"c7eed0daab","msgstr":"Ціна продажу цих меблів на 10 % вища за звичайну."}
+{"key":"infusions/sharp/description","hash":"5c148dbab7","msgstr":"Додає 1 до сили атаки."}
+{"key":"infusions/leeching/description","hash":"ef9eb6bdfd","msgstr":"Відновлює 1 здоров'я щоразу, коли ним завдано шкоди монстру."}
+{"key":"infusions/venom_sword/description","hash":"e75b4a24e2","msgstr":"Кожна атака, поки діє зміїна олія, додає ворогам 5 секунд отруйної шкоди."}
+{"key":"infusions/fire_sword/description","hash":"e48afd578f","msgstr":"Кожна атака, поки це діє, завдає ворогам у 1,25 раза більше шкоди."}
+{"key":"infusions/sure_strike/description","hash":"ff71cf74ab","msgstr":"—","note":"Заглушка «blank» в оригіналі."}
+{"key":"infusions/ice_sword/description","hash":"aad1051e11","msgstr":"Кожна атака, поки це діє, назавжди уповільнює ворогів на 50 %."}
+{"key":"items/furniture/chicken_statue_rewards/golden_fence/name","hash":"6369407a43","msgstr":"Золота огорожа"}
+{"key":"items/furniture/chicken_statue_rewards/gold_alpaca_statue/name","hash":"73e1e16731","msgstr":"Золота статуя альпаки"}
+{"key":"items/furniture/chicken_statue_rewards/gold_capybara_statue/name","hash":"4887676de7","msgstr":"Золота статуя капібари"}
+{"key":"items/furniture/chicken_statue_rewards/gold_chicken_statue/name","hash":"9e8976bb2b","msgstr":"Золота статуя курки"}
+{"key":"items/furniture/chicken_statue_rewards/gold_cow_statue/name","hash":"2ab89e0b69","msgstr":"Золота статуя корови"}
+{"key":"items/furniture/chicken_statue_rewards/gold_duck_statue/name","hash":"2687f273e3","msgstr":"Золота статуя качки"}
+{"key":"items/furniture/chicken_statue_rewards/gold_horse_statue/name","hash":"6bccf545f7","msgstr":"Золота статуя коня"}
+{"key":"items/furniture/chicken_statue_rewards/gold_rabbit_statue/name","hash":"d720975375","msgstr":"Золота статуя кролика"}
+{"key":"items/furniture/chicken_statue_rewards/gold_sheep_statue/name","hash":"978d9d19be","msgstr":"Золота статуя вівці"}
+{"key":"items/furniture/chicken_statue_rewards/gold_chest/name","hash":"f3957befc8","msgstr":"Золота скриня"}
+{"key":"items/furniture/chicken_statue_rewards/golden_fence/description","hash":"99869b52de","msgstr":"Золота огорожа."}
+{"key":"items/furniture/chicken_statue_rewards/gold_alpaca_statue/description","hash":"b1b8fb6adb","msgstr":"Статуя альпаки, відлита із золота."}
+{"key":"items/furniture/chicken_statue_rewards/gold_capybara_statue/description","hash":"94f9fcfbf2","msgstr":"Статуя капібари, відлита із золота."}
+{"key":"items/furniture/chicken_statue_rewards/gold_chicken_statue/description","hash":"2baba1565f","msgstr":"Статуя курки, відлита із золота."}
+{"key":"items/furniture/chicken_statue_rewards/gold_cow_statue/description","hash":"f4c5081e4c","msgstr":"Статуя корови, відлита із золота."}
+{"key":"items/furniture/chicken_statue_rewards/gold_duck_statue/description","hash":"8bb362878b","msgstr":"Статуя качки, відлита із золота."}
+{"key":"items/furniture/chicken_statue_rewards/gold_horse_statue/description","hash":"a2a585c887","msgstr":"Статуя коня, відлита із золота."}
+{"key":"items/furniture/chicken_statue_rewards/gold_rabbit_statue/description","hash":"c9983645b4","msgstr":"Статуя кролика, відлита із золота."}
+{"key":"items/furniture/chicken_statue_rewards/gold_sheep_statue/description","hash":"37d1e61555","msgstr":"Статуя вівці, відлита із золота."}
+{"key":"items/furniture/chicken_statue_rewards/gold_chest/description","hash":"e70ff76bcf","msgstr":"Дерев'яна скриня із золотим оздобленням і дуже великою місткістю."}
+{"key":"items/other/misc/large_barn_gold_blueprint/name","hash":"65d51d4970","msgstr":"Креслення великого золотого хліва"}
+{"key":"items/other/misc/large_coop_gold_blueprint/name","hash":"e8394167f4","msgstr":"Креслення великого золотого курника"}
+{"key":"items/other/misc/construction_fence_gold/name","hash":"6dbf718422","msgstr":"Золота будівельна огорожа"}
+{"key":"items/other/misc/large_barn_gold_blueprint/description","hash":"b826f07cdf","msgstr":"Використай цей предмет, щоб розмістити на фермі будівельний майданчик великого золотого хліва! Для будівництва потрібно: 150 деревини, 125 каменю, 10 золотих злитків."}
+{"key":"items/other/misc/large_coop_gold_blueprint/description","hash":"577adae971","msgstr":"Використай цей предмет, щоб розмістити на фермі будівельний майданчик великого золотого курника! Для будівництва потрібно: 125 деревини, 100 каменю, 7 золотих злитків."}
+{"key":"items/other/misc/construction_fence_gold/description","hash":"73a10d0476","msgstr":"Золота будівельна огорожа."}
+{"key":"locations/default/name","hash":"ea3a20e07b","msgstr":"НАЗВА ВІДСУТНЯ","note":"Службова заглушка розробників, гравець її не бачить."}
+{"key":"locations/town/name","hash":"6a8db03f34","msgstr":"Містрія"}
+{"key":"locations/bathhouse/name","hash":"604cfb2ef9","msgstr":"Лазня"}
+{"key":"locations/bell_tower_f1/name","hash":"9f86d6b3f6","msgstr":"Дзвіниця"}
+{"key":"locations/caldarus_house/name","hash":"c82c25a4fc","msgstr":"Дім Кальдаруса"}
+{"key":"locations/eastern_road/name","hash":"e742109def","msgstr":"Східна дорога"}
+{"key":"locations/deep_woods/name","hash":"d81692c085","msgstr":"Глибокий ліс"}
+{"key":"locations/dragonsworn_glade/name","hash":"8db84b6b4f","msgstr":"Галявина драконоприсяжних"}
+{"key":"locations/narrows/name","hash":"d52536d890","msgstr":"Теснина"}
+{"key":"locations/player_home/name","hash":"3a78695388","msgstr":"Дім"}
+{"key":"locations/player_home_west/name","hash":"48ad15b6d1","msgstr":"Західне крило"}
+{"key":"locations/player_home_east/name","hash":"4349c3f352","msgstr":"Східне крило"}
+{"key":"locations/player_home_north/name","hash":"08fb7d9ae5","msgstr":"Північне крило"}
+{"key":"locations/player_home_upper_central/name","hash":"94767f45a9","msgstr":"Дім, верхній поверх"}
+{"key":"locations/player_home_upper_west/name","hash":"cc3d83ad26","msgstr":"Західне крило, верхній поверх"}
+{"key":"locations/player_home_upper_east/name","hash":"34625396a5","msgstr":"Східне крило, верхній поверх"}
+{"key":"locations/summit/name","hash":"a6dabdef17","msgstr":"Вершина"}
+{"key":"locations/western_ruins/name","hash":"8156b4bb0d","msgstr":"Західні руїни"}
+{"key":"locations/seridias_house/name","hash":"a7ee5506ad","msgstr":"Дім Серідії"}
+{"key":"locations/beach/name","hash":"8fa43e84c6","msgstr":"Пляж"}
+{"key":"locations/terithias_house/name","hash":"4abcf29691","msgstr":"Рибальська крамниця"}
+{"key":"locations/landens_house_f1/name","hash":"3a6b72a407","msgstr":"Теслярня"}
+{"key":"locations/haydens_farm/name","hash":"541c496d8f","msgstr":"Ферма «Солодка Вода»"}
+{"key":"locations/haydens_house/name","hash":"d962df927c","msgstr":"Крамниця Гейдена"}
+{"key":"locations/mines_entry/name","hash":"ccad077a70","msgstr":"Вхід до шахт"}
+{"key":"locations/blacksmith_store/name","hash":"922136b8c3","msgstr":"Кузня"}
+{"key":"locations/general_store_store/name","hash":"3473523f16","msgstr":"Універсальна крамниця"}
+{"key":"locations/inn/name","hash":"242ebe1bd0","msgstr":"Заїзд"}
+{"key":"locations/celines_room/name","hash":"0316c96fdb","msgstr":"Котедж Селіни"}
+{"key":"locations/clinic_f1/name","hash":"0a8df495f7","msgstr":"Клініка"}
+{"key":"locations/manor_house_entry/name","hash":"1a1ec9cdde","msgstr":"Садиба"}
+{"key":"locations/errols_bedroom/name","hash":"e8d515e9ac","msgstr":"Хатина Ерола"}
+{"key":"locations/museum_entry/name","hash":"9d16dbea1d","msgstr":"Музей"}
+{"key":"locations/museum_wing_archaeology/name","hash":"d7f9aeb01f","msgstr":"Археологічне крило"}
+{"key":"locations/museum_wing_insect/name","hash":"c37db67db6","msgstr":"Крило комах"}
+{"key":"locations/museum_wing_fish/name","hash":"da925361fb","msgstr":"Крило риб"}
+{"key":"locations/museum_wing_flora/name","hash":"6a0fbb956c","msgstr":"Крило флори"}
+{"key":"locations/mill/name","hash":"781bf00cb3","msgstr":"Млин"}
+{"key":"locations/water_seal/name","hash":"527dd25f1d","msgstr":"Печать Води"}
+{"key":"locations/earth_seal/name","hash":"8d13a2d2fa","msgstr":"Печать Землі"}
+{"key":"locations/fire_seal/name","hash":"0644efa4ea","msgstr":"Печать Вогню"}
+{"key":"locations/ruins_seal/name","hash":"3e03a2e87b","msgstr":"Печать Руїн"}
+{"key":"locations/void_seal/name","hash":"0b860ed1b9","msgstr":"Печать Порожнечі"}
+{"key":"locations/priestess_quarters/name","hash":"49304e31a0","msgstr":"Покої жриць"}
+{"key":"locations/narrows_secret/name","hash":"663d4d1216","msgstr":"Печера в Теснині"}
+{"key":"locations/beach_secret/name","hash":"7262de1303","msgstr":"Печера на пляжі"}
+{"key":"misc_local/spring","hash":"db29e82a92","msgstr":"Весна"}
+{"key":"misc_local/summer","hash":"c0de243c40","msgstr":"Літо"}
+{"key":"misc_local/fall","hash":"e85a6413c1","msgstr":"Осінь"}
+{"key":"misc_local/winter","hash":"1b17869e03","msgstr":"Зима"}
+{"key":"misc_local/days","hash":"ab51004e9d","msgstr":"дн."}
+{"key":"misc_local/general_store_name","hash":"3473523f16","msgstr":"Універсальна крамниця"}
+{"key":"misc_local/darcys_stall_name","hash":"db3115ff14","msgstr":"Кіоск Дарсі"}
+{"key":"misc_local/merris_stall_name","hash":"fab47dd031","msgstr":"Кіоск Меррі"}
+{"key":"misc_local/maples_stall_name","hash":"860b760caf","msgstr":"Кіоск Мейпл"}
+{"key":"misc_local/noras_stall_name","hash":"725b315eb1","msgstr":"Кіоск Нори"}
+{"key":"misc_local/elsies_stall_name","hash":"f7f5dc22db","msgstr":"Кіоск Елсі"}
+{"key":"misc_local/louis_stall_name","hash":"3dafe93606","msgstr":"Кіоск Луї"}
+{"key":"misc_local/carpenters_shop_name","hash":"52544f2347","msgstr":"Східна теслярня"}
+{"key":"misc_local/haydens_shop_name","hash":"541c496d8f","msgstr":"Ферма «Солодка Вода»"}
+{"key":"misc_local/inn_shop_name","hash":"52a8dc6807","msgstr":"Заїзд «Сплячий дракон»"}
+{"key":"misc_local/blacksmith_shop_name","hash":"922136b8c3","msgstr":"Кузня"}
+{"key":"misc_local/terithias_store_name","hash":"21c13b1fd3","msgstr":"Крамниця Терітії"}
+{"key":"misc_local/full_inventory","hash":"68ad43592e","msgstr":"Інвентар повний!"}
+{"key":"misc_local/late_warning","hash":"76cc90b40b","msgstr":"Уже досить пізно... Час іти додому!"}
+{"key":"misc_local/two_am_alert","hash":"10a90a8744","msgstr":"Сил іти далі вже немає..."}
+{"key":"misc_local/settings","hash":"74a883a037","msgstr":"Налаштування"}
+{"key":"misc_local/language","hash":"a4fe65264e","msgstr":"Мова"}
+{"key":"misc_local/accessibility","hash":"d3368cbffe","msgstr":"Доступність"}
+{"key":"misc_local/controls","hash":"799c269135","msgstr":"Керування"}
+{"key":"misc_local/gameplay","hash":"31bcb8940f","msgstr":"Геймплей"}
+{"key":"misc_local/display","hash":"34e108c089","msgstr":"Дисплей"}
+{"key":"misc_local/graphics","hash":"a874fca87c","msgstr":"Графіка"}
+{"key":"misc_local/audio","hash":"bc1b88907d","msgstr":"Звук"}
+{"key":"misc_local/exit","hash":"d17d84a604","msgstr":"Вихід"}
+{"key":"misc_local/global_volume","hash":"d36fb7a217","msgstr":"Загальна гучність"}
+{"key":"misc_local/music_volume","hash":"b3f848c2a0","msgstr":"Гучність музики"}
+{"key":"misc_local/sfx_volume","hash":"fe7a222aa9","msgstr":"Гучність ефектів"}
+{"key":"misc_local/amb_volume","hash":"37dbcad4e4","msgstr":"Гучність довкілля"}
+{"key":"misc_local/fullscreen","hash":"c461dbb2ba","msgstr":"Повний екран"}
+{"key":"misc_local/borderless","hash":"b136109a5c","msgstr":"Без рамки"}
+{"key":"misc_local/display_mode","hash":"8ce318babb","msgstr":"Режим екрана"}
+{"key":"misc_local/windowed","hash":"3f26603a27","msgstr":"У вікні"}
+{"key":"misc_local/choose_display_mode","hash":"e496b2a515","msgstr":"Обери режим екрана"}
+{"key":"misc_local/vsync","hash":"052810dae1","msgstr":"VSync"}
+{"key":"misc_local/vsync_on","hash":"1300117561","msgstr":"Увімк."}
+{"key":"misc_local/vsync_off","hash":"ca7981b46e","msgstr":"Вимк."}
+{"key":"misc_local/vsync_adaptive","hash":"ceb6931ea5","msgstr":"Адаптивна"}
+{"key":"misc_local/resolution","hash":"d4055fafa3","msgstr":"Роздільна здатність"}
+{"key":"misc_local/in_game_scale","hash":"380f0724f4","msgstr":"Масштаб гри"}
+{"key":"misc_local/toggle","hash":"3d03a1dea5","msgstr":"Перемкнути"}
+{"key":"misc_local/screenshake","hash":"6b06f1dffb","msgstr":"Тряска екрана"}
+{"key":"misc_local/screen_flash","hash":"69c60d70da","msgstr":"Спалахи екрана"}
+{"key":"misc_local/scrolling_backgrounds","hash":"95b974c797","msgstr":"Рухомий фон"}
+{"key":"misc_local/return_to_main_menu","hash":"7f32104e6c","msgstr":"До головного меню"}
+{"key":"misc_local/exit_to_desktop","hash":"9e79e595c1","msgstr":"Вийти на робочий стіл"}
+{"key":"misc_local/continue","hash":"31fbef1625","msgstr":"Продовжити"}
+{"key":"misc_local/new_game","hash":"28f9044138","msgstr":"Нова гра"}
+{"key":"misc_local/load_game","hash":"dc415dbd4b","msgstr":"Завантажити"}
+{"key":"misc_local/input_left_mouse","hash":"11a5a32d99","msgstr":"Ліва кнопка миші"}
+{"key":"misc_local/input_right_mouse","hash":"6d302306a7","msgstr":"Права кнопка миші"}
+{"key":"misc_local/input_confirm_text_input","hash":"39eebfcd20","msgstr":"Підтвердити введення"}
+{"key":"misc_local/input_reset_controls","hash":"3baa1d603f","msgstr":"Скинути керування"}
+{"key":"misc_local/input_toolbar_inc_up","hash":"ebd773577c","msgstr":"Наступний предмет панелі"}
+{"key":"misc_local/input_toolbar_inc_down","hash":"950daa8ba5","msgstr":"Попередній предмет панелі"}
+{"key":"misc_local/input_up","hash":"1359626e7b","msgstr":"Рух угору"}
+{"key":"misc_local/input_down","hash":"b58330ac25","msgstr":"Рух униз"}
+{"key":"misc_local/input_left","hash":"4f165b9695","msgstr":"Рух ліворуч"}
+{"key":"misc_local/input_right","hash":"338f0879bc","msgstr":"Рух праворуч"}
+{"key":"misc_local/input_place_object","hash":"acadd3be29","msgstr":"Розмістити об'єкт"}
+{"key":"misc_local/input_use_tool_charged","hash":"7f52f7b3da","msgstr":"Інструмент (заряд)"}
+{"key":"misc_local/input_use_tool_repeated","hash":"68d59bafef","msgstr":"Інструмент (повтор)"}
+{"key":"misc_local/input_open_journal","hash":"f7b51d6139","msgstr":"Відкрити журнал"}
+{"key":"misc_local/input_walk","hash":"194e2cf94e","msgstr":"Перемкнути ходьбу"}
+{"key":"misc_local/input_jump","hash":"9ee0ca3e24","msgstr":"Стрибок"}
+{"key":"misc_local/input_interact","hash":"04adda4ac0","msgstr":"Взаємодія"}
+{"key":"misc_local/input_highlight","hash":"be09679ef4","msgstr":"Підсвітити об'єкти поруч"}
+{"key":"misc_local/input_secondary_interact","hash":"bafd7ca6b6","msgstr":"Додаткова взаємодія"}
+{"key":"misc_local/input_rotate_right","hash":"d2f1321248","msgstr":"Повернути праворуч"}
+{"key":"misc_local/input_rotate_left","hash":"1e8977c24e","msgstr":"Повернути ліворуч"}
+{"key":"misc_local/input_cast_pinned_spell","hash":"fc6d690639","msgstr":"Закріплене закляття"}
+{"key":"misc_local/input_pick_up_one","hash":"f777b59749","msgstr":"Взяти один (інвентар)"}
+{"key":"misc_local/rotate","hash":"c3613b1704","msgstr":"Повернути"}
+{"key":"misc_local/store_item","hash":"a45dae2d4f","msgstr":"Покласти предмет"}
+{"key":"misc_local/ship_item","hash":"43fd18c0b2","msgstr":"Відправити предмет"}
+{"key":"misc_local/harvest","hash":"c91ab8b61d","msgstr":"Зібрати"}
+{"key":"misc_local/shake","hash":"c2a6ed6cdb","msgstr":"Струсити"}
+{"key":"misc_local/input_spell","hash":"656641e51a","msgstr":"Чаклувати"}
+{"key":"misc_local/input_throw","hash":"1747eaad16","msgstr":"Подарувати / Кинути"}
+{"key":"misc_local/input_open_player_menu","hash":"758f487fe8","msgstr":"Інвентар"}
+{"key":"misc_local/input_open_map_menu","hash":"af75a90f49","msgstr":"Відкрити мапу"}
+{"key":"misc_local/input_next_preset","hash":"51a78e73e9","msgstr":"Наступний вигляд"}
+{"key":"misc_local/input_last_preset","hash":"2a573118cf","msgstr":"Попередній вигляд"}
+{"key":"misc_local/input_tap_main","hash":"e3f43597ae","msgstr":"Вибір у меню"}
+{"key":"misc_local/input_menu_back","hash":"3458ce1b93","msgstr":"Закрити меню"}
+{"key":"misc_local/input_next_toolbar_tab","hash":"3669127a48","msgstr":"Наступна вкладка панелі"}
+{"key":"misc_local/input_last_toolbar_tab","hash":"e63b794f62","msgstr":"Попередня вкладка панелі"}
+{"key":"misc_local/input_menu_tab_left","hash":"021430eceb","msgstr":"Вкладка меню (ліворуч)"}
+{"key":"misc_local/input_menu_tab_right","hash":"eefb582e0e","msgstr":"Вкладка меню (праворуч)"}
+{"key":"misc_local/input_select_toolbar_one","hash":"c9ece0a543","msgstr":"Панель 1"}
+{"key":"misc_local/input_select_toolbar_two","hash":"af16503876","msgstr":"Панель 2"}
+{"key":"misc_local/input_select_toolbar_three","hash":"29963ec59b","msgstr":"Панель 3"}
+{"key":"misc_local/input_select_toolbar_four","hash":"fc6fe056bd","msgstr":"Панель 4"}
+{"key":"misc_local/input_select_toolbar_five","hash":"2d5b8af86c","msgstr":"Панель 5"}
+{"key":"misc_local/input_select_toolbar_six","hash":"71784f07cd","msgstr":"Панель 6"}
+{"key":"misc_local/input_select_toolbar_seven","hash":"5b6be16eea","msgstr":"Панель 7"}
+{"key":"misc_local/input_select_toolbar_eight","hash":"2a2bf8b00e","msgstr":"Панель 8"}
+{"key":"misc_local/input_select_toolbar_nine","hash":"a525f577ef","msgstr":"Панель 9"}
+{"key":"misc_local/input_select_toolbar_zero","hash":"f6ab09e5c8","msgstr":"Панель 0"}
+{"key":"misc_local/input_furniture_up","hash":"3b1bfd74a8","msgstr":"Посунути меблі вгору"}
+{"key":"misc_local/input_furniture_left","hash":"eeb81ad071","msgstr":"Посунути меблі ліворуч"}
+{"key":"misc_local/input_furniture_right","hash":"00a18ea4c7","msgstr":"Посунути меблі праворуч"}
+{"key":"misc_local/input_furniture_down","hash":"fb00281be8","msgstr":"Посунути меблі вниз"}
+{"key":"misc_local/rebind","hash":"649dc31941","msgstr":"Змінити"}
+{"key":"misc_local/reset_to_xbox","hash":"29c567f578","msgstr":"Скинути до Xbox"}
+{"key":"misc_local/reset_to_nintendo","hash":"8c0539f9d7","msgstr":"Скинути до Nintendo"}
+{"key":"misc_local/xbox","hash":"449b321e81","msgstr":"Xbox"}
+{"key":"misc_local/nintendo","hash":"0bee31ac67","msgstr":"Nintendo"}
+{"key":"misc_local/play_station","hash":"55030fed1a","msgstr":"PlayStation"}
+{"key":"misc_local/reset_to_default","hash":"26fcda893f","msgstr":"Скинути до типових"}
+{"key":"misc_local/press_any_input","hash":"87adc690d3","msgstr":"Натисни будь-що..."}
+{"key":"misc_local/press_again_to_confirm","hash":"8550d59baa","msgstr":"Натисни ще раз для підтвердження..."}
+{"key":"misc_local/input_in_use","hash":"69b24d6e4b","msgstr":"Уже використовується для «{}»!"}
+{"key":"misc_local/cancel","hash":"19766ed6cc","msgstr":"Скасувати"}
+{"key":"misc_local/one_stick_mode","hash":"b5fd02eb01","msgstr":"Дзеркалити стіки геймпада"}
+{"key":"misc_local/touch_screen","hash":"fb3328d427","msgstr":"Сенсор. екран Steam Deck"}
+{"key":"misc_local/remove","hash":"c3812fc4ac","msgstr":"Видалити"}
+{"key":"misc_local/twenty_four_hour_clock","hash":"a972334f19","msgstr":"24-годинний формат"}
+{"key":"misc_local/skills","hash":"66d0f523a3","msgstr":"Навички"}
+{"key":"misc_local/skill_up","hash":"18e35818e8","msgstr":"Новий рівень!"}
+{"key":"misc_local/level","hash":"1709305c9f","msgstr":"Рівень"}
+{"key":"misc_local/learn","hash":"ce78afd0e6","msgstr":"Вивчити"}
+{"key":"misc_local/cost","hash":"204a5eb2cd","msgstr":"Вартість"}
+{"key":"misc_local/close","hash":"7d9eb7acb1","msgstr":"Закрити"}
+{"key":"misc_local/tier_1","hash":"c97454a01c","msgstr":"Ступінь 1"}
+{"key":"misc_local/tier_2","hash":"aa91161f1c","msgstr":"Ступінь 2"}
+{"key":"misc_local/tier_3","hash":"5020877c27","msgstr":"Ступінь 3"}
+{"key":"misc_local/tier_4","hash":"61cd6a94c0","msgstr":"Ступінь 4"}
+{"key":"misc_local/tier_5","hash":"71dc60c40b","msgstr":"Ступінь 5"}
+{"key":"misc_local/tier_6","hash":"fcfa16091b","msgstr":"Ступінь 6"}
+{"key":"misc_local/level_1","hash":"b75cf05d6d","msgstr":"Рівень 1"}
+{"key":"misc_local/level_2","hash":"29cc4eb667","msgstr":"Рівень 2"}
+{"key":"misc_local/level_3","hash":"42b03421cd","msgstr":"Рівень 3"}
+{"key":"misc_local/level_4","hash":"3d275ef756","msgstr":"Рівень 4"}
+{"key":"misc_local/level_5","hash":"0d0e64159b","msgstr":"Рівень 5"}
+{"key":"misc_local/kitchen_tiers","hash":"9c3cfb9117","msgstr":"Ступені кухні"}
+{"key":"misc_local/new_reward_unlocked","hash":"557aaeeecd","msgstr":"Відкрито нову нагороду!"}
+{"key":"misc_local/set_completed","hash":"06bb772e1e","msgstr":"Набір зібрано!"}
+{"key":"misc_local/open","hash":"ed077f3d81","msgstr":"Відкрити"}
+{"key":"misc_local/show_hud_numbers","hash":"da3c372327","msgstr":"Числа на HUD"}
+{"key":"misc_local/pause_on_unfocus","hash":"27e513d826","msgstr":"Пауза без фокуса"}
+{"key":"misc_local/pause_audio_on_unfocus","hash":"0a46ae55a7","msgstr":"Пауза звуку без фокуса"}
+{"key":"misc_local/send_analytics","hash":"68c6f1b5ff","msgstr":"Надсилати ігрову аналітику"}
+{"key":"misc_local/menu_bounce","hash":"8549605de6","msgstr":"Підстрибування меню"}
+{"key":"misc_local/back","hash":"76900f1bfd","msgstr":"Назад"}
+{"key":"misc_local/select","hash":"2a78025de6","msgstr":"Обрати"}
+{"key":"misc_local/yes","hash":"85a39ab345","msgstr":"Так"}
+{"key":"misc_local/no","hash":"1ea442a134","msgstr":"Ні"}
+{"key":"misc_local/empty","hash":"c6c094bc00","msgstr":"Порожньо"}
+{"key":"misc_local/time","hash":"33b93476cf","msgstr":"Час"}
+{"key":"misc_local/essence","hash":"e252d0b058","msgstr":"Есенція"}
+{"key":"misc_local/use_door","hash":"1a6c057fa2","msgstr":"Відчинити двері"}
+{"key":"misc_local/identify","hash":"4786cd5110","msgstr":"Визначити"}
+{"key":"misc_local/plant","hash":"0bd287f6ce","msgstr":"Посадити"}
+{"key":"misc_local/collect","hash":"08a0c33f91","msgstr":"Забрати"}
+{"key":"misc_local/dive","hash":"071e55e5b3","msgstr":"Пірнути"}
+{"key":"misc_local/enter_whirlpool","hash":"f32a340045","msgstr":"Увійти у вир"}
+{"key":"misc_local/read_mail","hash":"2dcc7aa08c","msgstr":"Прочитати пошту"}
+{"key":"misc_local/give_item","hash":"5cebc460f1","msgstr":"Віддати предмет"}
+{"key":"misc_local/open_chest","hash":"42fa1c4c6f","msgstr":"Відкрити скриню"}
+{"key":"misc_local/collect_rewards","hash":"51c9700f44","msgstr":"Забрати нагороди"}
+{"key":"misc_local/ok","hash":"2689367b20","msgstr":"ок"}
+{"key":"misc_local/give_offering","hash":"67555a5253","msgstr":"Принести дар"}
+{"key":"misc_local/activate","hash":"24433c70eb","msgstr":"Активувати"}
+{"key":"misc_local/use","hash":"c36d819e7b","msgstr":"Використати"}
+{"key":"misc_local/descend","hash":"c74522dc99","msgstr":"Спуститися"}
+{"key":"misc_local/ascend","hash":"6a19d16c5d","msgstr":"Піднятися"}
+{"key":"misc_local/interact","hash":"04adda4ac0","msgstr":"Взаємодіяти"}
+{"key":"misc_local/talk","hash":"449f5a7757","msgstr":"Говорити"}
+{"key":"misc_local/read","hash":"9b9a8d05a7","msgstr":"Читати"}
+{"key":"misc_local/sleep","hash":"d466bcf52e","msgstr":"Спати"}
+{"key":"misc_local/light","hash":"dbcd5e7bb7","msgstr":"Запалити"}
+{"key":"misc_local/quest_started","hash":"0dfe54b8af","msgstr":"Завдання розпочато"}
+{"key":"misc_local/quest_completed","hash":"92e55bd15d","msgstr":"Завдання виконано"}
+{"key":"misc_local/out_of_stamina","hash":"ab8ec05499","msgstr":"Сил на це вже немає..."}
+{"key":"misc_local/input_ride","hash":"d5605821c4","msgstr":"Осідлати"}
+{"key":"misc_local/tesserae","hash":"cc1d894ded","msgstr":"Тесери"}
+{"key":"misc_local/summary","hash":"8e76a94ac8","msgstr":"Підсумок"}
+{"key":"misc_local/next_day","hash":"a7665744d8","msgstr":"Наступний день"}
+{"key":"misc_local/of","hash":"28391d3bc6","msgstr":"з"}
+{"key":"misc_local/year","hash":"89f6832560","msgstr":"Рік"}
+{"key":"misc_local/sold_items","hash":"77184873fa","msgstr":"Продані предмети"}
+{"key":"misc_local/sold_items_summary","hash":"806b060df9","msgstr":"Підсумок продажів"}
+{"key":"misc_local/renown_summary","hash":"c2a70324cb","msgstr":"Підсумок слави"}
+{"key":"misc_local/total","hash":"c9b3c38247","msgstr":"Разом"}
+{"key":"misc_local/totals","hash":"75c611dc0a","msgstr":"Разом:"}
+{"key":"misc_local/friday_night_at_the_inn","hash":"4f595cd20b","msgstr":"П'ятничний вечір у заїзді"}
+{"key":"misc_local/description","hash":"526e0087cc","msgstr":"Опис"}
+{"key":"misc_local/crops","hash":"0abd7c58bd","msgstr":"Культури"}
+{"key":"misc_local/forageables","hash":"5fdc6f8a7d","msgstr":"Дари природи"}
+{"key":"misc_local/fish","hash":"3f3f8baad0","msgstr":"Риба"}
+{"key":"misc_local/bugs","hash":"ff7c5467ce","msgstr":"Комахи"}
+{"key":"misc_local/cooked_dishes","hash":"8778b782a9","msgstr":"Страви"}
+{"key":"misc_local/artifacts","hash":"314ae71b8c","msgstr":"Артефакти"}
+{"key":"misc_local/blacksmithing","hash":"e2bae2dd5c","msgstr":"Ковальство"}
+{"key":"misc_local/ranching","hash":"f53c579f7b","msgstr":"Тваринництво"}
+{"key":"misc_local/materials","hash":"fd10a146e9","msgstr":"Матеріали"}
+{"key":"misc_local/food","hash":"e4eb18069d","msgstr":"Їжа"}
+{"key":"misc_local/the_almanac","hash":"45f3ea1730","msgstr":"Альманах"}
+{"key":"misc_local/shop","hash":"d00aae6b7f","msgstr":"Крамниця"}
+{"key":"misc_local/birthday_template","hash":"8f061047e6","msgstr":"День народження: {}"}
+{"key":"misc_local/turn_in_quest_input","hash":"d098986d24","msgstr":"Здати запит"}
+{"key":"misc_local/game_by_npc_studio","hash":"6f00641f6a","msgstr":"Гра від NPC Studio"}
+{"key":"misc_local/exit_game","hash":"cd3943f36e","msgstr":"Вийти з гри"}
+{"key":"misc_local/exit_confirm","hash":"583cbf8e0e","msgstr":"Справді вийти з гри?"}
+{"key":"misc_local/loading","hash":"47d2a515ef","msgstr":"Завантаження..."}
+{"key":"misc_local/saving","hash":"dc85af8f2b","msgstr":"Збереження..."}
+{"key":"misc_local/play_time","hash":"2a225931a7","msgstr":"Час гри:"}
+{"key":"misc_local/save_game","hash":"d64f623d89","msgstr":"Зберегти гру"}
+{"key":"misc_local/saturday_market","hash":"14a663780a","msgstr":"Суботній ринок"}
+{"key":"misc_local/take_items","hash":"f28d7c5c96","msgstr":"Забрати предмети"}
+{"key":"misc_local/attached_items","hash":"17381d0af7","msgstr":"Прикріплені предмети"}
+{"key":"misc_local/save_your_progress","hash":"ab6c81a5ed","msgstr":"Зберегти прогрес?"}
+{"key":"misc_local/cannot_save_outside_home","hash":"00481c362b","msgstr":"Не можна зберегти"}
+{"key":"misc_local/cannot_save_outside_home_data","hash":"0bb75aef8e","msgstr":"Зберігатися можна лише вдома!"}
+{"key":"misc_local/cannot_sleep_outside_home","hash":"ddb5ec72f8","msgstr":"Не можна спати"}
+{"key":"misc_local/cannot_sleep_outside_home_data","hash":"4dd814c06e","msgstr":"Спати можна лише вдома!"}
+{"key":"misc_local/eat","hash":"ebecb9cef8","msgstr":"З'їсти"}
+{"key":"misc_local/your_birthday","hash":"6a13dc1875","msgstr":"Твій день народження!"}
+{"key":"misc_local/place_building","hash":"506ddb775d","msgstr":"Розмістити будівлю"}
+{"key":"misc_local/place_furniture","hash":"c716979f82","msgstr":"Розмістити меблі"}
+{"key":"misc_local/place_animal_feed","hash":"66aa72cc94","msgstr":"Розмістити корм"}
+{"key":"misc_local/place_tile","hash":"be610b1220","msgstr":"Покласти плитку"}
+{"key":"misc_local/apply_wallpaper","hash":"54e0ec6faf","msgstr":"Поклеїти шпалери"}
+{"key":"misc_local/apply_flooring","hash":"09d8810935","msgstr":"Укласти підлогу"}
+{"key":"misc_local/save_complete","hash":"79234daa8f","msgstr":"Збережено!"}
+{"key":"misc_local/bed","hash":"f816a74c23","msgstr":"Ліжко"}
+{"key":"misc_local/furniture","hash":"c50440e0e4","msgstr":"Меблі"}
+{"key":"misc_local/go_to_sleep","hash":"64346ed98f","msgstr":"Лягти спати?"}
+{"key":"misc_local/character_customization","hash":"2a5ca57a22","msgstr":"Налаштування персонажа"}
+{"key":"misc_local/select_a_preset","hash":"43dd2d6ef0","msgstr":"Обери набір"}
+{"key":"misc_local/presets","hash":"954f93fe1c","msgstr":"Набори"}
+{"key":"misc_local/delete","hash":"e2d0a54968","msgstr":"Видалити"}
+{"key":"misc_local/delete_save_confirmation","hash":"9bdb2ef978","msgstr":"Справді видалити це збереження? Скасувати цю дію буде неможливо."}
+{"key":"misc_local/start_game","hash":"62e0df134d","msgstr":"Почати гру"}
+{"key":"misc_local/none","hash":"dc937b5989","msgstr":"Немає"}
+{"key":"misc_local/none_alt","hash":"dc937b5989","msgstr":"Немає"}
+{"key":"misc_local/inventory_size_increased","hash":"a51d8f8957","msgstr":"Інвентар збільшено!"}
+{"key":"misc_local/choose_a_resolution","hash":"19f2f0041d","msgstr":"Обери роздільну здатність"}
+{"key":"misc_local/choose_a_scale","hash":"a732856d05","msgstr":"Обери масштаб"}
+{"key":"misc_local/choose_a_vsync","hash":"0ca6f6d20f","msgstr":"Обери режим VSync"}
+{"key":"misc_local/choose_a_button_style","hash":"6cf02765fb","msgstr":"Обери вигляд кнопок"}
+{"key":"misc_local/skip","hash":"28d03596d2","msgstr":"Пропустити"}
+{"key":"misc_local/skip_cutscene","hash":"ef22587e7a","msgstr":"Пропустити сцену"}
+{"key":"misc_local/skip_cutscene_confirmation","hash":"5a479c2e27","msgstr":"Справді пропустити цю сцену?"}
+{"key":"misc_local/villagers","hash":"4ee95d38c1","msgstr":"Мешканці"}
+{"key":"misc_local/the_museum","hash":"267f4028fd","msgstr":"Музей"}
+{"key":"misc_local/donate","hash":"c91ee0f279","msgstr":"Пожертвувати"}
+{"key":"misc_local/view_wings","hash":"af1277aeab","msgstr":"Переглянути крила"}
+{"key":"misc_local/pet","hash":"8f0d1b30eb","msgstr":"Погладити"}
+{"key":"misc_local/pet_noun","hash":"8f0d1b30eb","msgstr":"Улюбленець"}
+{"key":"misc_local/pick_up","hash":"987da7150a","msgstr":"Підняти"}
+{"key":"misc_local/put_down","hash":"21a5c5b10a","msgstr":"Опустити"}
+{"key":"misc_local/feed","hash":"396c3cb18f","msgstr":"Нагодувати"}
+{"key":"misc_local/renown","hash":"538ff6fdc1","msgstr":"Слава"}
+{"key":"misc_local/rank","hash":"a4130d7d2c","msgstr":"Ранг"}
+{"key":"misc_local/town_rank","hash":"7b11ff0a77","msgstr":"Ранг міста"}
+{"key":"misc_local/craftable","hash":"827c784aad","msgstr":"Створюване"}
+{"key":"misc_local/all_items","hash":"477730fc18","msgstr":"Усі предмети"}
+{"key":"misc_local/select_your_pronouns","hash":"1280be6cef","msgstr":"Обери займенники"}
+{"key":"misc_local/level_up","hash":"b6076651d9","msgstr":"Рівень підвищено!"}
+{"key":"misc_local/next_reward","hash":"794310e3e5","msgstr":"Нагорода за наступний набір"}
+{"key":"misc_local/new_reward_available","hash":"8b0f0bb175","msgstr":"Нову нагороду можна забрати зі скрині нагород біля дошки запитів!"}
+{"key":"misc_local/congratulations_on_your_hard_work","hash":"9c71bdc156","msgstr":"Вітаємо з чудовою роботою!"}
+{"key":"misc_local/unlock_cosmetic","hash":"4fff493cb2","msgstr":"Відкрити вигляд"}
+{"key":"misc_local/museum_donations","hash":"dbebd34332","msgstr":"Внески до музею"}
+{"key":"misc_local/completed_quests","hash":"07707c1a99","msgstr":"Виконані завдання"}
+{"key":"misc_local/introductions","hash":"0d654bf97b","msgstr":"Знайомства"}
+{"key":"misc_local/expand_inventory","hash":"685c7bf795","msgstr":"Збільшити інвентар"}
+{"key":"misc_local/select_a_quest","hash":"6f99dee450","msgstr":"Обери завдання"}
+{"key":"misc_local/select_one","hash":"baa454568e","msgstr":"Обрати один"}
+{"key":"misc_local/select_all","hash":"d1ec69e64b","msgstr":"Обрати всі"}
+{"key":"misc_local/info","hash":"170322a32f","msgstr":"Інфо"}
+{"key":"misc_local/equipment","hash":"7f2465ac7c","msgstr":"Спорядження"}
+{"key":"misc_local/inventory","hash":"758f487fe8","msgstr":"Інвентар"}
+{"key":"misc_local/type","hash":"baaddf70fb","msgstr":"Тип"}
+{"key":"misc_local/color_rarity","hash":"4bd8349bb4","msgstr":"Рідкість"}
+{"key":"misc_local/color_variant","hash":"08ec859280","msgstr":"Варіант кольору"}
+{"key":"misc_local/new_exclamation","hash":"12883f6d12","msgstr":"Нове!"}
+{"key":"misc_local/inspect","hash":"e0723a86a5","msgstr":"Оглянути"}
+{"key":"misc_local/tools","hash":"ea93d6a262","msgstr":"Інструменти"}
+{"key":"misc_local/liked_gifts","hash":"f3c2c3aa4f","msgstr":"Вподобані"}
+{"key":"misc_local/loved_gifts","hash":"ac5e3e4c52","msgstr":"Улюблені"}
+{"key":"misc_local/cook","hash":"7f4a1e5bff","msgstr":"Готувати"}
+{"key":"misc_local/spellcasting","hash":"0ce3a662d1","msgstr":"Чаклунство"}
+{"key":"misc_local/cast","hash":"1500405573","msgstr":"Чаклувати"}
+{"key":"misc_local/history","hash":"0e76960093","msgstr":"Історія"}
+{"key":"misc_local/single","hash":"8888a029aa","msgstr":"Без пари"}
+{"key":"misc_local/animals","hash":"85c3f9fa6f","msgstr":"Тварини"}
+{"key":"misc_local/farm_building_select_title","hash":"47bea32f69","msgstr":"Обери нову будівлю для тварини..."}
+{"key":"misc_local/farm_supplies","hash":"1ae79d365f","msgstr":"Фермерські припаси"}
+{"key":"misc_local/adoption","hash":"9b33128339","msgstr":"Прихисток"}
+{"key":"misc_local/daycare","hash":"a3fc6abb01","msgstr":"Догляд"}
+{"key":"misc_local/sell_animals","hash":"9e33cb6449","msgstr":"Продати тварин"}
+{"key":"misc_local/sell","hash":"2ec1e28159","msgstr":"Продати"}
+{"key":"misc_local/your_animals","hash":"c0a137d463","msgstr":"Твої тварини"}
+{"key":"misc_local/send_to_daycare","hash":"1cc3acf64b","msgstr":"Віддати на догляд"}
+{"key":"misc_local/daycare_confirmation","hash":"0f4bc26b17","msgstr":"Залишити цю тварину на догляд? Забрати її можна будь-коли."}
+{"key":"misc_local/remove_from_daycare","hash":"6e8978e7ce","msgstr":"Забрати з догляду"}
+{"key":"misc_local/daycare_remove_confirmation","hash":"2d2d36b947","msgstr":"Повернути цю тварину на ферму?"}
+{"key":"misc_local/locked","hash":"a424e33d90","msgstr":"Закрито"}
+{"key":"misc_local/adopt_animals","hash":"b08f289e32","msgstr":"Взяти тварин"}
+{"key":"misc_local/confirm","hash":"eebdd24a77","msgstr":"Підтвердити"}
+{"key":"misc_local/confirmation","hash":"d743070540","msgstr":"Підтвердження"}
+{"key":"misc_local/confirm_sell_animals_singular","hash":"f9b7e4cfab","msgstr":"Справді продати цю тварину?"}
+{"key":"misc_local/confirm_sell_animals_plural","hash":"f4516e6b0b","msgstr":"Справді продати цих тварин?"}
+{"key":"misc_local/buy","hash":"64e3cb0e49","msgstr":"Купити"}
+{"key":"misc_local/small_barn_red","hash":"ba19e9c3d5","msgstr":"Червоний"}
+{"key":"misc_local/small_barn_white","hash":"3495e75785","msgstr":"Білий"}
+{"key":"misc_local/small_coop_red","hash":"ba19e9c3d5","msgstr":"Червоний"}
+{"key":"misc_local/small_coop_white","hash":"3495e75785","msgstr":"Білий"}
+{"key":"misc_local/active_quests","hash":"a283a1a174","msgstr":"Активні завдання"}
+{"key":"misc_local/quest_details","hash":"10ee45e573","msgstr":"Деталі завдання"}
+{"key":"misc_local/available_quests","hash":"78c6f6da48","msgstr":"Доступні завдання"}
+{"key":"misc_local/objectives","hash":"eba9295389","msgstr":"Цілі"}
+{"key":"misc_local/rewards","hash":"59afe47d9d","msgstr":"Нагороди"}
+{"key":"misc_local/accept_request","hash":"0c203e968c","msgstr":"Прийняти запит"}
+{"key":"misc_local/turn_in_quest","hash":"73367be08f","msgstr":"Здати цей запит?"}
+{"key":"misc_local/turn_in","hash":"d5500a6356","msgstr":"Здати"}
+{"key":"misc_local/quest_complete","hash":"caa64340eb","msgstr":"Завдання виконано!"}
+{"key":"misc_local/you_received","hash":"9cc167c7f3","msgstr":"Отримано:"}
+{"key":"misc_local/cannot_breed","hash":"f34521b2ce","msgstr":"Не може розмножуватись"}
+{"key":"misc_local/can_breed","hash":"cb6cf38bb9","msgstr":"Може розмножуватись"}
+{"key":"misc_local/no_room_in_barn","hash":"4fe6d5be97","msgstr":"У хліві немає місця!"}
+{"key":"misc_local/no_room_in_coop","hash":"47e688bb51","msgstr":"У курнику немає місця!"}
+{"key":"misc_local/brooding","hash":"d8b5528b6d","msgstr":"Висиджує"}
+{"key":"misc_local/pregnant","hash":"d4818f908a","msgstr":"Вагітна"}
+{"key":"misc_local/breeding_disabled","hash":"525b395ab3","msgstr":"Розмноження вимкнено"}
+{"key":"misc_local/learned_recipe","hash":"23933edbba","msgstr":"Рецепт вивчено!"}
+{"key":"misc_local/enter_new_name","hash":"18e5807509","msgstr":"Введи нове ім'я"}
+{"key":"misc_local/magic_spells","hash":"0c774e73aa","msgstr":"Магічні закляття"}
+{"key":"misc_local/pin_spell","hash":"384130946a","msgstr":"Закріпити"}
+{"key":"misc_local/multi_cosmetics_available_title","hash":"bbaf36b32f","msgstr":"Нові варіанти вигляду!"}
+{"key":"misc_local/new_cosmetic_available","hash":"fd453840bd","msgstr":"Цей предмет вигляду тепер можна вдягнути в меню налаштування персонажа!"}
+{"key":"misc_local/new_cosmetics_available","hash":"aca67bcb09","msgstr":"Ці предмети вигляду тепер можна вдягнути в меню налаштування персонажа!"}
+{"key":"misc_local/new_animal_cosmetic_available","hash":"b71b8b55ac","msgstr":"Цей предмет вигляду тепер можна вдягнути в меню тварин!"}
+{"key":"misc_local/new_pet_cosmetic_available","hash":"2ebaf521a2","msgstr":"Цей предмет вигляду тепер можна вдягнути в меню улюбленців!"}
+{"key":"misc_local/new_unlock","hash":"51fc4a9ffd","msgstr":"Відкрито нове!"}
+{"key":"misc_local/item_now_craftable","hash":"3ae6f111c7","msgstr":"Цей предмет тепер можна створити!"}
+{"key":"misc_local/items_now_craftable","hash":"18dd690045","msgstr":"Ці предмети тепер можна створити!"}
+{"key":"misc_local/in_daycare","hash":"499174d506","msgstr":"На догляді"}
+{"key":"misc_local/balors_wagon_name","hash":"acd4917dcf","msgstr":"Фургон Балора"}
+{"key":"misc_local/offer","hash":"0cf57c63eb","msgstr":"Піднести"}
+{"key":"misc_local/use_shrine","hash":"c4dc0d133a","msgstr":"Вшанувати святилище"}
+{"key":"misc_local/return_to_surface","hash":"1f81f68d4f","msgstr":"Повернутися нагору"}
+{"key":"misc_local/confirm_leave_dungeon","hash":"a482527bee","msgstr":"Справді вийти з шахт?"}
+{"key":"misc_local/your_mail","hash":"13e9d6b5bd","msgstr":"Твоя пошта"}
+{"key":"misc_local/crystal_ball","hash":"a4a863612b","msgstr":"Кришталева куля"}
+{"key":"misc_local/bell","hash":"8e80b2b4b2","msgstr":"Дзвін"}
+{"key":"misc_local/big_bell","hash":"caca24a97f","msgstr":"Великий дзвін"}
+{"key":"misc_local/bell_out","hash":"02ccb2fc19","msgstr":"Надвір"}
+{"key":"misc_local/bell_in","hash":"541fd68150","msgstr":"Всередину"}
+{"key":"misc_local/name_plate","hash":"8be9b5d240","msgstr":"Перейменувати"}
+{"key":"misc_local/rename_building","hash":"8be9b5d240","msgstr":"Перейменувати"}
+{"key":"misc_local/build_building","hash":"bdd254b65b","msgstr":"Збудувати"}
+{"key":"misc_local/remove_building","hash":"c3812fc4ac","msgstr":"Прибрати"}
+{"key":"misc_local/building_occupied","hash":"a2788ba518","msgstr":"Будівля зайнята"}
+{"key":"misc_local/building_occupied_description","hash":"7e805164e1","msgstr":"Виведи звідси всіх тварин, перш ніж прибирати будівлю!"}
+{"key":"misc_local/check_egg","hash":"6c28377524","msgstr":"Перевірити яйце"}
+{"key":"misc_local/male","hash":"03f8c1273e","msgstr":"Самець"}
+{"key":"misc_local/female","hash":"e8cca808ae","msgstr":"Самка"}
+{"key":"misc_local/select_cosmetic","hash":"082e13cb1c","msgstr":"Обери вигляд"}
+{"key":"misc_local/new_animal_born","hash":"df0a6298e4","msgstr":"Народилася нова тварина!"}
+{"key":"misc_local/unimplemented_festival","hash":"bfe98c380b","msgstr":"Свято ???"}
+{"key":"misc_local/next","hash":"1ff57a29d7","msgstr":"Далі"}
+{"key":"misc_local/credits","hash":"2a6b24ad28","msgstr":"Автори"}
+{"key":"misc_local/stop","hash":"cae7d57bc0","msgstr":"Зупинити"}
+{"key":"misc_local/crops_sold","hash":"024e3ce5bb","msgstr":"Продані культури"}
+{"key":"misc_local/a_game_by","hash":"09c02b1a9d","msgstr":"гра від"}
+{"key":"misc_local/pets_not_available","hash":"3eac25bfdd","msgstr":"Улюбленці поки недоступні"}
+{"key":"misc_local/button_style","hash":"3ef3a6dc00","msgstr":"Стиль кнопок"}
+{"key":"misc_local/button_layout","hash":"fb3720129f","msgstr":"Розкладка геймпада"}
+{"key":"misc_local/choose_a_button_layout","hash":"cea88f7e5a","msgstr":"Обери розкладку кнопок"}
+{"key":"misc_local/invalid_save","hash":"7b82df3474","msgstr":"Пошкоджене збереження"}
+{"key":"misc_local/invalid_save_body","hash":"4200312e63","msgstr":"На жаль, із цим збереженням виникла проблема, і його не вдалося завантажити. Спробуй завантажити інше збереження."}
+{"key":"misc_local/invalid_header_body","hash":"0e755fab4d","msgstr":"На жаль, із одним зі збережень виникла проблема, і його не вдалося завантажити."}
+{"key":"misc_local/known_recipe","hash":"ed70a89cda","msgstr":"Цей рецепт уже вивчено!"}
+{"key":"misc_local/hold_to_reset","hash":"881b5b7e5e","msgstr":"Скинути (утримуй)"}
+{"key":"misc_local/rumble","hash":"55b21e2ff2","msgstr":"Вібрація геймпада"}
+{"key":"misc_local/invite_npc_to_festival","hash":"3f1e9c1547","msgstr":"Запроси мешканця на свято."}
+{"key":"misc_local/interact_invite","hash":"e3eeb635a2","msgstr":"Запросити на свято"}
+{"key":"misc_local/interact_dance","hash":"1fd8735ac6","msgstr":"Запросити до танцю"}
+{"key":"misc_local/speak_to_adeline_animal_fest","hash":"f29357209a","msgstr":"Поговори з Аделіною, коли все буде готово до початку змагання."}
+{"key":"misc_local/enable","hash":"5342e09f27","msgstr":"Увімкнути"}
+{"key":"misc_local/disable","hash":"b7e3e4aa42","msgstr":"Вимкнути"}
+{"key":"misc_local/sound_footsteps","hash":"68ec0e3aa7","msgstr":"Звуки кроків"}
+{"key":"misc_local/sound_vocal_text","hash":"f202d3aabf","msgstr":"Звуки тексту"}
+{"key":"misc_local/sound_eating_drinking","hash":"8af2a29ab2","msgstr":"Звуки їжі й пиття"}
+{"key":"misc_local/sound_animals","hash":"4d83a0e688","msgstr":"Звуки тварин"}
+{"key":"misc_local/choose_a_weather_strength","hash":"647556bbdc","msgstr":"Обери силу погоди"}
+{"key":"misc_local/weather_strength","hash":"25f695c7ba","msgstr":"Погодні ефекти"}
+{"key":"misc_local/weather_default","hash":"21b111cbfe","msgstr":"Типово"}
+{"key":"misc_local/weather_low","hash":"f793de205e","msgstr":"Низька"}
+{"key":"misc_local/weather_none","hash":"dc937b5989","msgstr":"Немає"}
+{"key":"misc_local/home_upgrade","hash":"e58e7879c1","msgstr":"Покращення дому"}
+{"key":"misc_local/farm_expansion","hash":"5434129ef6","msgstr":"Розширення ферми"}
+{"key":"misc_local/home_upgrade_one","hash":"dd5e12a755","msgstr":"Покращення дому 1"}
+{"key":"misc_local/home_upgrade_two","hash":"0a674e30f9","msgstr":"Покращення дому 2"}
+{"key":"misc_local/home_upgrade_three","hash":"4233b172b1","msgstr":"Покращення дому 3"}
+{"key":"misc_local/home_upgrade_four","hash":"adb67ec1f5","msgstr":"Покращення дому 4"}
+{"key":"misc_local/customize_home","hash":"642cec6e02","msgstr":"Налаштувати дім"}
+{"key":"misc_local/legendary_fish_nearby","hash":"bc66d4a360","msgstr":"Поблизу легендарна риба..."}
+{"key":"misc_local/warning_one_stick_mode","hash":"dcd20eb9f6","msgstr":"Цей параметр також скасує прив'язку правого стіка до всіх дій. Продовжити?"}
+{"key":"misc_local/town_rank_guide","hash":"ff716dbcb4","msgstr":"Посібник рангів міста"}
+{"key":"misc_local/skill_levels","hash":"60323f60c2","msgstr":"Рівні навичок"}
+{"key":"misc_local/required_materials","hash":"f73eb4ce43","msgstr":"Потрібні матеріали"}
+{"key":"misc_local/story_quests","hash":"19707f1c1f","msgstr":"Сюжетні завдання"}
+{"key":"misc_local/heart_quests","hash":"0e6bba9ac2","msgstr":"Завдання симпатій"}
+{"key":"misc_local/requests","hash":"ada27592c9","msgstr":"Запити"}
+{"key":"misc_local/gamepad_lost","hash":"932f1fc633","msgstr":"Геймпад відключено"}
+{"key":"misc_local/reconnect_gamepad","hash":"25db0166f6","msgstr":"Підключи геймпад знову."}
+{"key":"misc_local/gamepad_reconnected","hash":"3569e3b34b","msgstr":"Геймпад підключено!"}
+{"key":"misc_local/select_animal","hash":"d4e080d053","msgstr":"Обери тварину"}
+{"key":"misc_local/select_a_small_animal","hash":"52c054e6f5","msgstr":"Обери малу тварину"}
+{"key":"misc_local/select_a_large_animal","hash":"e7f6bca9dc","msgstr":"Обери велику тварину"}
+{"key":"misc_local/mistmare","hash":"c50d5a8fb7","msgstr":"Містмер"}
+{"key":"misc_local/mist","hash":"eaae340820","msgstr":"Туман"}
+{"key":"misc_local/mount","hash":"d5605821c4","msgstr":"Осідлати"}
+{"key":"misc_local/select_an_appearance","hash":"972bbaa1ac","msgstr":"Обери вигляд"}
+{"key":"misc_local/you_cant_do_that_here","hash":"2b66df7f59","msgstr":"Тут цього робити не можна!"}
+{"key":"misc_local/crown_requests","hash":"b2511f5979","msgstr":"Королівські запити"}
+{"key":"misc_local/gift_discovered","hash":"d29ce2de1e","msgstr":"Відкрито вподобання!"}
+{"key":"misc_local/select_a_villager","hash":"28b45b3d74","msgstr":"Обери мешканця"}
+{"key":"misc_local/gossip","hash":"725628b0e0","msgstr":"Плітки"}
+{"key":"misc_local/loved_gift","hash":"8a64228cff","msgstr":"Улюблений подарунок"}
+{"key":"misc_local/liked_gift","hash":"eaa3f46c13","msgstr":"Вподобаний подарунок"}
+{"key":"misc_local/default_player_name","hash":"f6302850cc","msgstr":"Арі"}
+{"key":"misc_local/default_farm_name","hash":"140ec59f33","msgstr":"Ферма «Туманний гай»"}
+{"key":"misc_local/stuck","hash":"328e3b6b4e","msgstr":"Перемістити на вільне місце"}
+{"key":"misc_local/stuck_fix","hash":"6ecc3df6bf","msgstr":"Перемістити"}
+{"key":"misc_local/house_upgraded","hash":"8c112f7c11","msgstr":"Дім покращено"}
+{"key":"misc_local/house_upgraded_description","hash":"8be9c2508b","msgstr":"Дім успішно покращено!"}
+{"key":"misc_local/farm_expanded","hash":"383babc8dc","msgstr":"Ферму розширено"}
+{"key":"misc_local/farm_expanded_description","hash":"c3de2055be","msgstr":"Ферму успішно розширено!"}
+{"key":"misc_local/move_title","hash":"2709540d6f","msgstr":"Перемістити на вільне місце?"}
+{"key":"misc_local/move_description","hash":"fc31198a6f","msgstr":"У разі застрягання ця кнопка телепортує тебе в безпечне місце."}
+{"key":"misc_local/pregnant_cannot_move","hash":"748b0d4ce0","msgstr":"Не можна перемістити"}
+{"key":"misc_local/pregnant_cannot_move_description","hash":"bea722c940","msgstr":"[ANIMAL_NAME] чекає малюка, тому переміщення неможливе."}
+{"key":"misc_local/pregnant_cannot_sell","hash":"96a30251f6","msgstr":"Не можна продати"}
+{"key":"misc_local/pregnant_cannot_sell_description","hash":"4501507dae","msgstr":"[ANIMAL_NAME] чекає малюка, тому продаж неможливий."}
+{"key":"misc_local/invalid_vault","hash":"b96e1adb04","msgstr":"Не вдалося оновити збереження"}
+{"key":"misc_local/invalid_vault_body","hash":"978279956c","msgstr":"На жаль, із деякими збереженнями виникла проблема, і їх не вдалося завантажити. Будь ласка, повідом про помилку."}
+{"key":"misc_local/go_to_festival","hash":"9d49730ce7","msgstr":"Піти на свято"}
+{"key":"misc_local/go_to_shooting_star_confirmation","hash":"6c6710a0e0","msgstr":"Піти на Свято падаючої зірки?\n\nЦе завершить день!"}
+{"key":"misc_local/not_yet","hash":"c1038e9506","msgstr":"Ще ні"}
+{"key":"misc_local/missing_input","hash":"27775dcd89","msgstr":"Немає клавіші"}
+{"key":"misc_local/missing_mount_input_description","hash":"59dff4aebf","msgstr":"Наразі для виклику скакуна не призначено жодної клавіші. Призначити її можна на сторінці налаштувань у журналі!"}
+{"key":"misc_local/select_an_animal","hash":"f7192cbe0f","msgstr":"Обери тварину"}
+{"key":"misc_local/select_animal_for_competition","hash":"b4cad98e32","msgstr":"Відправити на змагання: {}?","note":"{} підставляється в називному відмінку, тому без дієслова, що вимагає знахідного."}
+{"key":"misc_local/pull_from_mist","hash":"e2834abcb5","msgstr":"Дістати предмет із туману?"}
+{"key":"misc_local/day_time_speed","hash":"3fef41e673","msgstr":"Тривалість дня"}
+{"key":"misc_local/day_time_speed_adjustment_note","hash":"a701e31c00","msgstr":"Примітка: зміна набуде чинності після сну в грі."}
+{"key":"misc_local/day_length_warning","hash":"0064af019e","msgstr":"Зверни увагу:\nБаланс гри та динамічні розклади NPC ретельно налаштовані під стандартний режим (за замовчуванням).\n\nДовші дні можуть погіршити враження від гри."}
+{"key":"misc_local/standard","hash":"ef6691545d","msgstr":"Стандартна"}
+{"key":"misc_local/longer","hash":"4630d87bbd","msgstr":"Довша"}
+{"key":"misc_local/longest","hash":"802803c788","msgstr":"Найдовша"}
+{"key":"misc_local/place_essence_stone","hash":"e9463dccf0","msgstr":"Поставити"}
+{"key":"misc_local/check_charge","hash":"9d60841e0a","msgstr":"Перевірити"}
+{"key":"misc_local/check_pet","hash":"9d60841e0a","msgstr":"Перевірити"}
+{"key":"misc_local/assign_job","hash":"b52c3b4dd1","msgstr":"Призначити роботу"}
+{"key":"misc_local/teleport","hash":"e68b3b9458","msgstr":"Телепортувати"}
+{"key":"misc_local/can_burn_fruit_trees","hash":"05563f969a","msgstr":"Подих дракона діє на фруктові дерева"}
+{"key":"misc_local/cat","hash":"48735c4fae","msgstr":"Кіт"}
+{"key":"misc_local/dog","hash":"0eb129bf94","msgstr":"Пес"}
+{"key":"misc_local/select_a_job","hash":"e994a94cf2","msgstr":"Обери роботу"}
+{"key":"misc_local/pet_job_none","hash":"dc937b5989","msgstr":"Немає"}
+{"key":"misc_local/pet_job_wood","hash":"648b47bd4f","msgstr":"Збирати деревину"}
+{"key":"misc_local/pet_job_stone","hash":"8b6937bede","msgstr":"Збирати камінь"}
+{"key":"misc_local/pet_job_forageables","hash":"1fefc255d4","msgstr":"Збирати дари природи"}
+{"key":"misc_local/default_pet_name","hash":"68c26e6b87","msgstr":"Фамільяр"}
+{"key":"misc_local/crafting_storage","hash":"a5276f9a92","msgstr":"Сховище для створення"}
+{"key":"misc_local/crafting_storage_enable","hash":"fc31db8ea0","msgstr":"Дозволити використовувати вміст цієї скрині під час створення предметів?"}
+{"key":"misc_local/crafting_storage_disable","hash":"82491179c1","msgstr":"Заборонити використовувати вміст цієї скрині під час створення предметів?"}
+{"key":"misc_local/fishing_and_diving","hash":"c20d7f832d","msgstr":"Риболовля й пірнання"}
+{"key":"misc_local/in_game_only","hash":"5a899f8e3c","msgstr":"Лише в грі"}
+{"key":"misc_local/oversleep_penalty","hash":"5df5e18b4b","msgstr":"Штраф за проспаний час"}
+{"key":"misc_local/oversleep_penalty_warning","hash":"94efac711e","msgstr":"Зверни увагу: баланс і дизайн гри ретельно налаштовано з урахуванням штрафу за проспаний час. Якщо його вимкнути, враження від гри можуть погіршитися."}
+{"key":"misc_local/other","hash":"f97e9da0e3","msgstr":"Інше"}
+{"key":"misc_local/romantic_choice_warning","hash":"5b00f998df","msgstr":"Якщо пропустити цю сцену, ти втратиш можливість ухвалити важливі рішення щодо стосунків ({}). Справді пропустити?"}
+{"key":"misc_local/warning","hash":"e981ddae45","msgstr":"Увага"}
+{"key":"misc_local/cooking_challenges","hash":"792b7c97fb","msgstr":"Кулінарні випробування"}
+{"key":"misc_local/throw","hash":"c78054582e","msgstr":"Кинути"}
+{"key":"misc_local/turn_on","hash":"1154e7fb1c","msgstr":"Увімкнути"}
+{"key":"misc_local/turn_off","hash":"09b1798b22","msgstr":"Вимкнути"}
+{"key":"misc_local/select_icon","hash":"bdbea4f85d","msgstr":"Обери значок"}
+{"key":"misc_local/inventory_management","hash":"a562985d49","msgstr":"Керування інвентарем"}
+{"key":"misc_local/transfer_all","hash":"4cd7f88c95","msgstr":"Перенести все"}
+{"key":"misc_local/transfer_one","hash":"217aadc618","msgstr":"Перенести один"}
+{"key":"misc_local/pick_up_inv","hash":"b4f3c5b6cf","msgstr":"Взяти все"}
+{"key":"misc_local/pick_up_one_inv","hash":"4eaec78cc9","msgstr":"Взяти один"}
+{"key":"misc_local/invite_out","hash":"8b8699d07f","msgstr":"Запросити погуляти"}
+{"key":"misc_local/select_an_activity","hash":"e4987596e1","msgstr":"Обери заняття"}
+{"key":"misc_local/start_activity_with","hash":"8dde885169","msgstr":"Почати це заняття? Компанія: {}. Воно триватиме {} год."}
+{"key":"misc_local/invite_on_date","hash":"dd9ebff9cc","msgstr":"Запросити на побачення"}
+{"key":"misc_local/select_a_date","hash":"6bc452a76e","msgstr":"Обери побачення"}
+{"key":"misc_local/unlock_date","hash":"402805995c","msgstr":"Відкрити побачення"}
+{"key":"misc_local/date_available","hash":"c614d98394","msgstr":"Побачення доступне"}
+{"key":"misc_local/view_photo","hash":"49a6e84487","msgstr":"Дивитися фото"}
+{"key":"misc_local/new_date","hash":"8c04ab75ef","msgstr":"Нове побачення!"}
+{"key":"misc_local/date_completed","hash":"8c2d265b44","msgstr":"Побачення завершено!"}
+{"key":"misc_local/date_inspiration","hash":"fdc372e3b7","msgstr":"Ідея для побачення"}
+{"key":"misc_local/song_crystal","hash":"cb9177decb","msgstr":"Кристали пісень"}
+{"key":"misc_local/formatted_date_string","hash":"fa08f20e5a","msgstr":"{} {}, рік {}"}
+{"key":"misc_local/dating","hash":"21a6b5a12e","msgstr":"Пара"}
+{"key":"misc_local/best_friend","hash":"1d2e80716a","msgstr":"Найкращі друзі"}
+{"key":"misc_local/someone_named_caldarus","hash":"79304dfcf0","msgstr":"хтось на ім'я Кальдарус"}
+{"key":"misc_local/asymptote","hash":"3d486ce315","msgstr":"Плавне стеження камери"}
+{"key":"misc_local/failed_to_save","hash":"2d8494cdc8","msgstr":"Не вдалося зберегти"}
+{"key":"misc_local/failed_to_save_body","hash":"28666b5a48","msgstr":"Не вдалося записати файл збереження. Переконайся, що на диску достатньо місця."}
+{"key":"misc_local/factory_mixed","hash":"958cb410cd","msgstr":"4 різні"}
+{"key":"misc_local/factory_common","hash":"f34c45edea","msgstr":"4 звичайні"}
+{"key":"misc_local/factory_uncommon","hash":"dc02c37813","msgstr":"4 незвичайні"}
+{"key":"misc_local/factory_rare","hash":"dac51afa37","msgstr":"4 рідкісні"}
+{"key":"misc_local/factory_legendary","hash":"19f49a19ef","msgstr":"4 легендарні"}
+{"key":"misc_local/item_guide","hash":"76eb02d7ab","msgstr":"Довідник предметів"}
+{"key":"misc_local/honey_guide","hash":"b5331b8939","msgstr":"Довідник меду","note":"ПЕРЕВІРИТИ В ГРІ: що саме таке Honey Guide (розділ довідника про мед?) — перекладено «Довідник меду» навмання"}
+{"key":"misc_local/unlock_door","hash":"84057bb087","msgstr":"Відімкнути двері"}
+{"key":"misc_local/priestess","hash":"813686af7f","msgstr":"Жриця"}
+{"key":"misc_local/head_priestess","hash":"995a429248","msgstr":"Верховна жриця"}
+{"key":"misc_local/seridia_and_caldarus","hash":"35a6e199e6","msgstr":"Серідія й Кальдарус"}
+{"key":"misc_local/linnet_and_wiscar","hash":"f1ebdef3f7","msgstr":"Ліннет і Віскар"}
+{"key":"misc_local/turn_in_items","hash":"304d6e0c84","msgstr":"Здати предмети"}
+{"key":"misc_local/final_seal_confirmation","hash":"f13e07fa75","msgstr":"Руйнування останньої Печаті завершить твій день. Продовжити?"}
+{"key":"misc_local/add_bait","hash":"52d8b028fe","msgstr":"Додати наживку"}
+{"key":"misc_local/unlock_pet_skin","hash":"3df0ed0ff1","msgstr":"Відкрити вигляд улюбленця"}
+{"key":"misc_local/sapling","hash":"37ef7b4713","msgstr":"Паросток"}
+{"key":"misc_local/mushroom","hash":"f067a8bafc","msgstr":"Гриб"}
+{"key":"misc_local/rockclod","hash":"7fd47674a1","msgstr":"Кам'яна груда"}
+{"key":"misc_local/oreclod","hash":"05d3dfff2f","msgstr":"Рудна груда"}
+{"key":"misc_local/enchantern","hash":"2a8b9daa37","msgstr":"Чаролихтар"}
+{"key":"misc_local/stalagmite","hash":"067f352851","msgstr":"Сталагміт"}
+{"key":"misc_local/essence_bat","hash":"4c00fb2deb","msgstr":"Есенційний кажан"}
+{"key":"misc_local/mimic","hash":"63f3f9f2e3","msgstr":"Мімік"}
+{"key":"misc_local/flame_spirit","hash":"7408da1d34","msgstr":"Дух полум'я"}
+{"key":"misc_local/lava_cat","hash":"61c1deea65","msgstr":"Лавовий кіт"}
+{"key":"misc_local/void_cat","hash":"9ce19b48b4","msgstr":"Кіт Порожнечі"}
+{"key":"misc_local/rock_stack","hash":"07eec6ea2c","msgstr":"Кам'яна купа"}
+{"key":"misc_local/griffin_statue","hash":"72a5711889","msgstr":"Грифон"}
+{"key":"misc_local/flying_tome","hash":"1b0f98673f","msgstr":"Літаючий том"}
+{"key":"misc_local/new_pet_skin","hash":"f7182e2a9a","msgstr":"Новий вигляд улюбленця!"}
+{"key":"misc_local/new_pet_skin_available","hash":"edc5903087","msgstr":"Цей вигляд тепер можна вдягнути в меню улюбленців!"}
+{"key":"misc_local/pick_up_half","hash":"b3a55fb6ae","msgstr":"Взяти половину"}
+{"key":"misc_local/no_bug","hash":"265ec9c79b","msgstr":"Феромони тут, схоже, не діють..."}
+{"key":"misc_local/no_fish","hash":"e41a23c857","msgstr":"Жодна риба не клюнула..."}
+{"key":"misc_local/married","hash":"64e113497d","msgstr":"У шлюбі"}
+{"key":"misc_local/spouse","hash":"f8930c3632","msgstr":"Партнер"}
+{"key":"misc_local/min","hash":"1f6fa6f69d","msgstr":"хв"}
+{"key":"misc_local/hr","hash":"1b52f3a2e1","msgstr":"год"}
+{"key":"misc_local/propose","hash":"3df75fc791","msgstr":"Обговорити"}
+{"key":"misc_local/engaged","hash":"1b0d851e9b","msgstr":"Заручені"}
+{"key":"misc_local/fiance","hash":"92c9a04914","msgstr":"Наречений"}
+{"key":"misc_local/fiancee","hash":"b231b5013f","msgstr":"Наречена"}
+{"key":"misc_local/your_wedding","hash":"5051d7154d","msgstr":"Твоє весілля"}
+{"key":"misc_local/your_anniversary","hash":"a16161998f","msgstr":"Твоя річниця"}
+{"key":"misc_local/select_your_wedding_date","hash":"91a5c70f4e","msgstr":"Обери дату весілля:"}
+{"key":"misc_local/wedding_date_confirmation","hash":"cc8fab472a","msgstr":"Обрати {} днем весілля?"}
+{"key":"misc_local/kiss","hash":"79d4dd13c5","msgstr":"Поцілувати"}
+{"key":"misc_local/give_child","hash":"e1bc20ab1c","msgstr":"Віддати дитину"}
+{"key":"misc_local/hold_child","hash":"b1d26b44d0","msgstr":"Взяти дитину на руки"}
+{"key":"misc_local/place_child","hash":"78e563345a","msgstr":"Покласти дитину"}
+{"key":"misc_local/ellipses","hash":"ab5df625bc","msgstr":"..."}
+{"key":"misc_local/native_cursor","hash":"db89010d5a","msgstr":"Системний курсор"}
+{"key":"misc_local/wedding_outfit_confirmation","hash":"828883a8f1","msgstr":"Продовжити з цим вбранням для весілля?"}
+{"key":"misc_local/discuss","hash":"3df75fc791","msgstr":"Обговорити"}
+{"key":"misc_local/frame_rate_cap","hash":"1acbad809f","msgstr":"Ліміт кадрів: 60 FPS"}
+{"key":"misc_local/snap_frame_rate","hash":"347f1d410f","msgstr":"Вирівнювання частоти кадрів"}
+{"key":"misc_local/snap_frame_rate_body","hash":"746d9b8d39","msgstr":"Якщо частота кадрів твого монітора не є цілим числом (це поширено), цей параметр вирівняє частоту кадрів і зменшить ривки.\nНе вмикай його, якщо увімкнено «Адаптивну» вертикальну синхронізацію або якщо VRR, NVidia Sync чи AMD FreeSync примусово ввімкнено драйвером."}
+{"key":"misc_local/select_a_song","hash":"486ad46163","msgstr":"Обери пісню"}
+{"key":"misc_local/unlock_song","hash":"a7c0fc7405","msgstr":"Відкрити пісню"}
+{"key":"misc_local/new_song","hash":"3e07d0ec2c","msgstr":"Нова пісня!"}
+{"key":"misc_local/new_song_description","hash":"a8e4979b4e","msgstr":"Скористайся кришталевим резонатором, щоб грати цю пісню вдома чи на фермі!"}
+{"key":"misc_local/default","hash":"21b111cbfe","msgstr":"Типово"}
+{"key":"misc_local/due_date","hash":"57870fd030","msgstr":"Очікувана дата"}
+{"key":"misc_local/spell_name","hash":"dcd1d5223f","msgstr":"Назва"}
+{"key":"misc_local/spell_type","hash":"baaddf70fb","msgstr":"Тип"}
+{"key":"misc_local/spell_cost","hash":"204a5eb2cd","msgstr":"Вартість"}
+{"key":"misc_local/disable_break_ups","hash":"8195d04903","msgstr":"Вимкнути розриви"}
+{"key":"misc_local/disable_break_ups_description","hash":"e56b00b6fa","msgstr":"Цей параметр вимкне автоматичну зміну статусу з «Пара» на «Найкращі друзі» в інших NPC зі статусом «Пара» після твоїх заручин.\n\nЗверни увагу: після заручин змінити цей параметр буде неможливо."}
+{"key":"misc_local/disable_break_up_letters","hash":"ef9ecc07c6","msgstr":"Вимкнути листи про розрив"}
+{"key":"misc_local/disable_break_up_letters_description","hash":"4ed4bff204","msgstr":"Цей параметр вимкне листи про розрив і наступні репліки, що згадують автоматичну зміну статусу з «Пара» на «Найкращі друзі» в інших NPC після заручин.\n\nСтатус у них усе одно зміниться на «Найкращі друзі».\n\nЗверни увагу: після заручин змінити цей параметр буде неможливо."}
+{"key":"misc_local/stone_cottage","hash":"1bbbec7635","msgstr":"Кам'яний котедж"}
+{"key":"misc_local/adobe_one","hash":"013b3868d5","msgstr":"Саманний 1"}
+{"key":"misc_local/adobe_two","hash":"b9a6d3733b","msgstr":"Саманний 2"}
+{"key":"misc_local/adobe_three","hash":"e1c4cb3293","msgstr":"Саманний 3"}
+{"key":"misc_local/leafy_cottage_one","hash":"75d23c085c","msgstr":"Листяний котедж 1"}
+{"key":"misc_local/leafy_cottage_two","hash":"0b6d3000df","msgstr":"Листяний котедж 2"}
+{"key":"misc_local/leafy_cottage_three","hash":"25945afa8a","msgstr":"Листяний котедж 3"}
+{"key":"misc_local/timbered_one","hash":"82ef45c098","msgstr":"Фахверк 1"}
+{"key":"misc_local/timbered_two","hash":"9a2b3bfa43","msgstr":"Фахверк 2"}
+{"key":"misc_local/timbered_three","hash":"7c72e254db","msgstr":"Фахверк 3"}
+{"key":"misc_local/victorian_one","hash":"bce59a848c","msgstr":"Вікторіанський 1"}
+{"key":"misc_local/victorian_two","hash":"550d20c403","msgstr":"Вікторіанський 2"}
+{"key":"misc_local/victorian_three","hash":"10d85fbf88","msgstr":"Вікторіанський 3"}
+{"key":"misc_local/shrooms_defeated","hash":"46c6fe010e","msgstr":"Грибів переможено"}
+{"key":"misc_local/green_mushrooms_defeated","hash":"63dad6334e","msgstr":"Зелених грибів переможено"}
+{"key":"misc_local/saps_defeated","hash":"b3fc2e5a55","msgstr":"Паростків переможено"}
+{"key":"misc_local/green_saplings_defeated","hash":"d06bfd9138","msgstr":"Зелених паростків переможено"}
+{"key":"misc_local/enchanterns_defeated","hash":"a43e6455ca","msgstr":"Чаролихтарів переможено"}
+{"key":"misc_local/blue_enchanterns_defeated","hash":"5d5bb6aed5","msgstr":"Синіх чаролихтарів переможено"}
+{"key":"misc_local/mites_defeated","hash":"a099f404f1","msgstr":"Сталагмітів переможено"}
+{"key":"misc_local/green_stalagmites_defeated","hash":"a58b992956","msgstr":"Зелених сталагмітів переможено"}
+{"key":"misc_local/bats_defeated","hash":"70007d5863","msgstr":"Есенційних кажанів переможено"}
+{"key":"misc_local/blue_essence_bats_defeated","hash":"844f9db0e2","msgstr":"Синіх есенційних кажанів переможено"}
+{"key":"misc_local/mimics_defeated","hash":"8e1f7d4974","msgstr":"Мімиків переможено"}
+{"key":"misc_local/spirits_defeated","hash":"0c7a37defb","msgstr":"Духів полум'я переможено"}
+{"key":"misc_local/cats_defeated","hash":"84cd85c50b","msgstr":"Лавових котів переможено"}
+{"key":"misc_local/rock_clods_defeated","hash":"8c58e871f4","msgstr":"Кам'яних груд переможено"}
+{"key":"misc_local/rock_stacks_defeated","hash":"2bf522dd24","msgstr":"Кам'яних куп переможено"}
+{"key":"misc_local/statues_defeated","hash":"8947d5dd44","msgstr":"Статуй грифонів переможено"}
+{"key":"misc_local/tomes_defeated","hash":"c6ce7eda4b","msgstr":"Томів переможено"}
+{"key":"misc_local/renown_lvl_insert_caps","hash":"f284ea5fe8","msgstr":"РІВ."}
+{"key":"misc_local/renown_lvl_insert","hash":"64ea4d848c","msgstr":"Рів."}
+{"key":"misc_local/beta_language_title","hash":"97258da620","msgstr":"Бета-локалізація"}
+{"key":"misc_local/beta_language_description","hash":"13c2f47453","msgstr":"Бета-локалізації регулярно оновлюються й покращуються, доки не будуть готові до повноцінного випуску.\n\nЯкщо якогось тексту немає обраною мовою, він тимчасово відображатиметься англійською."}
+{"key":"misc_local/select_a_bell_style","hash":"742a927ebf","msgstr":"Обери стиль дзвону"}
+{"key":"misc_local/bell_tower_resonator","hash":"7a9273f0e9","msgstr":"Резонатор дзвіниці"}
+{"key":"misc_local/select_town_song","hash":"2850dcf4b3","msgstr":"Обери пісню міста"}
+{"key":"misc_local/select_bell_sound","hash":"8359ddad45","msgstr":"Обери звук дзвону"}
+{"key":"misc_local/confirm_bell_sound","hash":"5555497136","msgstr":"Підтвердити звук дзвону"}
+{"key":"misc_local/confirm_bell_sound_description","hash":"724ffdc335","msgstr":"Обрати «{}» звуком дзвону о 8 вечора?"}
+{"key":"misc_local/preview","hash":"324b134f57","msgstr":"Перегляд"}
+{"key":"misc_local/outfit_presets_title","hash":"03c06ee6e6","msgstr":"Набори вбрання"}
+{"key":"misc_local/outfit_presets_description","hash":"f4fecd958b","msgstr":"У грі можна зберегти до 8 нарядів як набори.\n\nВигляд і всі налаштування, крім дня народження, можна змінити будь-коли!"}
+{"key":"misc_local/brightness","hash":"ec811d30a8","msgstr":"Яскравість"}
+{"key":"misc_local/saturation","hash":"993f024b65","msgstr":"Насиченість"}
+{"key":"misc_local/giant_chicken_white","hash":"e9c640fe8b","msgstr":"Велика біла курка"}
+{"key":"misc_local/giant_chicken_gold","hash":"04ce2229d5","msgstr":"Велика золота курка"}
+{"key":"misc_local/open_egg","hash":"913d54b033","msgstr":"Розбити яйце"}
+{"key":"misc_local/big_chicken_exclamation","hash":"5e761ae5d4","msgstr":"ВЕЛИКА КУРКА!"}
+{"key":"misc_local/big_chicken_unlock_description","hash":"60ffed0db6","msgstr":"Відкрито вигляд великої курки-скакуна!"}
+{"key":"misc_local/mission_quests","hash":"41f25bd0cf","msgstr":"Місії"}
+{"key":"misc_local/select_your_birthday","hash":"4eb46e35dd","msgstr":"Обери день народження"}
+{"key":"misc_local/select_your_wedding_day","hash":"aa3c7aa2a8","msgstr":"Обери день весілля"}
+{"key":"misc/inn/soup_kinds/0","hash":"355fe8ce78","msgstr":"суп-чаудер із кукурудзи"}
+{"key":"misc/inn/soup_kinds/1","hash":"0812bbfa20","msgstr":"овочевий суп"}
+{"key":"misc/inn/soup_kinds/2","hash":"3ff131151c","msgstr":"суп мінестроне"}
+{"key":"misc/inn/soup_kinds/3","hash":"62e727079f","msgstr":"картопляний суп"}
+{"key":"misc/inn/soup_kinds/4","hash":"6bce849f4a","msgstr":"суп із броколі та чеддера"}
+{"key":"misc/inn/soup_kinds/5","hash":"619dcd206c","msgstr":"суп-чаудер із молюсків"}
+{"key":"misc/inn/soup_kinds/6","hash":"fc56f07044","msgstr":"яєчний суп"}
+{"key":"npcs/adeline/name","hash":"a0e3819326","msgstr":"Аделіна"}
+{"key":"npcs/adeline/job","hash":"ec7a9f6301","msgstr":"Керівниця міста"}
+{"key":"npcs/balor/name","hash":"2c56d64d4f","msgstr":"Балор"}
+{"key":"npcs/balor/job","hash":"b826486bfd","msgstr":"Мандрівний торговець"}
+{"key":"npcs/caldarus/name","hash":"0ba7845b1f","msgstr":"Кальдарус"}
+{"key":"npcs/caldarus/job","hash":"bbe963c645","msgstr":"Дракон"}
+{"key":"npcs/celine/name","hash":"c959af3162","msgstr":"Селіна"}
+{"key":"npcs/celine/job","hash":"d8966b0738","msgstr":"Садівниця, на півставки"}
+{"key":"npcs/darcy/name","hash":"95d5f87a5d","msgstr":"Дарсі"}
+{"key":"npcs/darcy/job","hash":"087a44b647","msgstr":"Продавчиня кави"}
+{"key":"npcs/dell/name","hash":"e9c5e07631","msgstr":"Делл"}
+{"key":"npcs/dell/job","hash":"c2541358ee","msgstr":"Лідерка Драконячої варти"}
+{"key":"npcs/dozy/name","hash":"628f5ee92b","msgstr":"Дозі"}
+{"key":"npcs/dozy/job","hash":"6f33518c13","msgstr":"Співвласник лазні"}
+{"key":"npcs/eiland/name","hash":"15dc1c5ae0","msgstr":"Ейланд"}
+{"key":"npcs/eiland/job","hash":"a8bef0a83b","msgstr":"Археолог"}
+{"key":"npcs/elsie/name","hash":"66601b9317","msgstr":"Елсі"}
+{"key":"npcs/elsie/job","hash":"ad9bb2d56e","msgstr":"Світська дама на пенсії"}
+{"key":"npcs/errol/name","hash":"3b73e40baf","msgstr":"Ерол"}
+{"key":"npcs/errol/job","hash":"258c9b1f30","msgstr":"Куратор музею"}
+{"key":"npcs/hayden/name","hash":"d5a6a01462","msgstr":"Гейден"}
+{"key":"npcs/hayden/job","hash":"060e178edd","msgstr":"Керує фермою «Солодка Вода»"}
+{"key":"npcs/hemlock/name","hash":"0af2e6452b","msgstr":"Хемлок"}
+{"key":"npcs/hemlock/job","hash":"52f8f8f918","msgstr":"Співвласник заїзду, бармен"}
+{"key":"npcs/henrietta/name","hash":"fcaf8b71bd","msgstr":"Генрієтта"}
+{"key":"npcs/henrietta/job","hash":"9f816522b5","msgstr":"Курка-переможниця"}
+{"key":"npcs/holt/name","hash":"9acf456ddf","msgstr":"Холт"}
+{"key":"npcs/holt/job","hash":"2cfeff56fa","msgstr":"Співвласник універсальної крамниці"}
+{"key":"npcs/josephine/name","hash":"6048d609a6","msgstr":"Жозефіна"}
+{"key":"npcs/josephine/job","hash":"0fbd54b6fe","msgstr":"Співвласниця заїзду"}
+{"key":"npcs/juniper/name","hash":"fe6a448ec9","msgstr":"Джуніпер"}
+{"key":"npcs/juniper/job","hash":"d35ccd238d","msgstr":"Керує лазнею"}
+{"key":"npcs/landen/name","hash":"30255d80d7","msgstr":"Ланден"}
+{"key":"npcs/landen/job","hash":"83d2e40a23","msgstr":"Тесля, майже пенсіонер"}
+{"key":"npcs/louis/name","hash":"9293e16b8e","msgstr":"Луї"}
+{"key":"npcs/louis/job","hash":"648f68cb38","msgstr":"Продавець одягу"}
+{"key":"npcs/luc/name","hash":"63b7d29e63","msgstr":"Люк"}
+{"key":"npcs/luc/job","hash":"5b8a3ad5bb","msgstr":"Майбутній ентомолог"}
+{"key":"npcs/maple/name","hash":"18a91bdea2","msgstr":"Мейпл"}
+{"key":"npcs/maple/job","hash":"b7123fcd40","msgstr":"Експертка з королівських справ"}
+{"key":"npcs/march/name","hash":"9d95a2cf0d","msgstr":"Марч"}
+{"key":"npcs/march/job","hash":"b919e17acb","msgstr":"Коваль"}
+{"key":"npcs/merri/name","hash":"a92dc61e5c","msgstr":"Меррі"}
+{"key":"npcs/merri/job","hash":"3dfdce607c","msgstr":"Продавчиня меблів"}
+{"key":"npcs/nora/name","hash":"c8ccf6c971","msgstr":"Нора"}
+{"key":"npcs/nora/job","hash":"2cfeff56fa","msgstr":"Співвласниця універсальної крамниці"}
+{"key":"npcs/olric/name","hash":"fd6d308f3a","msgstr":"Олрік"}
+{"key":"npcs/olric/job","hash":"eb04348ec2","msgstr":"Працює на півставки"}
+{"key":"npcs/reina/name","hash":"5dd255a178","msgstr":"Рейна"}
+{"key":"npcs/reina/job","hash":"16aa6a27a4","msgstr":"Шеф-кухарка заїзду"}
+{"key":"npcs/ryis/name","hash":"f130343c14","msgstr":"Райс"}
+{"key":"npcs/ryis/job","hash":"ecd094c866","msgstr":"Тесля"}
+{"key":"npcs/seridia/name","hash":"13abb6539b","msgstr":"Серідія"}
+{"key":"npcs/seridia/job","hash":"bbe963c645","msgstr":"Дракон"}
+{"key":"npcs/stillwell/name","hash":"da951f148f","msgstr":"Стілвелл"}
+{"key":"npcs/stillwell/job","hash":"453d6050d3","msgstr":"Торговець ворожінням"}
+{"key":"npcs/taliferro/name","hash":"fe615f868e","msgstr":"Таліферро"}
+{"key":"npcs/taliferro/job","hash":"a9464b4095","msgstr":"Шеф-кухар"}
+{"key":"npcs/terithia/name","hash":"60efeea78f","msgstr":"Терітія"}
+{"key":"npcs/terithia/job","hash":"770e259056","msgstr":"Рибалка"}
+{"key":"npcs/valen/name","hash":"939b706c1b","msgstr":"Вален"}
+{"key":"npcs/valen/job","hash":"35b728155c","msgstr":"Міська докторка"}
+{"key":"npcs/vera/name","hash":"e4ace1dfe1","msgstr":"Вера"}
+{"key":"npcs/vera/job","hash":"7c8697d983","msgstr":"Продавчиня зачісок і аксесуарів"}
+{"key":"npcs/wheedle/name","hash":"6ff30b2903","msgstr":"Відл"}
+{"key":"npcs/wheedle/job","hash":"0dcf5d7bdb","msgstr":"Торговець"}
+{"key":"npcs/zorel/name","hash":"3a68fde1bd","msgstr":"Зорел"}
+{"key":"npcs/zorel/job","hash":"459d8f3969","msgstr":"Продавчиня музики"}
+{"key":"object_prototypes/building/small_barn/name","hash":"a7be57ec34","msgstr":"Малий хлів"}
+{"key":"object_prototypes/building/medium_barn/name","hash":"089b8fcc02","msgstr":"Середній хлів"}
+{"key":"object_prototypes/building/large_barn/name","hash":"39f2a34059","msgstr":"Великий хлів"}
+{"key":"object_prototypes/building/large_barn_gold/name","hash":"a9ca838d70","msgstr":"Великий золотий хлів"}
+{"key":"object_prototypes/building/small_coop/name","hash":"c9be0dc1f8","msgstr":"Малий курник"}
+{"key":"object_prototypes/building/medium_coop/name","hash":"d6e2b00aad","msgstr":"Середній курник"}
+{"key":"object_prototypes/building/large_coop/name","hash":"75baec8ee6","msgstr":"Великий курник"}
+{"key":"object_prototypes/building/large_coop_gold/name","hash":"48195c922c","msgstr":"Великий золотий курник"}
+{"key":"object_prototypes/building/small_greenhouse/name","hash":"2243e50ff6","msgstr":"Мала теплиця"}
+{"key":"object_prototypes/building/large_greenhouse/name","hash":"b497bfa918","msgstr":"Велика теплиця"}
+{"key":"object_prototypes/building/mini_museum/name","hash":"89394a1921","msgstr":"Мінімузей"}
+{"key":"perks/refreshing/name","hash":"f92e2ad582","msgstr":"Освіжання","note":"Показано на картці туторіалу (skill_perks_3/4); узгоджувати з рештою перків при перекладі групи perks."}
+{"key":"perks/refreshing/description","hash":"0062b3f2de","msgstr":"Поливання культури іноді повертає витрачену витривалість.","note":"Текст на картці туторіалу skill_perks_3 розбито на 3 рядки за цим формулюванням."}
+{"key":"pets/cosmetic_sets/halo/name","hash":"4e86512d9a","msgstr":"Німб"}
+{"key":"pets/cosmetic_sets/flower_crown/name","hash":"6f3ab7fb22","msgstr":"Вінок із квітів"}
+{"key":"pets/cosmetic_sets/purple_bow/name","hash":"f46ddbb410","msgstr":"Фіолетовий бант"}
+{"key":"pets/cosmetic_sets/green_bow/name","hash":"5007826a53","msgstr":"Зелений бант"}
+{"key":"pets/cosmetic_sets/yellow_bow/name","hash":"18e3e74047","msgstr":"Жовтий бант"}
+{"key":"pets/cosmetic_sets/red_bow/name","hash":"4fb697be06","msgstr":"Червоний бант"}
+{"key":"pets/cosmetic_sets/blue_bow/name","hash":"68f562792b","msgstr":"Синій бант"}
+{"key":"pets/cosmetic_sets/black_bow/name","hash":"40236d6186","msgstr":"Чорний бант"}
+{"key":"pets/cosmetic_sets/pink_bow/name","hash":"a964439979","msgstr":"Рожевий бант"}
+{"key":"pets/cosmetic_sets/sun_hat/name","hash":"db26884cd9","msgstr":"Капелюх від сонця"}
+{"key":"pets/cosmetic_sets/unicorn_horn/name","hash":"ec68dae1cb","msgstr":"Ріг єдинорога"}
+{"key":"pets/cosmetic_sets/skull_mask/name","hash":"b2b0b78643","msgstr":"Маска-череп"}
+{"key":"pets/variants/cat_tabby/name","hash":"2631668147","msgstr":"Смугастий","note":"Назви варіантів — прикметники чоловічого роду (кіт, пес, гриб…); для «груд» і «купи» (rockclod, copperclod, rock_stack…) жіночого."}
+{"key":"pets/variants/cat_black/name","hash":"c6cfe6e4f1","msgstr":"Чорний"}
+{"key":"pets/variants/cat_grey/name","hash":"d4ac58091b","msgstr":"Сірий"}
+{"key":"pets/variants/cat_white/name","hash":"3495e75785","msgstr":"Білий"}
+{"key":"pets/variants/cat_tuxedo/name","hash":"d630575d03","msgstr":"Смокінг"}
+{"key":"pets/variants/cat_orange/name","hash":"78e7771b8b","msgstr":"Рудий"}
+{"key":"pets/variants/cat_tortie/name","hash":"c034107c77","msgstr":"Черепаховий"}
+{"key":"pets/variants/cat_siamese/name","hash":"bac1b671bb","msgstr":"Сіамський"}
+{"key":"pets/variants/cat_calico/name","hash":"47ac8c72ae","msgstr":"Триколірний"}
+{"key":"pets/variants/cat_purple/name","hash":"7d465fb9b9","msgstr":"Фіолетовий"}
+{"key":"pets/variants/cat_navy/name","hash":"fb2fc1b3b8","msgstr":"Темно-синій"}
+{"key":"pets/variants/cat_pink/name","hash":"bd38ed7732","msgstr":"Рожевий"}
+{"key":"pets/variants/dog_yellow/name","hash":"19dd83f117","msgstr":"Жовтий"}
+{"key":"pets/variants/dog_beige/name","hash":"5f10cf309e","msgstr":"Бежевий"}
+{"key":"pets/variants/dog_brown/name","hash":"18f2855928","msgstr":"Коричневий"}
+{"key":"pets/variants/dog_black/name","hash":"c6cfe6e4f1","msgstr":"Чорний"}
+{"key":"pets/variants/dog_grey/name","hash":"d4ac58091b","msgstr":"Сірий"}
+{"key":"pets/variants/dog_white/name","hash":"3495e75785","msgstr":"Білий"}
+{"key":"pets/variants/dog_spots/name","hash":"3bdef25fab","msgstr":"Плямистий"}
+{"key":"pets/variants/dog_orange/name","hash":"78e7771b8b","msgstr":"Рудий"}
+{"key":"pets/variants/dog_dalmation/name","hash":"4d14164e4b","msgstr":"Далматин"}
+{"key":"pets/variants/dog_purple/name","hash":"7d465fb9b9","msgstr":"Фіолетовий"}
+{"key":"pets/variants/dog_navy/name","hash":"fb2fc1b3b8","msgstr":"Темно-синій"}
+{"key":"pets/variants/dog_pink/name","hash":"bd38ed7732","msgstr":"Рожевий"}
+{"key":"pets/variants/sapling_green/name","hash":"d486dfbd5f","msgstr":"Зелений"}
+{"key":"pets/variants/sapling_cool/name","hash":"0b0fd31e24","msgstr":"Холодний"}
+{"key":"pets/variants/sapling_blue/name","hash":"ec7d56a016","msgstr":"Синій"}
+{"key":"pets/variants/sapling_purple/name","hash":"7d465fb9b9","msgstr":"Фіолетовий"}
+{"key":"pets/variants/sapling_orange/name","hash":"78e7771b8b","msgstr":"Помаранчевий"}
+{"key":"pets/variants/sapling_pink/name","hash":"bd38ed7732","msgstr":"Рожевий"}
+{"key":"pets/variants/mushroom_red/name","hash":"ba19e9c3d5","msgstr":"Червоний"}
+{"key":"pets/variants/mushroom_green/name","hash":"d486dfbd5f","msgstr":"Зелений"}
+{"key":"pets/variants/mushroom_blue/name","hash":"ec7d56a016","msgstr":"Синій"}
+{"key":"pets/variants/mushroom_purple/name","hash":"7d465fb9b9","msgstr":"Фіолетовий"}
+{"key":"pets/variants/rockclod/name","hash":"d4ac58091b","msgstr":"Сіра"}
+{"key":"pets/variants/rockclod_blue/name","hash":"ec7d56a016","msgstr":"Синя"}
+{"key":"pets/variants/rockclod_green/name","hash":"d486dfbd5f","msgstr":"Зелена"}
+{"key":"pets/variants/rockclod_red/name","hash":"ba19e9c3d5","msgstr":"Червона"}
+{"key":"pets/variants/copperclod/name","hash":"d35b0efe21","msgstr":"Мідна"}
+{"key":"pets/variants/ironclod/name","hash":"bd223c81de","msgstr":"Залізна"}
+{"key":"pets/variants/silverclod/name","hash":"a0b43df06f","msgstr":"Срібна"}
+{"key":"pets/variants/goldclod/name","hash":"6249df4367","msgstr":"Золота"}
+{"key":"pets/variants/enchantern_yellow/name","hash":"19dd83f117","msgstr":"Жовтий"}
+{"key":"pets/variants/enchantern_blue/name","hash":"ec7d56a016","msgstr":"Синій"}
+{"key":"pets/variants/stalagmite_blue/name","hash":"ec7d56a016","msgstr":"Синій"}
+{"key":"pets/variants/stalagmite_green/name","hash":"d486dfbd5f","msgstr":"Зелений"}
+{"key":"pets/variants/stalagmite_purple/name","hash":"7d465fb9b9","msgstr":"Фіолетовий"}
+{"key":"pets/variants/essence_bat_purple/name","hash":"7d465fb9b9","msgstr":"Фіолетовий"}
+{"key":"pets/variants/essence_bat_blue/name","hash":"ec7d56a016","msgstr":"Синій"}
+{"key":"pets/variants/mimic/name","hash":"21b111cbfe","msgstr":"Типовий"}
+{"key":"pets/variants/flame_spirit_orange/name","hash":"78e7771b8b","msgstr":"Помаранчевий"}
+{"key":"pets/variants/flame_spirit_purple/name","hash":"7d465fb9b9","msgstr":"Фіолетовий"}
+{"key":"pets/variants/lava_cat/name","hash":"21b111cbfe","msgstr":"Типовий"}
+{"key":"pets/variants/void_cat/name","hash":"21b111cbfe","msgstr":"Типовий"}
+{"key":"pets/variants/rock_stack/name","hash":"21b111cbfe","msgstr":"Типова"}
+{"key":"pets/variants/flying_tome/name","hash":"21b111cbfe","msgstr":"Типовий"}
+{"key":"pets/variants/griffin_statue/name","hash":"21b111cbfe","msgstr":"Типова"}
+{"key":"player_assets/dress_pumpkin/name","hash":"8ed9041242","msgstr":"Осіння сукня"}
+{"key":"player_assets/pants_pumpkin/name","hash":"34a67cc5b8","msgstr":"Картаті штани"}
+{"key":"player_assets/top_pumpkin/name","hash":"9c59f91c45","msgstr":"Осінній светр"}
+{"key":"ranching/animals/chicken/core/name","hash":"d003dadb78","msgstr":"Курка","note":"Показано на картці туторіалу ranching_1."}
+{"key":"ranching/animals/chicken/variants/white/name","hash":"3495e75785","msgstr":"Біла"}
+{"key":"ranching/animals/chicken/variants/brown/name","hash":"18f2855928","msgstr":"Коричнева","note":"Показано на картці туторіалу ranching_1."}
+{"key":"ranching/animals/chicken/variants/spotted/name","hash":"3bdef25fab","msgstr":"Ряба","note":"«Ряба» — крапчаста курка (як у «Курочці Рябі»); показано на картці туторіалу ranching_1."}
+{"key":"ranching/animals/chicken/variants/red/name","hash":"ba19e9c3d5","msgstr":"Червона"}
+{"key":"ranching/animals/chicken/variants/yellow/name","hash":"19dd83f117","msgstr":"Жовта"}
+{"key":"renown/ranks/0/name","hash":"731140284e","msgstr":"Дерево"}
+{"key":"renown/ranks/1/name","hash":"6ffa6b8b1c","msgstr":"Камінь"}
+{"key":"renown/ranks/2/name","hash":"d35b0efe21","msgstr":"Мідь"}
+{"key":"renown/ranks/3/name","hash":"108040ac28","msgstr":"Рубін"}
+{"key":"renown/ranks/4/name","hash":"bd223c81de","msgstr":"Залізо"}
+{"key":"renown/ranks/5/name","hash":"d142d3dd1d","msgstr":"Сапфір"}
+{"key":"renown/ranks/6/name","hash":"a0b43df06f","msgstr":"Срібло"}
+{"key":"renown/ranks/7/name","hash":"af1ccb3130","msgstr":"Смарагд"}
+{"key":"renown/ranks/8/name","hash":"6249df4367","msgstr":"Золото"}
+{"key":"renown/ranks/9/name","hash":"b639c243ce","msgstr":"Діамант"}
+{"key":"renown/ranks/10/name","hash":"e461e5acf7","msgstr":"Містрил"}
+{"key":"songs/farm_boy/name","hash":"a2c2768bbc","msgstr":"Хлопець із ферми"}
+{"key":"songs/pink_twintails/name","hash":"64cff4d5e0","msgstr":"Рожеві хвостики"}
+{"key":"songs/crystal_caves/name","hash":"6ef54df2b7","msgstr":"Кришталеві печери"}
+{"key":"songs/misty_pasture/name","hash":"a89dbb2d4f","msgstr":"Туманне пасовище"}
+{"key":"songs/purple_potions/name","hash":"42976e6690","msgstr":"Фіолетові зілля"}
+{"key":"songs/heros_journey/name","hash":"3ae44ea840","msgstr":"Подорож героя"}
+{"key":"songs/five_more_minutes/name","hash":"c32f126e1f","msgstr":"Ще п'ять хвилин"}
+{"key":"songs/dream_lobby/name","hash":"677b6097de","msgstr":"Вестибюль мрій"}
+{"key":"songs/rainy_window/name","hash":"c5347038b1","msgstr":"Дощове вікно"}
+{"key":"songs/another_tower/name","hash":"6f4676fdca","msgstr":"Ще одна вежа"}
+{"key":"songs/adelines_theme/name","hash":"195469e46e","msgstr":"Тема Аделіни: Запах підсохлого чорнила"}
+{"key":"songs/balors_theme/name","hash":"3db0717b8e","msgstr":"Тема Балора: Гарна погода"}
+{"key":"songs/caldarus_theme/name","hash":"dcbd91b827","msgstr":"Тема Кальдаруса: Сплячий дракон"}
+{"key":"songs/celines_theme/name","hash":"db10454916","msgstr":"Тема Селіни: Квітка в розквіті"}
+{"key":"songs/eilands_theme/name","hash":"270018268b","msgstr":"Тема Ейланда: Переплетені корені"}
+{"key":"songs/haydens_theme/name","hash":"85367f9a62","msgstr":"Тема Гейдена: Засукай рукави!"}
+{"key":"songs/junipers_theme/name","hash":"5eb3587df3","msgstr":"Тема Джуніпер: Щось вариться"}
+{"key":"songs/marchs_theme/name","hash":"aae6564386","msgstr":"Тема Марча: Чого ти хочеш?"}
+{"key":"songs/reinas_theme/name","hash":"5db644d307","msgstr":"Тема Рейни: Пиріг із лісових ягід"}
+{"key":"songs/ryis_theme/name","hash":"b910fff188","msgstr":"Тема Райса: Пташиний спів"}
+{"key":"songs/seridias_theme/name","hash":"1c5f6adbd1","msgstr":"Тема Серідії: Відродження"}
+{"key":"songs/valens_theme/name","hash":"4fc2f57541","msgstr":"Тема Вален: Цвіт кактуса"}
+{"key":"spells/default/name","hash":"7044bf093b","msgstr":"<n/a>"}
+{"key":"spells/full_restore/name","hash":"d51fb82755","msgstr":"Повне відновлення"}
+{"key":"spells/summon_rain/name","hash":"faf880f8ce","msgstr":"Виклик дощу"}
+{"key":"spells/growth/name","hash":"66b06e9965","msgstr":"Ріст"}
+{"key":"spells/fire_breath/name","hash":"4a3f341dc6","msgstr":"Подих дракона"}
+{"key":"spells/sacred_light/name","hash":"f9dcf7bd9f","msgstr":"Священне світло"}
+{"key":"spells/default/description","hash":"7044bf093b","msgstr":"<n/a>"}
+{"key":"spells/full_restore/description","hash":"7e5ac2c17b","msgstr":"Після застосування повністю відновлює витривалість і здоров'я."}
+{"key":"spells/summon_rain/description","hash":"074ca6aaa2","msgstr":"Викликає короткий дощ, що поливає всі твої культури."}
+{"key":"spells/growth/description","hash":"9c7293d418","msgstr":"Повністю вирощує культури на ділянці 3x3. Також може прискорити ріст дерева на 1 стадію."}
+{"key":"spells/fire_breath/description","hash":"7e1e050f80","msgstr":"Випускає потік вогню, яким можна ненадовго руйнувати предмети й монстрів."}
+{"key":"spells/sacred_light/description","hash":"bc9ff2861f","msgstr":"Освітлює темні поверхи Руїн глибоко під землею."}
+{"key":"spells/full_restore/type","hash":"44bc379989","msgstr":"Лікування"}
+{"key":"spells/summon_rain/type","hash":"a61abd5d17","msgstr":"Землеробство"}
+{"key":"spells/growth/type","hash":"a61abd5d17","msgstr":"Землеробство"}
+{"key":"spells/fire_breath/type","hash":"14e1a0b4f2","msgstr":"Атака"}
+{"key":"spells/sacred_light/type","hash":"9450d833fa","msgstr":"Допоміжне"}
+{"key":"stores/general/name","hash":"3473523f16","msgstr":"Універсальна крамниця"}
+{"key":"stores/carpenter/name","hash":"3a6b72a407","msgstr":"Теслярня"}
+{"key":"stores/terithia/name","hash":"4abcf29691","msgstr":"Рибальська крамниця"}
+{"key":"stores/blacksmith/name","hash":"922136b8c3","msgstr":"Кузня"}
+{"key":"stores/louis/name","hash":"3dafe93606","msgstr":"Кіоск Луї"}
+{"key":"stores/vera/name","hash":"654f5e729c","msgstr":"Кіоск Вери"}
+{"key":"stores/darcy/name","hash":"db3115ff14","msgstr":"Кіоск Дарсі"}
+{"key":"stores/merri/name","hash":"fab47dd031","msgstr":"Кіоск Меррі"}
+{"key":"stores/hayden/name","hash":"d962df927c","msgstr":"Крамниця Гейдена"}
+{"key":"stores/inn/name","hash":"822f509957","msgstr":"Заїзд «Сплячий дракон»"}
+{"key":"stores/balor/name","hash":"acd4917dcf","msgstr":"Фургон Балора"}
+{"key":"stores/valens_clinic/name","hash":"b1f4153d3d","msgstr":"Клініка Вален"}
+{"key":"stores/maple_spring_festival/name","hash":"799448e765","msgstr":"Харчовий кіоск"}
+{"key":"stores/nora_souvenir_stall/name","hash":"72ac698c96","msgstr":"Сувенірний кіоск"}
+{"key":"stores/elsie_spring_festival/name","hash":"9698dc2af2","msgstr":"Кіоск одягу"}
+{"key":"stores/wheedle/name","hash":"4eb7589b1b","msgstr":"Кіоск Відла"}
+{"key":"stores/zorel/name","hash":"07f328287a","msgstr":"Кіоск Зорел"}
+{"key":"ui/character_customization/head_gear/0/name","hash":"00a535670b","msgstr":"Капелюхи"}
+{"key":"ui/character_customization/head_gear/1/name","hash":"99b17455c7","msgstr":"Аксесуари для волосся"}
+{"key":"ui/character_customization/head_gear/2/name","hash":"244284e326","msgstr":"Шоломи"}
+{"key":"ui/character_customization/head_gear/3/name","hash":"12e3af43e5","msgstr":"Корони"}
+{"key":"ui/character_customization/head_gear/4/name","hash":"9010757fd9","msgstr":"Весільні аксесуари"}
+{"key":"ui/character_customization/head_gear/5/name","hash":"5cb0b42660","msgstr":"Різне"}
+{"key":"ui/character_customization/face_gear/0/name","hash":"eb25ede23e","msgstr":"Окуляри"}
+{"key":"ui/character_customization/face_gear/1/name","hash":"5e390dbd1c","msgstr":"Прикраси для вух"}
+{"key":"ui/character_customization/face_gear/2/name","hash":"77d165064a","msgstr":"Прикраса для обличчя"}
+{"key":"ui/character_customization/hair/0/name","hash":"f0812ac21e","msgstr":"Коротке волосся"}
+{"key":"ui/character_customization/hair/1/name","hash":"02cc60317c","msgstr":"Середнє волосся"}
+{"key":"ui/character_customization/hair/2/name","hash":"6d9643018a","msgstr":"Довге волосся"}
+{"key":"ui/character_customization/eyes/0/name","hash":"a39e9d9816","msgstr":"Очі"}
+{"key":"ui/character_customization/facial_hair/0/name","hash":"2cf1d88320","msgstr":"Борода й вуса"}
+{"key":"ui/character_customization/top/0/name","hash":"6b4b615325","msgstr":"Топи без рукавів"}
+{"key":"ui/character_customization/top/1/name","hash":"1e769812de","msgstr":"Топи з коротким рукавом"}
+{"key":"ui/character_customization/top/2/name","hash":"1df2b4c598","msgstr":"Топи з довгим рукавом"}
+{"key":"ui/character_customization/top/3/name","hash":"e9a258e08f","msgstr":"Куртки"}
+{"key":"ui/character_customization/top/4/name","hash":"ef2c4c656d","msgstr":"Сукні"}
+{"key":"ui/character_customization/top/5/name","hash":"9cc12c54c9","msgstr":"Халати й пальта"}
+{"key":"ui/character_customization/top/6/name","hash":"326c101316","msgstr":"Костюми"}
+{"key":"ui/character_customization/top/7/name","hash":"018ca842d9","msgstr":"Весільні сукні"}
+{"key":"ui/character_customization/top/8/name","hash":"65957d1307","msgstr":"Весільні костюми"}
+{"key":"ui/character_customization/top/9/name","hash":"5cb0b42660","msgstr":"Різне"}
+{"key":"ui/character_customization/bottom/0/name","hash":"e4633585e7","msgstr":"Штани"}
+{"key":"ui/character_customization/bottom/1/name","hash":"3c784a16cf","msgstr":"Шорти"}
+{"key":"ui/character_customization/bottom/2/name","hash":"1fc5325b68","msgstr":"Спідниці"}
+{"key":"ui/character_customization/bottom/3/name","hash":"5cb0b42660","msgstr":"Різне"}
+{"key":"ui/character_customization/feet/0/name","hash":"929433e4be","msgstr":"Чоботи"}
+{"key":"ui/character_customization/feet/1/name","hash":"b5efa9ec3f","msgstr":"Туфлі"}
+{"key":"ui/character_customization/feet/2/name","hash":"08205319f4","msgstr":"Сандалі"}
+{"key":"ui/character_customization/feet/3/name","hash":"41ffa6e0e2","msgstr":"Весільне взуття"}
+{"key":"ui/character_customization/feet/4/name","hash":"5cb0b42660","msgstr":"Різне"}
+{"key":"ui/character_customization/skin/0/name","hash":"54d975a539","msgstr":"Колір шкіри"}
+{"key":"ui/character_customization/back/0/name","hash":"3135f16147","msgstr":"Рюкзаки"}
+{"key":"ui/character_customization/back/1/name","hash":"9908d8c367","msgstr":"Плащі"}
+{"key":"ui/character_customization/back/2/name","hash":"5cb0b42660","msgstr":"Різне"}
+{"key":"ui/crafting/blacksmithing/categories/0/name","hash":"c7ae560ab6","msgstr":"Злитки"}
+{"key":"ui/crafting/blacksmithing/categories/1/name","hash":"3048886e49","msgstr":"Кирки"}
+{"key":"ui/crafting/blacksmithing/categories/2/name","hash":"56a7d40e60","msgstr":"Сокири"}
+{"key":"ui/crafting/blacksmithing/categories/3/name","hash":"0b6640c03d","msgstr":"Мотики"}
+{"key":"ui/crafting/blacksmithing/categories/4/name","hash":"71d7bb81ef","msgstr":"Лійки"}
+{"key":"ui/crafting/blacksmithing/categories/5/name","hash":"a55455998f","msgstr":"Вудки"}
+{"key":"ui/crafting/blacksmithing/categories/6/name","hash":"9504170092","msgstr":"Лопати"}
+{"key":"ui/crafting/blacksmithing/categories/7/name","hash":"f017755e8e","msgstr":"Сачки"}
+{"key":"ui/crafting/blacksmithing/categories/8/name","hash":"5919dcd44e","msgstr":"Мечі"}
+{"key":"ui/crafting/blacksmithing/categories/9/name","hash":"a592855d05","msgstr":"Броня"}
+{"key":"ui/crafting/blacksmithing/categories/10/name","hash":"997c544f1b","msgstr":"Особливе"}
+{"key":"ui/crafting/blacksmithing/categories/0/sub_categories/0/name","hash":"c7ae560ab6","msgstr":"Злитки"}
+{"key":"ui/crafting/blacksmithing/categories/1/sub_categories/0/name","hash":"3048886e49","msgstr":"Кирки"}
+{"key":"ui/crafting/blacksmithing/categories/2/sub_categories/0/name","hash":"56a7d40e60","msgstr":"Сокири"}
+{"key":"ui/crafting/blacksmithing/categories/3/sub_categories/0/name","hash":"0b6640c03d","msgstr":"Мотики"}
+{"key":"ui/crafting/blacksmithing/categories/4/sub_categories/0/name","hash":"71d7bb81ef","msgstr":"Лійки"}
+{"key":"ui/crafting/blacksmithing/categories/5/sub_categories/0/name","hash":"a55455998f","msgstr":"Вудки"}
+{"key":"ui/crafting/blacksmithing/categories/6/sub_categories/0/name","hash":"9504170092","msgstr":"Лопати"}
+{"key":"ui/crafting/blacksmithing/categories/7/sub_categories/0/name","hash":"f017755e8e","msgstr":"Сачки"}
+{"key":"ui/crafting/blacksmithing/categories/8/sub_categories/0/name","hash":"5919dcd44e","msgstr":"Мечі"}
+{"key":"ui/crafting/blacksmithing/categories/9/sub_categories/0/name","hash":"a592855d05","msgstr":"Броня"}
+{"key":"ui/crafting/blacksmithing/categories/10/sub_categories/0/name","hash":"997c544f1b","msgstr":"Особливе"}
+{"key":"ui/crafting/cooking/categories/0/name","hash":"d02fe05545","msgstr":"Комора"}
+{"key":"ui/crafting/cooking/categories/1/name","hash":"cae5addaab","msgstr":"Закуски"}
+{"key":"ui/crafting/cooking/categories/2/name","hash":"29b0e14c27","msgstr":"Салати й зелень"}
+{"key":"ui/crafting/cooking/categories/3/name","hash":"37abda7135","msgstr":"Супи й рагу"}
+{"key":"ui/crafting/cooking/categories/4/name","hash":"cef5b8e737","msgstr":"Основні страви"}
+{"key":"ui/crafting/cooking/categories/5/name","hash":"d96eb901f9","msgstr":"Десерти"}
+{"key":"ui/crafting/cooking/categories/6/name","hash":"ad4e3084c8","msgstr":"Напої"}
+{"key":"ui/crafting/cooking/categories/0/sub_categories/0/name","hash":"6ac3fe23c8","msgstr":"Молочне"}
+{"key":"ui/crafting/cooking/categories/0/sub_categories/1/name","hash":"bfc874fcbf","msgstr":"Джеми"}
+{"key":"ui/crafting/cooking/categories/0/sub_categories/2/name","hash":"7d6602c412","msgstr":"Соуси й приправи"}
+{"key":"ui/crafting/cooking/categories/0/sub_categories/3/name","hash":"501b43a772","msgstr":"Соління й ферментація"}
+{"key":"ui/crafting/cooking/categories/0/sub_categories/4/name","hash":"5cb0b42660","msgstr":"Різне"}
+{"key":"ui/crafting/cooking/categories/1/sub_categories/0/name","hash":"cae5addaab","msgstr":"Закуски"}
+{"key":"ui/crafting/cooking/categories/2/sub_categories/0/name","hash":"e619791ee6","msgstr":"Салати"}
+{"key":"ui/crafting/cooking/categories/2/sub_categories/1/name","hash":"668d88f56c","msgstr":"Зелень"}
+{"key":"ui/crafting/cooking/categories/3/sub_categories/0/name","hash":"c167514817","msgstr":"Супи"}
+{"key":"ui/crafting/cooking/categories/3/sub_categories/1/name","hash":"d431e8a677","msgstr":"Рагу"}
+{"key":"ui/crafting/cooking/categories/4/sub_categories/0/name","hash":"3364e1a941","msgstr":"Ручна робота"}
+{"key":"ui/crafting/cooking/categories/4/sub_categories/1/name","hash":"aa3a0f280a","msgstr":"На грилі"}
+{"key":"ui/crafting/cooking/categories/4/sub_categories/2/name","hash":"adabf6bffa","msgstr":"Соте"}
+{"key":"ui/crafting/cooking/categories/4/sub_categories/3/name","hash":"a3c00c3685","msgstr":"Смажене"}
+{"key":"ui/crafting/cooking/categories/4/sub_categories/4/name","hash":"a056256061","msgstr":"Випічка"}
+{"key":"ui/crafting/cooking/categories/4/sub_categories/5/name","hash":"aa8ad6a6ea","msgstr":"Печене"}
+{"key":"ui/crafting/cooking/categories/4/sub_categories/6/name","hash":"1613c35912","msgstr":"На пару"}
+{"key":"ui/crafting/cooking/categories/4/sub_categories/7/name","hash":"f057bd165e","msgstr":"Тушковане"}
+{"key":"ui/crafting/cooking/categories/4/sub_categories/8/name","hash":"0f8a934772","msgstr":"Охолоджене"}
+{"key":"ui/crafting/cooking/categories/5/sub_categories/0/name","hash":"3364e1a941","msgstr":"Ручна робота"}
+{"key":"ui/crafting/cooking/categories/5/sub_categories/1/name","hash":"a056256061","msgstr":"Випічка"}
+{"key":"ui/crafting/cooking/categories/5/sub_categories/2/name","hash":"a3c00c3685","msgstr":"Смажене"}
+{"key":"ui/crafting/cooking/categories/5/sub_categories/3/name","hash":"1613c35912","msgstr":"На пару"}
+{"key":"ui/crafting/cooking/categories/5/sub_categories/4/name","hash":"8fdac69c6f","msgstr":"Заморожене"}
+{"key":"ui/crafting/cooking/categories/5/sub_categories/5/name","hash":"c2d3bfa844","msgstr":"Цукерки"}
+{"key":"ui/crafting/cooking/categories/6/sub_categories/0/name","hash":"f151cd9e12","msgstr":"Холодні"}
+{"key":"ui/crafting/cooking/categories/6/sub_categories/1/name","hash":"0ec53894d0","msgstr":"Гарячі"}
+{"key":"ui/crafting/dragon_forging/categories/0/name","hash":"5919dcd44e","msgstr":"Мечі"}
+{"key":"ui/crafting/dragon_forging/categories/1/name","hash":"fd10a146e9","msgstr":"Матеріали"}
+{"key":"ui/crafting/dragon_forging/categories/0/sub_categories/0/name","hash":"5919dcd44e","msgstr":"Мечі"}
+{"key":"ui/crafting/dragon_forging/categories/1/sub_categories/0/name","hash":"fd10a146e9","msgstr":"Матеріали"}
+{"key":"ui/crafting/milling/categories/0/name","hash":"04309a5cdc","msgstr":"Корм для тварин"}
+{"key":"ui/crafting/milling/categories/1/name","hash":"e49ab79684","msgstr":"Продукти тваринництва"}
+{"key":"ui/crafting/milling/categories/2/name","hash":"e2b5f63539","msgstr":"Мелені інгредієнти"}
+{"key":"ui/crafting/milling/categories/3/name","hash":"5cb0b42660","msgstr":"Різне"}
+{"key":"ui/crafting/milling/categories/0/sub_categories/0/name","hash":"04309a5cdc","msgstr":"Корм для тварин"}
+{"key":"ui/crafting/milling/categories/1/sub_categories/0/name","hash":"e49ab79684","msgstr":"Продукти тваринництва"}
+{"key":"ui/crafting/milling/categories/2/sub_categories/0/name","hash":"e2b5f63539","msgstr":"Мелені інгредієнти"}
+{"key":"ui/crafting/milling/categories/3/sub_categories/0/name","hash":"5cb0b42660","msgstr":"Різне"}
+{"key":"ui/crafting/refining/categories/0/name","hash":"729c55458d","msgstr":"Камені есенції"}
+{"key":"ui/crafting/refining/categories/1/name","hash":"fd10a146e9","msgstr":"Матеріали"}
+{"key":"ui/crafting/refining/categories/0/sub_categories/0/name","hash":"729c55458d","msgstr":"Камені есенції"}
+{"key":"ui/crafting/refining/categories/1/sub_categories/0/name","hash":"fd10a146e9","msgstr":"Матеріали"}
+{"key":"ui/crafting/woodcrafting/categories/0/name","hash":"fbb0f1b488","msgstr":"Набори"}
+{"key":"ui/crafting/woodcrafting/categories/1/name","hash":"b665659575","msgstr":"Функціональне"}
+{"key":"ui/crafting/woodcrafting/categories/2/name","hash":"3fc68d7ab8","msgstr":"Ферма й двір"}
+{"key":"ui/crafting/woodcrafting/categories/3/name","hash":"f8db52bb7e","msgstr":"Підлога"}
+{"key":"ui/crafting/woodcrafting/categories/4/name","hash":"a7f173cdaa","msgstr":"Шпалери"}
+{"key":"ui/crafting/woodcrafting/categories/5/name","hash":"ca5a7994ff","msgstr":"Сидіння"}
+{"key":"ui/crafting/woodcrafting/categories/6/name","hash":"2e2a3cd1a0","msgstr":"Ліжка"}
+{"key":"ui/crafting/woodcrafting/categories/7/name","hash":"e3fe2a3fe5","msgstr":"Столи"}
+{"key":"ui/crafting/woodcrafting/categories/8/name","hash":"ad51008196","msgstr":"Полиці й комоди"}
+{"key":"ui/crafting/woodcrafting/categories/9/name","hash":"07607d609f","msgstr":"Освітлення"}
+{"key":"ui/crafting/woodcrafting/categories/10/name","hash":"ae81260e01","msgstr":"Килимки"}
+{"key":"ui/crafting/woodcrafting/categories/11/name","hash":"d598026a9c","msgstr":"Вікна"}
+{"key":"ui/crafting/woodcrafting/categories/12/name","hash":"0d37105bfc","msgstr":"Декор для стін"}
+{"key":"ui/crafting/woodcrafting/categories/13/name","hash":"b81ce6bddc","msgstr":"Рослини"}
+{"key":"ui/crafting/woodcrafting/categories/14/name","hash":"535822180e","msgstr":"Декор"}
+{"key":"ui/crafting/woodcrafting/categories/15/name","hash":"5cb0b42660","msgstr":"Різне"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/0/name","hash":"819140100b","msgstr":"Набір автоматизації"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/1/name","hash":"c07f9685a4","msgstr":"Усе функціональне різне"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/2/name","hash":"e52a863009","msgstr":"Набір для пекарні"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/3/name","hash":"1f5fdca65f","msgstr":"Базовий набір скринь"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/4/name","hash":"f64de74eda","msgstr":"Базовий набір"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/5/name","hash":"8bbf870429","msgstr":"Набір для ванної"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/6/name","hash":"552eb455ec","msgstr":"Набір печери"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/7/name","hash":"2fccbd4484","msgstr":"Вишневий набір"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/8/name","hash":"70e87aaedb","msgstr":"Набір шахових фігур"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/9/name","hash":"2b8de236ce","msgstr":"Набір курячих статуй"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/10/name","hash":"db710b96a0","msgstr":"Набір для кулінарії"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/11/name","hash":"a5190db1ca","msgstr":"Набір котеджного саду"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/12/name","hash":"c0bc8d7afb","msgstr":"Набір стільниць"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/13/name","hash":"3ee9e76c8f","msgstr":"Набір для рукоділля"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/14/name","hash":"f5421eafba","msgstr":"Набір табличок для культур (весна)"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/15/name","hash":"5ad2a9efab","msgstr":"Набір табличок для культур (літо)"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/16/name","hash":"371543c92a","msgstr":"Набір табличок для культур (осінь)"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/17/name","hash":"6bbe174c5d","msgstr":"Набір табличок для культур (зима)"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/18/name","hash":"010e2b29f3","msgstr":"Набір вівтаря Драконячого кігтя"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/19/name","hash":"40155c37d0","msgstr":"Смарагдовий набір"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/20/name","hash":"27ed80a02b","msgstr":"Набір дослідника"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/21/name","hash":"e2ebcca829","msgstr":"Осінній набір"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/22/name","hash":"12d2acdc46","msgstr":"Набір штучних рослин (весна)"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/23/name","hash":"cf9df7b4cc","msgstr":"Набір штучних рослин (літо)"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/24/name","hash":"cffd865247","msgstr":"Набір штучних рослин (осінь)"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/25/name","hash":"e69ba308a5","msgstr":"Набір штучних рослин (зима)"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/26/name","hash":"612168aadc","msgstr":"Набір штучного Глибокого лісу"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/27/name","hash":"4c5d1c6d87","msgstr":"Набір штучних рослин шахт"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/28/name","hash":"349047bd22","msgstr":"Набір штучних мушель"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/29/name","hash":"035f02f14d","msgstr":"Рибальський набір"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/30/name","hash":"3cd54b9372","msgstr":"Набір привидного горища"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/31/name","hash":"b7e454da42","msgstr":"Набір комах"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/32/name","hash":"6ec0189614","msgstr":"Кухонний набір"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/33/name","hash":"bc5e00433c","msgstr":"Набір лавових печер"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/34/name","hash":"58d80ff14d","msgstr":"Лимонний набір"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/35/name","hash":"43405ed7e5","msgstr":"Набір милого котеджу"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/36/name","hash":"f0a0acb1e3","msgstr":"Набір русалки"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/37/name","hash":"8a4013b3aa","msgstr":"Набір шахтного стовбура"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/38/name","hash":"5c38d4c188","msgstr":"Набір історії Містрії"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/39/name","hash":"f1cdf25eac","msgstr":"Набір монстрів"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/40/name","hash":"af3ac68669","msgstr":"Набір візерунчастих килимків"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/41/name","hash":"f361ca0271","msgstr":"Набір бруківки"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/42/name","hash":"69bbfa76ea","msgstr":"Набір для пікніка"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/43/name","hash":"e4482094b1","msgstr":"Набір руїн"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/44/name","hash":"d6d805615e","msgstr":"Набір сільської хатини"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/45/name","hash":"ae9f38eb33","msgstr":"Набір падаючої зірки"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/46/name","hash":"6781631c9a","msgstr":"Весняний набір"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/47/name","hash":"3c4c0ff2f9","msgstr":"Стартовий набір ферми"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/48/name","hash":"b49024509e","msgstr":"Набір кам'яного саду"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/49/name","hash":"d9ef0c44cf","msgstr":"Літній набір"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/50/name","hash":"39b7ab232e","msgstr":"Набір дрібниць для столу"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/51/name","hash":"068ff2b7c7","msgstr":"Набір припливу"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/52/name","hash":"9c79bc43f4","msgstr":"Набір тренувальних опудал"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/53/name","hash":"ae99a507ae","msgstr":"Набір Порожнечі"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/54/name","hash":"63bc042042","msgstr":"Набір відьми-королеви"}
+{"key":"ui/crafting/woodcrafting/categories/0/sub_categories/55/name","hash":"cd86c24c20","msgstr":"Потертий набір"}
+{"key":"ui/crafting/woodcrafting/categories/1/sub_categories/0/name","hash":"d909750b1b","msgstr":"Автоматизація"}
+{"key":"ui/crafting/woodcrafting/categories/1/sub_categories/1/name","hash":"c07f9685a4","msgstr":"Усе функціональне різне"}
+{"key":"ui/crafting/woodcrafting/categories/1/sub_categories/2/name","hash":"d5d0a30b51","msgstr":"Календар"}
+{"key":"ui/crafting/woodcrafting/categories/1/sub_categories/3/name","hash":"adf5fb93a2","msgstr":"Скрині й сховища"}
+{"key":"ui/crafting/woodcrafting/categories/1/sub_categories/4/name","hash":"bc64125d75","msgstr":"Щоденник"}
+{"key":"ui/crafting/woodcrafting/categories/2/sub_categories/0/name","hash":"4faa04c234","msgstr":"Таблички для культур"}
+{"key":"ui/crafting/woodcrafting/categories/2/sub_categories/1/name","hash":"3457b1617f","msgstr":"Ферма"}
+{"key":"ui/crafting/woodcrafting/categories/2/sub_categories/2/name","hash":"be34540662","msgstr":"Огорожі"}
+{"key":"ui/crafting/woodcrafting/categories/2/sub_categories/3/name","hash":"e462ccce40","msgstr":"Сад"}
+{"key":"ui/crafting/woodcrafting/categories/2/sub_categories/4/name","hash":"151bf49394","msgstr":"Земля"}
+{"key":"ui/crafting/woodcrafting/categories/2/sub_categories/5/name","hash":"a933c31b7b","msgstr":"Різне надворі"}
+{"key":"ui/crafting/woodcrafting/categories/3/sub_categories/0/name","hash":"311f453ee1","msgstr":"Килим"}
+{"key":"ui/crafting/woodcrafting/categories/3/sub_categories/1/name","hash":"207e25440a","msgstr":"Різна підлога"}
+{"key":"ui/crafting/woodcrafting/categories/3/sub_categories/2/name","hash":"d11792edb7","msgstr":"Незвичайна підлога"}
+{"key":"ui/crafting/woodcrafting/categories/3/sub_categories/3/name","hash":"6ea3c1948e","msgstr":"Плитка"}
+{"key":"ui/crafting/woodcrafting/categories/3/sub_categories/4/name","hash":"731140284e","msgstr":"Дерево"}
+{"key":"ui/crafting/woodcrafting/categories/4/sub_categories/0/name","hash":"a7f173cdaa","msgstr":"Шпалери"}
+{"key":"ui/crafting/woodcrafting/categories/5/sub_categories/0/name","hash":"8fdb417e54","msgstr":"Акцентні крісла"}
+{"key":"ui/crafting/woodcrafting/categories/5/sub_categories/1/name","hash":"9d731dc44c","msgstr":"Обідні стільці"}
+{"key":"ui/crafting/woodcrafting/categories/5/sub_categories/2/name","hash":"4fe4de941d","msgstr":"Різні сидіння"}
+{"key":"ui/crafting/woodcrafting/categories/5/sub_categories/3/name","hash":"f38e80d590","msgstr":"Дивани"}
+{"key":"ui/crafting/woodcrafting/categories/5/sub_categories/4/name","hash":"ff90199301","msgstr":"Табурети"}
+{"key":"ui/crafting/woodcrafting/categories/6/sub_categories/0/name","hash":"529441523b","msgstr":"Двоспальні"}
+{"key":"ui/crafting/woodcrafting/categories/6/sub_categories/1/name","hash":"8888a029aa","msgstr":"Односпальні"}
+{"key":"ui/crafting/woodcrafting/categories/7/sub_categories/0/name","hash":"50b771447f","msgstr":"Журнальні столики"}
+{"key":"ui/crafting/woodcrafting/categories/7/sub_categories/1/name","hash":"acf0b83e86","msgstr":"Консолі"}
+{"key":"ui/crafting/woodcrafting/categories/7/sub_categories/2/name","hash":"e5a4fa99e7","msgstr":"Стільниці"}
+{"key":"ui/crafting/woodcrafting/categories/7/sub_categories/3/name","hash":"3ca53bd0cd","msgstr":"Обідні столи"}
+{"key":"ui/crafting/woodcrafting/categories/7/sub_categories/4/name","hash":"1b204da1d0","msgstr":"Туалетні столики"}
+{"key":"ui/crafting/woodcrafting/categories/7/sub_categories/5/name","hash":"a2e1d4a722","msgstr":"Приставні столики"}
+{"key":"ui/crafting/woodcrafting/categories/8/sub_categories/0/name","hash":"28cda80d3b","msgstr":"Шафи"}
+{"key":"ui/crafting/woodcrafting/categories/8/sub_categories/1/name","hash":"9454146688","msgstr":"Книжкові полиці"}
+{"key":"ui/crafting/woodcrafting/categories/8/sub_categories/2/name","hash":"ed14110fcc","msgstr":"Комоди"}
+{"key":"ui/crafting/woodcrafting/categories/8/sub_categories/3/name","hash":"25658833a3","msgstr":"Тумбочки"}
+{"key":"ui/crafting/woodcrafting/categories/8/sub_categories/4/name","hash":"e1a513ed57","msgstr":"Настінні полиці"}
+{"key":"ui/crafting/woodcrafting/categories/9/sub_categories/0/name","hash":"d268c9c449","msgstr":"Підлогові"}
+{"key":"ui/crafting/woodcrafting/categories/9/sub_categories/1/name","hash":"07fe7bded8","msgstr":"Різне освітлення"}
+{"key":"ui/crafting/woodcrafting/categories/9/sub_categories/2/name","hash":"16d1c9050a","msgstr":"Настільні"}
+{"key":"ui/crafting/woodcrafting/categories/9/sub_categories/3/name","hash":"f76ea921ed","msgstr":"Настінні"}
+{"key":"ui/crafting/woodcrafting/categories/10/sub_categories/0/name","hash":"ab80540d98","msgstr":"Великі"}
+{"key":"ui/crafting/woodcrafting/categories/10/sub_categories/1/name","hash":"8e588cd187","msgstr":"Середні"}
+{"key":"ui/crafting/woodcrafting/categories/10/sub_categories/2/name","hash":"5263293fc2","msgstr":"Малі"}
+{"key":"ui/crafting/woodcrafting/categories/11/sub_categories/0/name","hash":"19734a1b58","msgstr":"Вікна"}
+{"key":"ui/crafting/woodcrafting/categories/12/sub_categories/0/name","hash":"7caff62268","msgstr":"Різний декор стін"}
+{"key":"ui/crafting/woodcrafting/categories/12/sub_categories/1/name","hash":"ad35c8fdbf","msgstr":"Картини"}
+{"key":"ui/crafting/woodcrafting/categories/12/sub_categories/2/name","hash":"f0b0114e32","msgstr":"Гобелени"}
+{"key":"ui/crafting/woodcrafting/categories/13/sub_categories/0/name","hash":"a60645d96b","msgstr":"Окремостоячі"}
+{"key":"ui/crafting/woodcrafting/categories/13/sub_categories/1/name","hash":"6c07ae2e5f","msgstr":"Різні рослини"}
+{"key":"ui/crafting/woodcrafting/categories/13/sub_categories/2/name","hash":"a752b48810","msgstr":"У горщиках"}
+{"key":"ui/crafting/woodcrafting/categories/13/sub_categories/3/name","hash":"c3dee2da94","msgstr":"Настільні"}
+{"key":"ui/crafting/woodcrafting/categories/14/sub_categories/0/name","hash":"bcbc72e61c","msgstr":"Для дому"}
+{"key":"ui/crafting/woodcrafting/categories/14/sub_categories/1/name","hash":"d98e82ae3c","msgstr":"Кухня"}
+{"key":"ui/crafting/woodcrafting/categories/14/sub_categories/2/name","hash":"35e85caddb","msgstr":"Різний декор"}
+{"key":"ui/crafting/woodcrafting/categories/14/sub_categories/3/name","hash":"9e380d9991","msgstr":"Офіс"}
+{"key":"ui/crafting/woodcrafting/categories/15/sub_categories/0/name","hash":"5cb0b42660","msgstr":"Різне"}
+{"key":"ui/skill_menu/archaeology/name","hash":"7a50bcaf1c","msgstr":"Археологія"}
+{"key":"ui/skill_menu/blacksmithing/name","hash":"e2bae2dd5c","msgstr":"Ковальство"}
+{"key":"ui/skill_menu/combat/name","hash":"49fcf2c78b","msgstr":"Бій"}
+{"key":"ui/skill_menu/cooking/name","hash":"d3bdb65e5d","msgstr":"Кулінарія"}
+{"key":"ui/skill_menu/farming/name","hash":"a61abd5d17","msgstr":"Землеробство"}
+{"key":"ui/skill_menu/fishing/name","hash":"79cea8ff2b","msgstr":"Риболовля"}
+{"key":"ui/skill_menu/mining/name","hash":"bf94ba9e2d","msgstr":"Гірництво"}
+{"key":"ui/skill_menu/mount/name","hash":"c50d5a8fb7","msgstr":"Містмер"}
+{"key":"ui/skill_menu/ranching/name","hash":"f53c579f7b","msgstr":"Тваринництво"}
+{"key":"ui/skill_menu/woodcrafting/name","hash":"7cd33abcf6","msgstr":"Деревообробка"}
+{"key":"ui/tutorials/blacksmithing/title","hash":"4124f8fe1e","msgstr":"Навчання: Ковальство"}
+{"key":"ui/tutorials/farming/title","hash":"f6eeda97a3","msgstr":"Навчання: Землеробство"}
+{"key":"ui/tutorials/cooking/title","hash":"67bab4fe57","msgstr":"Навчання: Кулінарія"}
+{"key":"ui/tutorials/museum/title","hash":"b461ba77f3","msgstr":"Навчання: Музей"}
+{"key":"ui/tutorials/spring_festival/title","hash":"1d093fd703","msgstr":"Навчання: Подих весни"}
+{"key":"ui/tutorials/skill_perks/title","hash":"1cc9b79640","msgstr":"Навчання: Есенція та бонуси навичок"}
+{"key":"ui/tutorials/mines/title","hash":"24e922520d","msgstr":"Навчання: Шахти"}
+{"key":"ui/tutorials/magic/title","hash":"a30784804c","msgstr":"Навчання: Магічні закляття"}
+{"key":"ui/tutorials/fishing/title","hash":"b81988dccb","msgstr":"Навчання: Риболовля"}
+{"key":"ui/tutorials/crafting/title","hash":"eb209ab7ae","msgstr":"Навчання: Створення предметів"}
+{"key":"ui/tutorials/ranching/title","hash":"aac7a1d2b5","msgstr":"Навчання: Тваринництво"}
+{"key":"ui/tutorials/milling/title","hash":"da747627bd","msgstr":"Навчання: Млин"}
+{"key":"ui/tutorials/mistmare/title","hash":"fe3d581011","msgstr":"Навчання: Містмер"}
+{"key":"ui/tutorials/lava_caves/title","hash":"4d63cb6fbf","msgstr":"Навчання: Лавові печери"}
+{"key":"ui/tutorials/animal_sprite_statue/title","hash":"c1bb8ed0c8","msgstr":"Навчання: Статуї духів тварин"}
+{"key":"ui/tutorials/dragons_breath_spell/title","hash":"623a21b453","msgstr":"Навчання: Закляття «Подих дракона»"}
+{"key":"ui/tutorials/elsie_gossip/title","hash":"917f348edb","msgstr":"Навчання: Плітки Елсі (підказки про подарунки)"}
+{"key":"ui/tutorials/teleportation_chalice/title","hash":"7637be37ed","msgstr":"Навчання: Чаша телепортації"}
+{"key":"ui/tutorials/water_sprite_statue/title","hash":"21b6e2b548","msgstr":"Навчання: Статуї водяних духів"}
+{"key":"ui/tutorials/pets/title","hash":"7ace510cc5","msgstr":"Навчання: Улюбленці"}
+{"key":"ui/tutorials/dates/title","hash":"370625d8f1","msgstr":"Навчання: Побачення"}
+{"key":"ui/tutorials/void_sight/title","hash":"2b2000d5d7","msgstr":"Навчання: Погляд Порожнечі"}
+{"key":"ui/tutorials/sacred_light/title","hash":"db659a45d0","msgstr":"Навчання: Священне світло"}
+{"key":"ui/tutorials/apiaries_and_terrariums/title","hash":"2ed65bdfca","msgstr":"Навчання: Пасіки й тераріуми"}
+{"key":"ui/tutorials/lost_and_found/title","hash":"d24a294652","msgstr":"Навчання: Бюро знахідок"}
+{"key":"ui/tutorials/dark_mines/title","hash":"a2f761bd32","msgstr":"Навчання: Темні поверхи"}
+{"key":"ui/tutorials/engagement/title","hash":"c4f22ba33e","msgstr":"Навчання: Освідчення"}
+{"key":"ui/tutorials/baby/title","hash":"c1e17b1cd7","msgstr":"Навчання: Догляд за малюком"}
+{"key":"ui/tutorials/blacksmithing/steps/0/text","hash":"517c8eb53c","msgstr":"Крок 1:\nВідкрий меню ковальства, взаємодіючи з ковадлом."}
+{"key":"ui/tutorials/blacksmithing/steps/1/text","hash":"7064cbe3ad","msgstr":"Крок 2:\nОбери, що хочеш виковати, ліворуч у меню."}
+{"key":"ui/tutorials/blacksmithing/steps/2/text","hash":"98638daed4","msgstr":"Крок 3:\nПотрібні матеріали, рівень навички й час створення вказані праворуч."}
+{"key":"ui/tutorials/blacksmithing/steps/3/text","hash":"19ab0586b4","msgstr":"Крок 4:\nОбери «ок», щоб створити!"}
+{"key":"ui/tutorials/blacksmithing/steps/4/text","hash":"93deec9b4a","msgstr":"Відкривай бонуси навичок, щоб створювати інфузовані предмети з особливими властивостями!"}
+{"key":"ui/tutorials/farming/steps/0/text","hash":"d795a7543e","msgstr":"Крок 1:\nВикористай мотику на розчищених ділянках поля, щоб обробити ґрунт."}
+{"key":"ui/tutorials/farming/steps/1/text","hash":"9eb89b964e","msgstr":"Крок 2:\nПосади насіння на оброблені клітинки."}
+{"key":"ui/tutorials/farming/steps/2/text","hash":"9f06b626e1","msgstr":"Крок 3:\nПоливай культури щодня, доки вони не виростуть."}
+{"key":"ui/tutorials/farming/steps/3/text","hash":"2f6fe77e06","msgstr":"Крок 4:\nЗбери врожай!"}
+{"key":"ui/tutorials/farming/steps/4/text","hash":"5af9a7bd94","msgstr":"Лопату можна купити в Універсальній крамниці, коли захочеш розширити поля."}
+{"key":"ui/tutorials/farming/steps/5/text","hash":"fdb5cc6053","msgstr":"Культури можна продавати, готувати з них страви або навіть згодовувати тваринам!"}
+{"key":"ui/tutorials/cooking/steps/0/text","hash":"ef03819a51","msgstr":"Крок 1:\nВідкрий меню кулінарії, взаємодіючи з кухнею."}
+{"key":"ui/tutorials/cooking/steps/1/text","hash":"86f7308eef","msgstr":"Крок 2:\nОбери, що хочеш приготувати, ліворуч у меню."}
+{"key":"ui/tutorials/cooking/steps/2/text","hash":"1bf4abcfac","msgstr":"Крок 3:\nІнгредієнти, рівень кухні й навички та час — праворуч."}
+{"key":"ui/tutorials/cooking/steps/3/text","hash":"9077e6370e","msgstr":"Крок 4:\nОбери «ок», щоб приготувати!"}
+{"key":"ui/tutorials/cooking/steps/4/text","hash":"7d52a37fcc","msgstr":"Приготовані страви — чудові подарунки, а з'їдені відновлюють витривалість і здоров'я!"}
+{"key":"ui/tutorials/cooking/steps/5/text","hash":"f5cfdb44ad","msgstr":"Нові рецепти можна купити й відкрити різними способами."}
+{"key":"ui/tutorials/cooking/steps/6/text","hash":"93deec9b4a","msgstr":"Відкривай бонуси навичок, щоб створювати інфузовані предмети з особливими властивостями!"}
+{"key":"ui/tutorials/museum/steps/0/text","hash":"fcf8b052bd","msgstr":"Крок 1:\nВідкрий меню Музею, взаємодіючи з музейною книгою обліку."}
+{"key":"ui/tutorials/museum/steps/1/text","hash":"26ba22ba63","msgstr":"Крок 2:\nПоклади предмети в скриньку для пожертв і натисни «Пожертвувати»."}
+{"key":"ui/tutorials/museum/steps/2/text","hash":"3e0d9ecaf2","msgstr":"Ти побачиш, до яких наборів потрапили твої предмети і наскільки близько ці набори до завершення."}
+{"key":"ui/tutorials/museum/steps/3/text","hash":"393b624edd","msgstr":"У книзі обліку можна переглянути крила Музею: стан завершення наборів і підказки про нагороди."}
+{"key":"ui/tutorials/museum/steps/4/text","hash":"6fe96d1239","msgstr":"У підказках до предметів видно, чи входить предмет до якогось набору і чи ти його вже пожертвував."}
+{"key":"ui/tutorials/spring_festival/steps/0/text","hash":"e0597c002a","msgstr":"Квіти Подиху весни можуть випасти як бонусний предмет під час різних занять."}
+{"key":"ui/tutorials/spring_festival/steps/1/text","hash":"2a07d66246","msgstr":"Серед них землеробство, риболовля, гірництво та інші!"}
+{"key":"ui/tutorials/spring_festival/steps/2/text","hash":"873ce4affd","msgstr":"Спробуй зібрати якомога більше до Весняного свята 17-го числа!"}
+{"key":"ui/tutorials/spring_festival/steps/3/text","hash":"ebd817e0fc","msgstr":"Що більше збереш, то кращими будуть нагороди, декор і асортимент святкових кіосків!"}
+{"key":"ui/tutorials/skill_perks/steps/0/text","hash":"46067a384f","msgstr":"Збирай есенцію під час таких занять, як землеробство, риболовля, гірництво та інші!"}
+{"key":"ui/tutorials/skill_perks/steps/1/text","hash":"a686d3d971","msgstr":"Поговори з Кальдарусом, щоб відкрити меню бонусів навичок."}
+{"key":"ui/tutorials/skill_perks/steps/2/text","hash":"c49c8346b5","msgstr":"Обери бонус, щоб побачити його опис."}
+{"key":"ui/tutorials/skill_perks/steps/3/text","hash":"a2c4bdde01","msgstr":"Придбай бонус навички за есенцію, щоб його відкрити!"}
+{"key":"ui/tutorials/mines/steps/0/text","hash":"0dcd4c8a18","msgstr":"Дослідження Шахт — чудовий спосіб знайти нові матеріали, дари природи, рибу, комах і навіть скарби!"}
+{"key":"ui/tutorials/mines/steps/1/text","hash":"c8f7b6467a","msgstr":"Розбивай каміння на кожному поверсі, щоб знайти драбину й спуститися глибше."}
+{"key":"ui/tutorials/mines/steps/2/text","hash":"6a9ab1a5c1","msgstr":"Не забувай, що під час дослідження можна стрибати й плавати!"}
+{"key":"ui/tutorials/mines/steps/3/text","hash":"40a6495e08","msgstr":"Кожні 5 поверхів відкривається ліфт, яким можна швидко спуститися від входу до Шахт."}
+{"key":"ui/tutorials/mines/steps/4/text","hash":"20e898be9a","msgstr":"Дій обережно: магія, що просочилася в цей світ, перетворила неживі предмети на монстрів!"}
+{"key":"ui/tutorials/mines/steps/5/text","hash":"3872a050a4","msgstr":"Покращуй меч і броню, щоб легше просуватися далі."}
+{"key":"ui/tutorials/mines/steps/6/text","hash":"bae0331cf9","msgstr":"Статуя біля входу також дозволяє купувати за зібрану есенцію корисні бонуси гірництва й бою."}
+{"key":"ui/tutorials/magic/steps/0/text","hash":"d163cf191e","msgstr":"Різні магічні закляття відкриватимуться протягом гри."}
+{"key":"ui/tutorials/magic/steps/1/text","hash":"527cd47cfa","msgstr":"Щоб використати відкрите закляття, обери й закріпи його на сторінці магії у своєму журналі."}
+{"key":"ui/tutorials/magic/steps/2/text","hash":"32909c2c24","msgstr":"Утримуй кнопку, вказану на значку закріпленого закляття, щоб його застосувати."}
+{"key":"ui/tutorials/magic/steps/3/text","hash":"57d0dc0208","msgstr":"Різні закляття потребують різної кількості мани. Щодня вона трохи відновлюється."}
+{"key":"ui/tutorials/magic/steps/4/text","hash":"dd4151eaa5","msgstr":"Якщо пощастить, ти навіть знайдеш зілля, яке миттєво відновлює трохи мани!"}
+{"key":"ui/tutorials/magic/steps/5/text","hash":"2034389b46","msgstr":"Упродовж гри відкриватиметься більше куль мани, що збільшують твій максимальний запас."}
+{"key":"ui/tutorials/fishing/steps/0/text","hash":"3ab49ae488","msgstr":"Шукай тіні риб, досліджуючи місця з водою."}
+{"key":"ui/tutorials/fishing/steps/1/text","hash":"0037d61061","msgstr":"Закинь вудку неподалік від риби, найкраще — у її полі зору."}
+{"key":"ui/tutorials/fishing/steps/2/text","hash":"cb46b35612","msgstr":"Риба обережно скубне й схопить наживку. Швидко витягуй, щойно клюне!"}
+{"key":"ui/tutorials/fishing/steps/3/text","hash":"948786441c","msgstr":"Іноді з'являються косяки, у яких легко піймати кілька риб поспіль."}
+{"key":"ui/tutorials/fishing/steps/4/text","hash":"ae5222fdf7","msgstr":"У воді подекуди видно й місця для пірнання. Допливи до них і пірни, щоб побачити, що там заховано!"}
+{"key":"ui/tutorials/crafting/steps/0/text","hash":"5e55a67855","msgstr":"Крок 1: Відкрий меню створення, взаємодіючи з верстатом."}
+{"key":"ui/tutorials/crafting/steps/1/text","hash":"13e03e7f65","msgstr":"Крок 2: Обери, що хочеш створити, ліворуч у меню."}
+{"key":"ui/tutorials/crafting/steps/2/text","hash":"9da05a0bc9","msgstr":"Крок 3: Потрібні матеріали, рівень навички й час вказані праворуч."}
+{"key":"ui/tutorials/crafting/steps/3/text","hash":"19ab0586b4","msgstr":"Крок 4:\nОбери «ок», щоб створити!"}
+{"key":"ui/tutorials/crafting/steps/4/text","hash":"f5cfdb44ad","msgstr":"Нові рецепти можна купити й відкрити різними способами."}
+{"key":"ui/tutorials/crafting/steps/5/text","hash":"93deec9b4a","msgstr":"Відкривай бонуси навичок, щоб створювати інфузовані предмети з особливими властивостями!"}
+{"key":"ui/tutorials/ranching/steps/0/text","hash":"2671354b03","msgstr":"Малят можна придбати на фермі Гейдена, щойно ти збудуєш для них хлів або курник."}
+{"key":"ui/tutorials/ranching/steps/1/text","hash":"ed7e5d30df","msgstr":"Дорослі тварини дають продукцію, а на 2 серцях їх можна розводити заради нових кольорів!"}
+{"key":"ui/tutorials/ranching/steps/2/text","hash":"379d1a2991","msgstr":"Годуй і гладь тварин щодня, щоб вони були щасливі."}
+{"key":"ui/tutorials/ranching/steps/3/text","hash":"2eb3f4970f","msgstr":"Тварин можна годувати по-різному: у годівницях у приміщенні, на пасовищі надворі й навіть з рук!"}
+{"key":"ui/tutorials/ranching/steps/4/text","hash":"7ea64bd003","msgstr":"Тварини люблять, коли їх виводять надвір у сонячні дні, але в негоду краще їх не виводити."}
+{"key":"ui/tutorials/milling/steps/0/text","hash":"9b82d5fe14","msgstr":"Крок 1:\nВідкрий меню млина, взаємодіючи зі станцією помелу."}
+{"key":"ui/tutorials/milling/steps/1/text","hash":"e006e5c28a","msgstr":"Крок 2:\nОбери, що хочеш створити, ліворуч у меню."}
+{"key":"ui/tutorials/milling/steps/2/text","hash":"844d6f8026","msgstr":"Крок 3:\nПотрібні інгредієнти й час вказані праворуч."}
+{"key":"ui/tutorials/milling/steps/3/text","hash":"19ab0586b4","msgstr":"Крок 4:\nОбери «ок», щоб створити!"}
+{"key":"ui/tutorials/mistmare/steps/0/text","hash":"fdd9b931d8","msgstr":"Тепер ти можеш викликати Містмера надворі!"}
+{"key":"ui/tutorials/mistmare/steps/1/text","hash":"1a88e11180","msgstr":"Викликай його новою кнопкою на екрані, а налаштовуй вигляд у меню тварин у своєму журналі."}
+{"key":"ui/tutorials/mistmare/steps/2/text","hash":"9536579547","msgstr":"Статуя коня дозволяє купувати покращення для твого Містмера."}
+{"key":"ui/tutorials/lava_caves/steps/0/text","hash":"462fa089af","msgstr":"У цій місцевості тобі подекуди траплятимуться озера лави."}
+{"key":"ui/tutorials/lava_caves/steps/1/text","hash":"f474718dba","msgstr":"Щоб їх перетнути, скористайся лійкою або закляттям дощу!"}
+{"key":"ui/tutorials/animal_sprite_statue/steps/0/text","hash":"1952b39a71","msgstr":"Постав Статую духа тварин у великий хлів чи курник: вона щодня гладитиме всіх його тварин."}
+{"key":"ui/tutorials/animal_sprite_statue/steps/1/text","hash":"087e3c2bdc","msgstr":"Щоб Статуї духів тварин працювали, їх потрібно зарядити каменем есенції."}
+{"key":"ui/tutorials/animal_sprite_statue/steps/2/text","hash":"23951cddaa","msgstr":"Що більший камінь есенції, то більше днів заряду він містить."}
+{"key":"ui/tutorials/animal_sprite_statue/steps/3/text","hash":"a7833e54e2","msgstr":"Камені есенції можна створювати, коли відкрито Кам'яну очисну."}
+{"key":"ui/tutorials/animal_sprite_statue/steps/4/text","hash":"06d8df079b","msgstr":"Камені есенції також іноді трапляються у скарбницях Шахт!"}
+{"key":"ui/tutorials/dragons_breath_spell/steps/0/text","hash":"094f6771e4","msgstr":"Закляття «Подих дракона» ненадовго випускає руйнівний потік вогню."}
+{"key":"ui/tutorials/dragons_breath_spell/steps/1/text","hash":"bd2d70a469","msgstr":"Воно також може відкрити деякі раніше недоступні місця!"}
+{"key":"ui/tutorials/elsie_gossip/steps/0/text","hash":"e1cdc0d773","msgstr":"Раз на день можна отримати від Елсі підказки про подарунки, обравши «Плітки»."}
+{"key":"ui/tutorials/elsie_gossip/steps/1/text","hash":"374988233b","msgstr":"Вона запропонує на вибір трьох мешканців і підкаже, про улюблений чи вподобаний подарунок ідеться."}
+{"key":"ui/tutorials/elsie_gossip/steps/2/text","hash":"6539051cfa","msgstr":"Зроби вибір, щоб дізнатися одне з вподобань цього мешканця!"}
+{"key":"ui/tutorials/elsie_gossip/steps/3/text","hash":"972f3df3c5","msgstr":"У журналі NPC подарунки з підказок бліді, доки їх не подаровано. (Зверни увагу на яскравий тюльпан.)"}
+{"key":"ui/tutorials/teleportation_chalice/steps/0/text","hash":"ba629c5e56","msgstr":"Можеш пожертвувати трохи есенції Чаші телепортації, коли захочеш швидко повернутися додому."}
+{"key":"ui/tutorials/teleportation_chalice/steps/1/text","hash":"a5e2783386","msgstr":"Це миттєво перенесе тебе до Статуї Кальдаруса на твоїй фермі!"}
+{"key":"ui/tutorials/water_sprite_statue/steps/0/text","hash":"8ffc80c360","msgstr":"Постав Статую водяного духа на полі, щоб автоматично поливати рослини в радіусі 2 клітинок."}
+{"key":"ui/tutorials/water_sprite_statue/steps/1/text","hash":"8c22f3ec19","msgstr":"Щоб Статуї водяних духів працювали, їх потрібно зарядити каменем есенції."}
+{"key":"ui/tutorials/water_sprite_statue/steps/2/text","hash":"23951cddaa","msgstr":"Що більший камінь есенції, то більше днів заряду він містить."}
+{"key":"ui/tutorials/water_sprite_statue/steps/3/text","hash":"a7833e54e2","msgstr":"Камені есенції можна створювати, коли відкрито Кам'яну очисну."}
+{"key":"ui/tutorials/water_sprite_statue/steps/4/text","hash":"06d8df079b","msgstr":"Камені есенції також іноді трапляються у скарбницях Шахт!"}
+{"key":"ui/tutorials/pets/steps/0/text","hash":"3cb6609509","msgstr":"Ім'я, вигляд і прикраси улюбленця можна змінити будь-коли на його сторінці в журналі."}
+{"key":"ui/tutorials/pets/steps/1/text","hash":"d03c2dee24","msgstr":"Годувати улюбленця щодня не треба, але ласощі й погладжування підвищують його рівень сердець."}
+{"key":"ui/tutorials/pets/steps/2/text","hash":"e0287ba3a0","msgstr":"Улюбленцям можна призначати роботи на їхній сторінці в журналі. Знайдене вони приносять щовечора."}
+{"key":"ui/tutorials/pets/steps/3/text","hash":"8f1b0d5992","msgstr":"Тільки пам'ятай: у дощові дні улюбленці на роботу не виходять!"}
+{"key":"ui/tutorials/dates/steps/0/text","hash":"34763aa4cd","msgstr":"Щоб почати стосунки, обери Романтичний шлях у події на 8 сердець цього персонажа!"}
+{"key":"ui/tutorials/dates/steps/1/text","hash":"4b9eb81cfd","msgstr":"Партнерів може бути кілька, але одружитися можна лише з однією людиною."}
+{"key":"ui/tutorials/dates/steps/2/text","hash":"2f4c74f1c4","msgstr":"Коли стосунки вже є (статус «Пара»), у суботу чи неділю можна запросити на побачення."}
+{"key":"ui/tutorials/dates/steps/3/text","hash":"baa2682009","msgstr":"З кожним партнером можна ходити лише на одне побачення на тиждень."}
+{"key":"ui/tutorials/dates/steps/4/text","hash":"8dd1793414","msgstr":"Якщо в тебе двоє партнерів, можна запросити когось і в суботу, і в неділю."}
+{"key":"ui/tutorials/dates/steps/5/text","hash":"9c94a077cf","msgstr":"Предмети-натхнення для побачень відкривають нові типи побачень!"}
+{"key":"ui/tutorials/dates/steps/6/text","hash":"3c9bef26ae","msgstr":"Предмети-натхнення можна знайти під час різних занять, а також купити в одного з торговців."}
+{"key":"ui/tutorials/dates/steps/7/text","hash":"32bed75bf6","msgstr":"Збирай Фотокартки, коли вперше йдеш з кимось на новий вид побачення!"}
+{"key":"ui/tutorials/dates/steps/8/text","hash":"4fe24d672f","msgstr":"Розвішуй Фотокартки на стінах свого дому, щоб бачити їх будь-коли."}
+{"key":"ui/tutorials/dates/steps/9/text","hash":"78278dc144","msgstr":"Побачення дають більше балів симпатії, ніж подарунки.","note":"Heart Points → «бали симпатії» (узгоджено з «Завдання симпатій»); у 1.0.6 тут був текст про майбутнє оновлення."}
+{"key":"ui/tutorials/void_sight/steps/0/text","hash":"09bd8785dc","msgstr":"Погляд Порожнечі — пасивна навичка, що дозволяє бачити різні матеріали Порожнечі в Шахтах."}
+{"key":"ui/tutorials/void_sight/steps/1/text","hash":"2e10df0590","msgstr":"Камінь Порожнечі можна здобути, розбивши його киркою."}
+{"key":"ui/tutorials/void_sight/steps/2/text","hash":"d44739eeed","msgstr":"Перлини Порожнечі можна знайти, піймавши маленькі тіні риб."}
+{"key":"ui/tutorials/void_sight/steps/3/text","hash":"be8f458ba9","msgstr":"Порошок Порожнечі іноді випадає з переможених монстрів."}
+{"key":"ui/tutorials/void_sight/steps/4/text","hash":"aa986ab4a4","msgstr":"Трави Порожнечі можна знайти й зібрати із землі."}
+{"key":"ui/tutorials/sacred_light/steps/0/text","hash":"2a0201b42e","msgstr":"Священне світло — нове закляття, яке можна закріпити в розділі магії у журналі."}
+{"key":"ui/tutorials/sacred_light/steps/1/text","hash":"8fec47dc1e","msgstr":"Застосуй його на темних поверхах..."}
+{"key":"ui/tutorials/sacred_light/steps/2/text","hash":"cdff14de28","msgstr":"Щоб освітити їх на 5 хвилин!"}
+{"key":"ui/tutorials/apiaries_and_terrariums/steps/0/text","hash":"fc6864b254","msgstr":"Пасіки й тераріуми можна ставити надворі на фермі, а потім населити бджолами й комахами відповідно."}
+{"key":"ui/tutorials/apiaries_and_terrariums/steps/1/text","hash":"0193650281","msgstr":"У пасіки можна селити різних бджіл, щоб отримувати різний мед залежно від рідкісності."}
+{"key":"ui/tutorials/apiaries_and_terrariums/steps/2/text","hash":"7633151f55","msgstr":"Наприклад, якщо поселити в пасіку 4 легендарних бджіл, вона виробляватиме легендарний мед."}
+{"key":"ui/tutorials/apiaries_and_terrariums/steps/3/text","hash":"7fc299c767","msgstr":"Так само тераріуми виробляють Феромони для комах і Наживку для риби залежно від рідкісності комах."}
+{"key":"ui/tutorials/apiaries_and_terrariums/steps/4/text","hash":"b086f3375d","msgstr":"Кожні 3 дні твої бджоли й комахи просять певну їжу."}
+{"key":"ui/tutorials/apiaries_and_terrariums/steps/5/text","hash":"3b3956bd34","msgstr":"Коли їх нагодуєш, бджоли дадуть мед, а комахи — Феромони для комах або Наживку для риби."}
+{"key":"ui/tutorials/apiaries_and_terrariums/steps/6/text","hash":"7625193252","msgstr":"Феромони для комах можна використати на відкритій землі, щоб викликати комаху для лову."}
+{"key":"ui/tutorials/apiaries_and_terrariums/steps/7/text","hash":"ad254ed364","msgstr":"Рідкісність викликаної комахи відповідає рідкісності використаних феромонів."}
+{"key":"ui/tutorials/apiaries_and_terrariums/steps/8/text","hash":"b07e44b1a7","msgstr":"Так само Наживку для риби можна використати на відкритій воді, щоб викликати рибу для вилову."}
+{"key":"ui/tutorials/apiaries_and_terrariums/steps/9/text","hash":"086b34088d","msgstr":"Рідкісність викликаної риби відповідає рідкісності використаної наживки."}
+{"key":"ui/tutorials/apiaries_and_terrariums/steps/10/text","hash":"cd2f2a3bae","msgstr":"І нарешті, Наживкою для риби можна зарядити Рибальську пастку на західному боці Пляжу."}
+{"key":"ui/tutorials/lost_and_found/steps/0/text","hash":"014d71f855","msgstr":"Скринька бюро знахідок стоїть біля сходів, що ведуть до міста."}
+{"key":"ui/tutorials/lost_and_found/steps/1/text","hash":"d727b6f19d","msgstr":"Речі, залишені на мапі, щопонеділка зранку збираються до скриньки."}
+{"key":"ui/tutorials/lost_and_found/steps/2/text","hash":"fa16d4e83d","msgstr":"Це стосується й речей, залишених усередині будівель у місті."}
+{"key":"ui/tutorials/lost_and_found/steps/3/text","hash":"0a69873f12","msgstr":"Не забувай заглядати щопонеділка! Там можуть чекати на тебе сюрпризи."}
+{"key":"ui/tutorials/dark_mines/steps/0/text","hash":"5bf2c87bc2","msgstr":"Глибоко під Руїнами поверхи огорнуті темрявою."}
+{"key":"ui/tutorials/dark_mines/steps/1/text","hash":"75510beab1","msgstr":"Радіус світла росте з кожною частиною містрилової броні, яку ти викуєш і вдягнеш."}
+{"key":"ui/tutorials/dark_mines/steps/2/text","hash":"22f53d4915","msgstr":"На деяких поверхах є кришталеві світильники: вдар по них, щоб освітити всю кімнату."}
+{"key":"ui/tutorials/engagement/steps/0/text","hash":"697f5ebf3b","msgstr":"Відкрий рецепт заручального персня й створи його на ковальській станції!"}
+{"key":"ui/tutorials/engagement/steps/1/text","hash":"5a3b6c54f6","msgstr":"Заручальним перснем можна запросити партнера (на 10 серцях) обговорити майбутнє."}
+{"key":"ui/tutorials/engagement/steps/2/text","hash":"7f7201b741","msgstr":"У цій сцені можна освідчитися або відкласти розмову на потім."}
+{"key":"ui/tutorials/engagement/steps/3/text","hash":"0a7b23cdca","msgstr":"Запускати сцену можна скільки завгодно разів, доки ти не ухвалиш остаточне рішення й не освідчишся."}
+{"key":"ui/tutorials/engagement/steps/4/text","hash":"e711d6c61b","msgstr":"Типово після заручин усі інші романтичні стосунки переходять у статус «Найкращі друзі»."}
+{"key":"ui/tutorials/engagement/steps/5/text","hash":"364111e55a","msgstr":"Цю поведінку можна змінити в розділі «Геймплей» налаштувань будь-коли до заручин."}
+{"key":"ui/tutorials/baby/steps/0/text","hash":"6060154442","msgstr":"Твій партнер носитиме вашого малюка з собою протягом дня."}
+{"key":"ui/tutorials/baby/steps/1/text","hash":"3f301297a8","msgstr":"Малюка можна носити й на спині та за потреби повертати партнерові!"}
+{"key":"ui/tutorials/baby/steps/2/text","hash":"cdb3470d7d","msgstr":"Коли настане час відпочивати, поклади малюка в колиску."}

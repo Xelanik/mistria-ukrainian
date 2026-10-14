@@ -1,0 +1,9 @@
+# Файли гри — НІКОЛИ не комітити
+game-assets/
+mod/
+tools/
+node_modules/
+translations/*.pot
+translations/uk.po
+translations/batches/
+*.log

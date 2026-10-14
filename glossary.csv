@@ -1,0 +1,131 @@
+en,uk,category,note
+Ari,Арі,player,ім'я гравця за замовчуванням; у тексті — токен [Ari] (не перекладати)
+Mistria,Містрія,location,місто/край; відмінюється як Марія (у Містрії)
+Adeline,Аделіна,npc,жін.; ти
+Balor,Балор,npc,чол.; ти
+Caldarus,Кальдарус,npc,чол.; дракон; ти? (можливо «ви» — вирішити за тоном реплік)
+Celine,Селіна,npc,жін.; ти
+Darcy,Дарсі,npc,жін.; нескл.; ти
+Dell,Делл,npc,жін.; нескл.; ти (дитяча; лідерка Драконової варти)
+Dozy,Дозі,npc,чол. (пес-фамільяр); нескл.
+Eiland,Ейланд,npc,чол.; ти
+Elsie,Елсі,npc,жін.; нескл.; ви? (пенсіонерка-світська дама)
+Errol,Ерол,npc,чол.; ти? (куратор музею; можливо «ви»)
+Hayden,Гейден,npc,чол.; ти
+Hemlock,Хемлок,npc,чол.; ти
+Henrietta,Генрієтта,npc,жін. (курка-переможниця)
+Holt,Холт,npc,чол.; ти
+Josephine,Жозефіна,npc,жін.; ти
+Juniper,Джуніпер,npc,жін.; нескл.; ти
+Landen,Ланден,npc,чол.; ти
+Louis,Луї,npc,чол.; нескл.; ти
+Luc,Люк,npc,чол.; ти (дитина)
+Maple,Мейпл,npc,жін.; нескл.; ти (дитина)
+March,Марч,npc,чол.; ти
+Merri,Меррі,npc,жін.; нескл.; ти
+Nora,Нора,npc,жін.; ти
+Olric,Олрік,npc,чол.; ти
+Reina,Рейна,npc,жін.; ти
+Ryis,Райс,npc,чол.; ти
+Seridia,Серідія,npc,жін.; дракон; ти? (можливо «ви»)
+Stillwell,Стілвелл,npc,чол.; ти
+Taliferro,Таліферро,npc,чол.; нескл.; ти
+Terithia,Терітія,npc,жін.; ти
+Valen,Вален,npc,жін. (за діалогами); нескл.; ти
+Vera,Вера,npc,жін.; ти
+Wheedle,Відл,npc,чол.; ти
+Zorel,Зорел,npc,жін. (за діалогами); нескл.; ти
+Bathhouse,Лазня,location,
+Bell Tower,Дзвіниця,location,
+Caldarus' House,Дім Кальдаруса,location,
+The Eastern Road,Східна дорога,location,
+The Deep Woods,Глибокий ліс,location,
+The Dragonsworn Glade,Галявина драконоприсяжних,location,
+The Narrows,Теснина,location,
+Home,Дім,location,
+Western Wing,Західне крило,location,
+Eastern Wing,Східне крило,location,
+Northern Wing,Північне крило,location,
+The Summit,Вершина,location,
+The Western Ruins,Західні руїни,location,
+Seridia's House,Дім Серідії,location,
+The Beach,Пляж,location,
+Tackle Shop,Рибальська крамниця,location,
+Carpenter's Shop,Теслярня,location,
+Sweetwater Farm,Ферма «Солодка Вода»,location,
+Hayden's Shop,Крамниця Гейдена,location,
+Mines Entrance,Вхід до шахт,location,
+Blacksmith's Shop,Кузня,location,
+General Store,Універсальна крамниця,location,
+The Inn,Заїзд,location,
+Sleeping Dragon Inn,Заїзд «Сплячий дракон»,location,
+Celine's Cottage,Котедж Селіни,location,
+Clinic,Клініка,location,
+Manor House,Садиба,location,
+Errol's Cabin,Хатина Ерола,location,
+Museum,Музей,location,
+Archaeology Wing,Археологічне крило,location,
+Insect Wing,Крило комах,location,
+Fish Wing,Крило риб,location,
+Flora Wing,Крило флори,location,
+The Mill,Млин,location,
+The Water Seal,Печать Води,location,"seal — магічна печать; обрано «Печать» (урочистий вжиток, як в Огієнковій Біблії: «сім печатей»); «печатка» — штамп"
+The Earth Seal,Печать Землі,location,
+The Fire Seal,Печать Вогню,location,
+The Ruins Seal,Печать Руїн,location,
+The Void Seal,Печать Порожнечі,location,
+The Priestess' Quarters,Покої жриць,location,
+Narrows Cave,Печера в Теснині,location,
+Beach Cave,Печера на пляжі,location,
+Archaeology,Археологія,skill,
+Blacksmithing,Ковальство,skill,
+Combat,Бій,skill,
+Cooking,Кулінарія,skill,
+Farming,Землеробство,skill,
+Fishing,Риболовля,skill,
+Mining,Гірництво,skill,
+Mistmare,Містмер,skill,ім'я верхової тварини; транслітерація; ? ПОДУМАТИ: остаточну форму вирішити пізніше
+Ranching,Тваринництво,skill,
+Woodcrafting,Деревообробка,skill,
+Animal Festival,Свято тварин,festival,
+Harvest Festival,Свято врожаю,festival,
+Shooting Star Festival,Свято падаючої зірки,festival,
+Spring Festival,Весняне свято,festival,
+Wood,Дерево,renown,ранги міста; складаються з «Зірка»: Diamond Star → Діамантова зірка; узгодити
+Stone,Камінь,renown,
+Copper,Мідь,renown,
+Ruby,Рубін,renown,
+Iron,Залізо,renown,
+Sapphire,Сапфір,renown,
+Silver,Срібло,renown,
+Emerald,Смарагд,renown,
+Gold,Золото,renown,
+Diamond,Діамант,renown,
+Mistril,Містрил,renown,вигаданий метал; Mistril Ingot → злиток містрилу
+Town Rank,Ранг міста,mechanic,
+Renown,Слава,mechanic,"не «Відомість»: відомість = список, множина «відомості» = інформація; у діалогах слово відмінюється («здобути славу»)"
+Dragonguard,Драконяча варта,mechanic,організація дітей (лідер — Dell)
+Saturday Market,Суботній ринок,mechanic,
+Request Board,Дошка запитів,mechanic,
+Capital,Столиця,mechanic,
+Artifact,Артефакт,mechanic,
+Heart,Серце,mechanic,рівень стосунків; уточнити в UI
+Infusion,Інфузія,mechanic,"назва інфузії — родовий відмінок ПІСЛЯ предмета: «Суп міцності» (infusion_order = Noun)"
+Adoption,Прихисток,mechanic,вкладка взяття тварин; кнопка Adopt Animals → Взяти тварин
+Familiar,Фамільяр,mechanic,
+Ingot,Злиток,mechanic,
+Voidite,Воїдит,mechanic,
+Stall,Кіоск,mechanic,ятка на Суботньому ринку; Nora's Stall → Кіоск Нори
+Quest,Завдання,mechanic,quest → завдання; Request (дошка запитів) → запит
+Request,Запит,mechanic,завдання з Дошки запитів
+Tesserae,Тесери,mechanic,валюта; однина — тесера
+Shrine,Святилище,mechanic,святилище дракона; Use Shrine → Вшанувати святилище
+Essence,Есенція,mechanic,підноситься святилищу для відкриття навичок
+Linnet,Ліннет,npc,жін.; баронеса (мати Луї); відмінювання вирішити
+Wiscar,Віскар,npc,чол.; барон (батько Луї)
+Dating,Пара,mechanic,статус стосунків NPC (на відміну від Best Friend → Найкращі друзі)
+Best Friend,Найкращі друзі,mechanic,статус стосунків NPC
+Heart Points,бали симпатії,mechanic,"очки взаємин з NPC; «Heart» у назві рівня — «серце», у назві очок — «симпатія» (узгоджено із «Завдання симпатій»)"
+Blueprint,Креслення,mechanic,"предмет для розміщення будівельного майданчика: «Креслення великого золотого хліва»"
+Spouse,Партнер,mechanic,"нейтральна форма; Fiancé/Fiancée — Наречений/Наречена (в оригіналі окремі рядки)"
+Stone Refinery,Кам'яна очисна,location,"? уточнити разом з предметами (Refined Stone → очищений камінь)"

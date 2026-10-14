@@ -1,0 +1,31 @@
+{
+  "name": "fom-ua",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Українська локалізація Fields of Mistria",
+  "type": "module",
+  "scripts": {
+    "extract": "tsx scripts/extract.ts",
+    "validate": "tsx scripts/validate.ts",
+    "pack": "tsx scripts/pack.ts",
+    "apply": "tsx scripts/apply.ts",
+    "build": "tsx scripts/build.ts",
+    "leakcheck": "tsx scripts/leakcheck.ts",
+    "export-public": "tsx scripts/export-public.ts",
+    "preflight": "tsx scripts/preflight.ts",
+    "deploy": "tsx scripts/deploy.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "gettext-parser": "^9.1.1",
+    "smol-toml": "^1.9.0"
+  },
+  "devDependencies": {
+    "@types/fontkit": "^2.0.9",
+    "@types/gettext-parser": "^9.0.0",
+    "@types/node": "^26.6.4",
+    "fontkit": "^2.0.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
