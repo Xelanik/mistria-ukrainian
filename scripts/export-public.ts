@@ -25,6 +25,7 @@ const include = [
   "scripts",
   "gml",
   "docs",
+  ".github",
   "translations/uk.jsonl",
   "translations/LICENSE.md",
 ];

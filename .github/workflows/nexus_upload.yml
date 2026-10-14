@@ -1,0 +1,65 @@
+# Заливає архів релізу на Nexus Mods (нова версія наявного файлу).
+#
+# Архів збирається локально (потрібна копія гри) і додається до GitHub Release вручну: FoM-UA-<версія>.zip.
+# Коли реліз опубліковано (не чернетку), цей workflow бере архів із релізу й додає його на Nexus.
+#
+# Налаштування (один раз):
+#   1. Settings → Environments → New environment: NEXUS_UPLOAD.
+#   2. У ньому Environment secret NEXUS_TOKEN = Personal API Key з Nexus (Site Settings → API Keys).
+#      Саме secret, не variable; ключ нікому не показувати.
+#   3. У ньому ж Environment variable NEXUS_FILE_ID = ID файлу на сторінці мода (Manage Files → Advanced).
+name: Upload to Nexus Mods
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Тег релізу, архів якого заливати (наприклад v0.1.0)"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  nexus:
+    runs-on: ubuntu-latest
+    environment: NEXUS_UPLOAD
+    env:
+      TAG: ${{ github.event.release.tag_name || inputs.tag }}
+      NEXUS_MOD_ID: "1784"
+    steps:
+      - name: Перевірити налаштування
+        env:
+          NEXUS_FILE_ID: ${{ vars.NEXUS_FILE_ID }}
+          NEXUS_TOKEN: ${{ secrets.NEXUS_TOKEN }}
+        run: |
+          test -n "$NEXUS_FILE_ID" || { echo "::error::Не задано змінну NEXUS_FILE_ID"; exit 1; }
+          test -n "$NEXUS_TOKEN" || { echo "::error::Не задано secret NEXUS_TOKEN"; exit 1; }
+          echo "VERSION=${TAG#v}" >> "$GITHUB_ENV"
+
+      - name: Завантажити архів із релізу
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release download "$TAG" --repo "$GITHUB_REPOSITORY" --pattern "FoM-UA-${VERSION}.zip" --dir .
+
+      - name: Звірити версію в маніфесті з тегом
+        run: |
+          manifest_version=$(unzip -p "FoM-UA-${VERSION}.zip" FoM-UA/manifest.toml | sed -n 's/^version *= *"\(.*\)"/\1/p')
+          test "$manifest_version" = "$VERSION" || { echo "::error::manifest.toml має версію '$manifest_version', тег — '$VERSION'"; exit 1; }
+
+      # Закріплено за комітом (тег v1.0.0-beta.11): сторонній action не має змінитися без нашого відома.
+      - name: Залити на Nexus Mods
+        uses: Nexus-Mods/upload-action@98532f7670c27cbecc78fae03fa3e278147827e2
+        with:
+          api_key: ${{ secrets.NEXUS_TOKEN }}
+          file_id: ${{ vars.NEXUS_FILE_ID }}
+          filename: FoM-UA-${{ env.VERSION }}.zip
+          version: ${{ env.VERSION }}
+          display_name: FoM-UA ${{ env.VERSION }}
+          category: main
+          archive_existing_version: "true"
+          primary_mod_manager_download: "true"
+          allow_mod_manager_download: "true"
+          update_mod_version: "true"
