@@ -29,7 +29,7 @@ export type Edit = {
   /** Розмістити відразу після тексту з цим індексом (через gap пікселів). */
   after?: number;
   gap?: number;
-  /** Збільшити текст у стільки разів (напис завантаження — шрифт гри ×2). */
+  /** Збільшити текст у стільки разів. */
   scale?: number;
   /** Не малювати правіше за цей x (панель обрізана краєм картки). */
   clipRight?: number;
@@ -237,62 +237,4 @@ export function generateCards(assetsDir: string, modDir: string) {
     );
     editCard(assetsDir, join(target, `${name}_ukr.png`), edits);
   }
-}
-
-/**
- * Екран завантаження: птах і напис «Loading…» запечені в спрайт, який рушій завантажує сам (тег manual-load) за мовою
- * (en, fr, es, jp, kr, ru, cn, tw). Для мови, якої він не знає, береться англійський. Робимо `_ukr` у надії, що для
- * кодів поза таблицею рушій шукає `<назва>_<код мови>`; якщо ні, спрайт просто не використовується.
- */
-export function generateLoadingScreen(assetsDir: string, modDir: string) {
-  const sourceDir = join(assetsDir, "animations", "UI NEW", "Loading Screen");
-  const targetDir = join(modDir, "animations", "UI NEW", "Loading Screen");
-  mkdirSync(targetDir, { recursive: true });
-  const target = join(targetDir, "spr_loading_bird_ukr.png");
-  copyFileSync(join(sourceDir, "spr_loading_bird_en.png"), target);
-  const meta = parse(readFileSync(join(sourceDir, "spr_loading_bird_en.meta.toml"), "utf8")) as { asset_properties: object };
-  writeFileSync(
-    join(targetDir, "spr_loading_bird_ukr.meta.toml"),
-    stringify({ meta_properties: { asset_kind: "Animation" }, asset_properties: meta.asset_properties }),
-  );
-  editCard(assetsDir, target, [
-    { region: [92, 20, 258, 56], inks: [[255, 255, 255]], text: "Завантаження...", color: [255, 255, 255], scale: 2 },
-  ]);
-
-  // The vanilla bird + word group is centered over the vine below it; the longer Ukrainian word is not, so shift
-  // the whole group (rows above the vine) until its center matches the vine's center.
-  const image = readPng(target);
-  const splitRow = 56;
-  const extent = (from: number, to: number) => {
-    let min = Infinity, max = -Infinity;
-    for (let y = from; y < to; y++) {
-      for (let x = 0; x < image.width; x++) {
-        if (image.data[(y * image.width + x) * 4 + 3]! === 0) continue;
-        min = Math.min(min, x); max = Math.max(max, x);
-      }
-    }
-    return { min, max };
-  };
-  const group = extent(0, splitRow);
-  const vine = extent(splitRow, image.height);
-  const shift = Math.round((vine.min + vine.max) / 2 - (group.min + group.max) / 2);
-  if (shift !== 0) {
-    for (let y = 0; y < splitRow; y++) {
-      const row = image.data.slice(y * image.width * 4, (y + 1) * image.width * 4);
-      const moved = new Uint8Array(row.length);
-      for (let x = 0; x < image.width; x++) {
-        const to = x + shift;
-        if (to >= 0 && to < image.width) moved.set(row.subarray(x * 4, x * 4 + 4), to * 4);
-      }
-      image.data.set(moved, y * image.width * 4);
-    }
-    writePng(target, image);
-  }
-
-  // The startup screen is chosen by the engine itself (bird.rs), which has a fixed language → sprite table with no
-  // "ukr" entry and falls back to spr_loading_bird_en. The only way to localize it is to replace that file: same
-  // path and the vanilla id, so MOMI overwrites the asset instead of adding a second one.
-  copyFileSync(target, join(targetDir, "spr_loading_bird_en.png"));
-  const vanilla = parse(readFileSync(join(sourceDir, "spr_loading_bird_en.meta.toml"), "utf8"));
-  writeFileSync(join(targetDir, "spr_loading_bird_en.meta.toml"), stringify(vanilla));
 }

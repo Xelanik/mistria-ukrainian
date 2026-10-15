@@ -9,7 +9,7 @@ import { copyFileSync, cpSync, mkdirSync, readFileSync, rmSync, writeFileSync } 
 import { basename, dirname, join, relative } from "node:path";
 import { parse, stringify } from "smol-toml";
 import { assetsDir, gameVersion, poPath, readPo, root } from "./lib";
-import { CARD_SPRITES, generateCards, generateLoadingScreen } from "./cards";
+import { CARD_SPRITES, generateCards } from "./cards";
 import { generateSprites } from "./sprites";
 
 // Фіксовані id, щоб гра й MOMI бачили ті самі ассети між збірками.
@@ -147,7 +147,6 @@ generateSprites(assetsDir(gameVersion()), modDir);
 
 // Картки туторіалів з українським текстом (гра підставляє їх за назвою *_ukr, див. gml/xelanik_fomua.gml).
 generateCards(assetsDir(gameVersion()), modDir);
-generateLoadingScreen(assetsDir(gameVersion()), modDir);
 // Список карток для GML (xelanik_fomua_card_names): гра просить лише ті `_ukr`, що справді є в моді.
 const cardNames = CARD_SPRITES.map((name) => `        "${name}",`);
 writeFileSync(
