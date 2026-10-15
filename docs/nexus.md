@@ -1,17 +1,17 @@
 # Текст сторінки Nexus Mods (заготовка)
 
 **Назва:** FoM-UA — Ukrainian Localization (Українська локалізація)
-**Версія:** 0.1.1 · **Гра:** 1.0.7–1.0.8 · **Автор:** Xelanik · **Код:** https://github.com/Xelanik/mistria-ukrainian
+**Версія:** 0.2.0 · **Гра:** 1.0.7–1.0.8 · **Автор:** Xelanik · **Код:** https://github.com/Xelanik/mistria-ukrainian
 
 ## Українською
 
 Неофіційний фанатський переклад Fields of Mistria українською.
 
-**Що вже перекладено (v0.1):** інтерфейс: меню, налаштування, туторіали з картками, HUD (сезони, дні тижня, календар),
+**Що вже перекладено (v0.2):** інтерфейс: меню, налаштування, туторіали з картками, HUD (сезони, дні тижня, календар),
 крафт і кастомізація, навички, перки, фестивалі, локації, імена й посади мешканців, побачення, інфузії, дзвони,
-тварини. Українські мітки «Рів.» і «Крит».
+тварини. Українські мітки «Рів.» і «Крит». Усі **предмети** (назви й описи): культури, насіння, риба, комахи, страви й напої, ковальство й броня, матеріали, тваринництво, артефакти, меблі, святкові предмети й речі побачень.
 
-**Що буде далі:** предмети (v0.2), квести й листи, сюжет, діалоги мешканців. Усе, що ще не перекладено, гра показує
+**Що буде далі:** квести й листи, сюжет, діалоги мешканців. Усе, що ще не перекладено, гра показує
 англійською.
 
 **Встановлення**
@@ -40,8 +40,8 @@
 
 Unofficial Ukrainian localization for Fields of Mistria (installed via MOMI).
 
-**Translated in v0.1:** the UI (menus, settings, tutorials and tutorial cards, HUD, crafting, customization, skills, perks,
-festivals, locations, NPC names/jobs, dates, infusions, bells, animals). Items, quests,
+**Translated in v0.2:** the UI (menus, settings, tutorials and tutorial cards, HUD, crafting, customization, skills, perks,
+festivals, locations, NPC names/jobs, dates, infusions, bells, animals) and all items (names and descriptions). Quests,
 letters, cutscenes and dialogue come in later versions; anything untranslated stays in English.
 
 **Install:** update MOMI to the latest version (older versions skip mods with GML), put the `FoM-UA` folder into `mods/`,
