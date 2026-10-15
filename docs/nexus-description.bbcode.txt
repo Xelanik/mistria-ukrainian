@@ -1,7 +1,7 @@
 [center][size=6][b]FoM-UA — Українська локалізація[/b][/size]
 [size=3][i]Unofficial Ukrainian translation for Fields of Mistria[/i][/size][/center]
 
-[center][b]Версія мода 0.1.0[/b]  |  [b]Гра 1.0.7–1.0.8[/b]  |  [b]Потрібен MOMI[/b][/center]
+[center][b]Версія мода 0.1.1[/b]  |  [b]Гра 1.0.7–1.0.8[/b]  |  [b]Потрібен MOMI[/b][/center]
 
 [line]
 
@@ -68,7 +68,7 @@
 [line]
 
 [size=5][b]English[/b][/size]
-Unofficial Ukrainian localization for [b]Fields of Mistria[/b], installed via MOMI. Version 0.1.0 translates the [b]UI[/b]: menus, settings, tutorials and tutorial cards, HUD (seasons, weekdays, calendar), crafting, customization, skills, perks, festivals, locations, NPC names and jobs, dates, infusions, bells, animals. Items, quests, letters, cutscenes and dialogue follow in later versions; anything untranslated stays in English.
+Unofficial Ukrainian localization for [b]Fields of Mistria[/b], installed via MOMI. Version 0.1.1 translates the [b]UI[/b]: menus, settings, tutorials and tutorial cards, HUD (seasons, weekdays, calendar), crafting, customization, skills, perks, festivals, locations, NPC names and jobs, dates, infusions, bells, animals. Items, quests, letters, cutscenes and dialogue follow in later versions; anything untranslated stays in English.
 
 [b]Install:[/b] update MOMI to the latest version, put the [b]FoM-UA[/b] folder into [b]mods/[/b], enable it in MOMI and press Apply, then pick Ukrainian in the in-game language menu. The startup loading bird stays in English. Do not enable it together with another mod that adds the [i]ukr[/i] language.
 

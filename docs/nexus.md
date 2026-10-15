@@ -1,7 +1,7 @@
 # Текст сторінки Nexus Mods (заготовка)
 
 **Назва:** FoM-UA — Ukrainian Localization (Українська локалізація)
-**Версія:** 0.1.0 · **Гра:** 1.0.7–1.0.8 · **Автор:** Xelanik · **Код:** https://github.com/Xelanik/mistria-ukrainian
+**Версія:** 0.1.1 · **Гра:** 1.0.7–1.0.8 · **Автор:** Xelanik · **Код:** https://github.com/Xelanik/mistria-ukrainian
 
 ## Українською
 
