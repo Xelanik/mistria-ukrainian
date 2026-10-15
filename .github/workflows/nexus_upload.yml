@@ -51,11 +51,12 @@ jobs:
           fi
           echo "VERSION=${TAG#v}" >> "$GITHUB_ENV"
 
-      # Закріплено за комітом (тег v4.2.2).
-      - name: Отримати вихідний код за тегом релізу
+      # Закріплено за комітом (тег v4.2.2). Для запису лише в changelog беремо main: у старих тегах файлу
+      # docs/nexus-changelog.md ще нема.
+      - name: Отримати вихідний код
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
-          ref: ${{ env.TAG }}
+          ref: ${{ env.CHANGELOG_ONLY == 'true' && 'main' || env.TAG }}
 
       - name: Витягти changelog для версії
         id: changelog
