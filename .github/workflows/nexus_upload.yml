@@ -1,7 +1,12 @@
-# Заливає архів релізу на Nexus Mods (нова версія наявного файлу).
+# Заливає архів релізу на Nexus Mods (нова версія наявного файлу) і додає запис у changelog мода.
 #
 # Архів збирається локально (потрібна копія гри) і додається до GitHub Release вручну: FoM-UA-<версія>.zip.
 # Коли реліз опубліковано (не чернетку), цей workflow бере архів із релізу й додає його на Nexus.
+# Текст changelog береться з docs/nexus-changelog.md (розділ «## <версія>»). Запис для нової версії треба додати
+# в цей файл ДО створення релізу, інакше workflow зупиниться до завантаження файлу.
+#
+# Ручний запуск (workflow_dispatch) з changelog_only = true додає лише запис у changelog, без завантаження файлу
+# (для старих версій, які вийшли до появи цієї автоматизації).
 #
 # Налаштування (один раз):
 #   1. Settings → Environments → New environment: NEXUS_UPLOAD.
@@ -16,8 +21,12 @@ on:
   workflow_dispatch:
     inputs:
       tag:
-        description: "Тег релізу, архів якого заливати (наприклад v0.1.0)"
+        description: "Тег релізу (наприклад v0.2.0)"
         required: true
+      changelog_only:
+        description: "Лише додати запис у changelog на Nexus, без завантаження файлу"
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -29,28 +38,51 @@ jobs:
     env:
       TAG: ${{ github.event.release.tag_name || inputs.tag }}
       NEXUS_MOD_ID: "1784"
+      CHANGELOG_ONLY: ${{ inputs.changelog_only && 'true' || 'false' }}
     steps:
       - name: Перевірити налаштування
         env:
           NEXUS_FILE_ID: ${{ vars.NEXUS_FILE_ID }}
           NEXUS_TOKEN: ${{ secrets.NEXUS_TOKEN }}
         run: |
-          test -n "$NEXUS_FILE_ID" || { echo "::error::Не задано змінну NEXUS_FILE_ID"; exit 1; }
           test -n "$NEXUS_TOKEN" || { echo "::error::Не задано secret NEXUS_TOKEN"; exit 1; }
+          if [ "$CHANGELOG_ONLY" != "true" ]; then
+            test -n "$NEXUS_FILE_ID" || { echo "::error::Не задано змінну NEXUS_FILE_ID"; exit 1; }
+          fi
           echo "VERSION=${TAG#v}" >> "$GITHUB_ENV"
 
+      # Закріплено за комітом (тег v4.2.2).
+      - name: Отримати вихідний код за тегом релізу
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ env.TAG }}
+
+      - name: Витягти changelog для версії
+        id: changelog
+        run: |
+          awk -v v="$VERSION" '$0 == "## " v {f=1; next} /^## / {f=0} f' docs/nexus-changelog.md \
+            | sed 's/\*\*//g' \
+            | sed -e '/./,$!d' \
+            | sed -e :a -e '/^\n*$/{$d;N;ba' -e '}' > changelog.txt
+          test -s changelog.txt || { echo "::error::У docs/nexus-changelog.md немає розділу '## $VERSION' (додайте запис до релізу)"; exit 1; }
+          cat changelog.txt
+          { echo 'text<<CHANGELOG_EOF'; cat changelog.txt; echo 'CHANGELOG_EOF'; } >> "$GITHUB_OUTPUT"
+
       - name: Завантажити архів із релізу
+        if: env.CHANGELOG_ONLY != 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh release download "$TAG" --repo "$GITHUB_REPOSITORY" --pattern "FoM-UA-${VERSION}.zip" --dir .
 
       - name: Звірити версію в маніфесті з тегом
+        if: env.CHANGELOG_ONLY != 'true'
         run: |
           manifest_version=$(unzip -p "FoM-UA-${VERSION}.zip" FoM-UA/manifest.toml | sed -n 's/^version *= *"\(.*\)"/\1/p')
           test "$manifest_version" = "$VERSION" || { echo "::error::manifest.toml має версію '$manifest_version', тег — '$VERSION'"; exit 1; }
 
       # Закріплено за комітом (тег v1.0.0-beta.11): сторонній action не має змінитися без нашого відома.
       - name: Залити на Nexus Mods
+        if: env.CHANGELOG_ONLY != 'true'
         uses: Nexus-Mods/upload-action@98532f7670c27cbecc78fae03fa3e278147827e2
         with:
           api_key: ${{ secrets.NEXUS_TOKEN }}
@@ -63,3 +95,17 @@ jobs:
           primary_mod_manager_download: "true"
           allow_mod_manager_download: "true"
           update_mod_version: "true"
+          mod_id: ${{ env.NEXUS_MOD_ID }}
+          changelog: ${{ steps.changelog.outputs.text }}
+
+      # Лише changelog: той самий запит, що робить upload-action (POST /v3/mods/<id>/changelogs).
+      - name: Додати запис у changelog на Nexus Mods
+        if: env.CHANGELOG_ONLY == 'true'
+        env:
+          NEXUS_TOKEN: ${{ secrets.NEXUS_TOKEN }}
+        run: |
+          jq -n --arg version "$VERSION" --rawfile changelog changelog.txt '{version: $version, changelog: $changelog}' > payload.json
+          curl --fail-with-body -sS -X POST "https://api.nexusmods.com/v3/mods/${NEXUS_MOD_ID}/changelogs" \
+            -H "Content-Type: application/json" -H "User-Agent: FoM-UA-workflow" -H "apikey: ${NEXUS_TOKEN}" \
+            --data @payload.json
+          echo
