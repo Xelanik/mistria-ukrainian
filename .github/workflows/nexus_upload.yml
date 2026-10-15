@@ -13,6 +13,8 @@
 #   2. У ньому Environment secret NEXUS_TOKEN = Personal API Key з Nexus (Site Settings → API Keys).
 #      Саме secret, не variable; ключ нікому не показувати.
 #   3. У ньому ж Environment variable NEXUS_FILE_ID = ID файлу на сторінці мода (Manage Files → Advanced).
+#   4. І NEXUS_MOD_ID = Mod ID з тієї самої вкладки Files (галочка Advanced). Це НЕ номер зі сторінки мода (1784):
+#      API v3 відповідає 404 «Mod not found» на номер із адреси.
 name: Upload to Nexus Mods
 
 on:
@@ -37,7 +39,7 @@ jobs:
     environment: NEXUS_UPLOAD
     env:
       TAG: ${{ github.event.release.tag_name || inputs.tag }}
-      NEXUS_MOD_ID: "1784"
+      NEXUS_MOD_ID: ${{ vars.NEXUS_MOD_ID }}
       CHANGELOG_ONLY: ${{ inputs.changelog_only && 'true' || 'false' }}
     steps:
       - name: Перевірити налаштування
@@ -46,6 +48,7 @@ jobs:
           NEXUS_TOKEN: ${{ secrets.NEXUS_TOKEN }}
         run: |
           test -n "$NEXUS_TOKEN" || { echo "::error::Не задано secret NEXUS_TOKEN"; exit 1; }
+          test -n "$NEXUS_MOD_ID" || { echo "::error::Не задано змінну NEXUS_MOD_ID (Mod ID з вкладки Files → Advanced)"; exit 1; }
           if [ "$CHANGELOG_ONLY" != "true" ]; then
             test -n "$NEXUS_FILE_ID" || { echo "::error::Не задано змінну NEXUS_FILE_ID"; exit 1; }
           fi
