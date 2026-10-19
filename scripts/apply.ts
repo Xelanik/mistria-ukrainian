@@ -7,8 +7,7 @@
 // перезапише зміни при збереженні.
 
 import { readFileSync } from "node:fs";
-import { poPath, readPo, writePo } from "./lib";
-import { gameVersion } from "./lib";
+import { gameVersion, poPath, readPo, writePo } from "./lib";
 
 const file = process.argv[2];
 if (!file) throw new Error("Вкажіть файл JSONL: npm run apply -- <файл.jsonl>");

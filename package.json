@@ -12,8 +12,6 @@
     "build": "tsx scripts/build.ts",
     "leakcheck": "tsx scripts/leakcheck.ts",
     "release": "tsx scripts/release.ts",
-    "media": "tsx scripts/media.ts",
-    "export-public": "tsx scripts/export-public.ts",
     "preflight": "tsx scripts/preflight.ts",
     "deploy": "tsx scripts/deploy.ts",
     "typecheck": "tsc --noEmit"
