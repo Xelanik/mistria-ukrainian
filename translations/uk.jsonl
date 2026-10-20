@@ -834,7 +834,7 @@
 {"key":"Conversations/tali_challenges_active_lines/golden_cookies_challenge_active/5","hash":"ab5df625bc","msgstr":"..."}
 {"key":"Conversations/tali_challenges_active_lines/veggie_sub_sandwich_challenge_active/init","hash":"35eaae6e64","msgstr":"Чи вистачить тобі вміння, щоб приготувати таку складну страву?"}
 {"key":"Conversations/tali_challenges_active_lines/veggie_sub_sandwich_challenge_active/1","hash":"289d87c080","msgstr":"Ми вже в півфіналі."}
-{"key":"Conversations/tali_challenges_active_lines/veggie_sub_sandwich_challenge_active/1/prompts/0","hash":"f7f837b54e","msgstr":"Де взяти рецепт овочевого саба?"}
+{"key":"Conversations/tali_challenges_active_lines/veggie_sub_sandwich_challenge_active/1/prompts/0","hash":"f7f837b54e","msgstr":"Де взяти рецепт овочевого сабсендвіча?"}
 {"key":"Conversations/tali_challenges_active_lines/veggie_sub_sandwich_challenge_active/1/prompts/1","hash":"94ff64bb5d","msgstr":"Мій настрій — тільки перемога."}
 {"key":"Conversations/tali_challenges_active_lines/veggie_sub_sandwich_challenge_active/2","hash":"76cbc4ebee","msgstr":"Здається, рецепт продають у $Заїзді «Сплячий дракон»$."}
 {"key":"Conversations/tali_challenges_active_lines/veggie_sub_sandwich_challenge_active/3","hash":"c1c07ddae6","msgstr":"Стривай, а чому це я тобі з цим допомагаю?"}
@@ -903,7 +903,7 @@
 {"key":"Conversations/tali_challenges/golden_cookies_challenge_turn_in/1","hash":"154a05ced1","msgstr":"Не вірю. Дай-но спробую!"}
 {"key":"Conversations/tali_challenges/golden_cookies_challenge_turn_in/2","hash":"ab5df625bc","msgstr":"..."}
 {"key":"Conversations/tali_challenges/golden_cookies_challenge_turn_in/3","hash":"61d569ce8b","msgstr":"Воно... насправді досить смачне."}
-{"key":"Conversations/tali_challenges/veggie_sub_sandwich_challenge_turn_in/init","hash":"b420962ea3","msgstr":"Я з нетерпінням чекав скуштувати твою версію =овочевого саба=, [Ari]."}
+{"key":"Conversations/tali_challenges/veggie_sub_sandwich_challenge_turn_in/init","hash":"b420962ea3","msgstr":"Я з нетерпінням чекав скуштувати твою версію =овочевого сабсендвіча=, [Ari]."}
 {"key":"Conversations/tali_challenges/veggie_sub_sandwich_challenge_turn_in/1","hash":"2451d954f5","msgstr":"А тепер подивимося..."}
 {"key":"Conversations/tali_challenges/veggie_sub_sandwich_challenge_turn_in/2","hash":"eb9aac3649","msgstr":"Хммм."}
 {"key":"Conversations/tali_challenges/veggie_sub_sandwich_challenge_turn_in/3","hash":"952e41a30e","msgstr":"Так, так. Це цілком прийнятно."}
@@ -6718,7 +6718,7 @@
 {"key":"letters/simmered_daikon_recipe/subject_line","hash":"3b03104052","msgstr":"Рецепт тушкованого дайкону"}
 {"key":"letters/braised_burdock_recipe/subject_line","hash":"81a0af3c8e","msgstr":"Рецепт тушкованого лопуха"}
 {"key":"letters/coconut_milk_recipe/subject_line","hash":"dc7eec84a5","msgstr":"Рецепт кокосового молока"}
-{"key":"letters/toasted_sunflower_seeds_recipe/subject_line","hash":"42f3af56e5","msgstr":"Рецепт смажених соняшникових насінин"}
+{"key":"letters/toasted_sunflower_seeds_recipe/subject_line","hash":"42f3af56e5","msgstr":"Рецепт підсмаженого насіння"}
 {"key":"letters/poached_pear_recipe/subject_line","hash":"f817433099","msgstr":"Рецепт груші в сиропі"}
 {"key":"letters/peaches_and_cream_recipe/subject_line","hash":"55c08173b3","msgstr":"Рецепт персиків із вершками"}
 {"key":"letters/orange_juice_recipe/subject_line","hash":"ca9b8c7931","msgstr":"Рецепт апельсинового соку"}
@@ -6816,8 +6816,8 @@
 {"key":"letters/stone_refinery/subject_line","hash":"7328431b9f","msgstr":"Хвилюючі новини"}
 {"key":"letters/lost_track_of_time_ssa/subject_line","hash":"d835422506","msgstr":"Заглянеш до мене?"}
 {"key":"letters/lost_track_of_time_ssna/subject_line","hash":"d885383fd2","msgstr":"Вип'ємо разом чаю?"}
-{"key":"letters/bell_berry_bakewell_tart_recipe/subject_line","hash":"e90a1ab97e","msgstr":"Рецепт тарта «Бейквелл» з дзвоновими ягодами"}
-{"key":"letters/candied_walnuts_recipe/subject_line","hash":"1b06c458e4","msgstr":"Рецепт волоських горіхів у карамелі"}
+{"key":"letters/bell_berry_bakewell_tart_recipe/subject_line","hash":"e90a1ab97e","msgstr":"Рецепт тарта «Бейквелл»"}
+{"key":"letters/candied_walnuts_recipe/subject_line","hash":"1b06c458e4","msgstr":"Рецепт горіхів у карамелі"}
 {"key":"letters/spirit_mushroom_tea_recipe/subject_line","hash":"3d4ef5e7d3","msgstr":"Рецепт чаю із гриба духів"}
 {"key":"letters/glowberry_cookies_recipe/subject_line","hash":"76444b9408","msgstr":"Рецепт печива з сяйних ягід"}
 {"key":"letters/for_good_ssa/subject_line","hash":"9760e7a0c4","msgstr":"Пообідаємо наодинці?"}
@@ -6870,7 +6870,7 @@
 {"key":"letters/march_break_up/subject_line","hash":"1375f3c097","msgstr":"Гей..."}
 {"key":"letters/reina_break_up/subject_line","hash":"eb10e2963b","msgstr":"Перегортаючи сторінку"}
 {"key":"letters/ryis_break_up/subject_line","hash":"2e10269fe1","msgstr":"Розійдімося"}
-{"key":"letters/seridia_break_up/subject_line","hash":"cd937b0ec4","msgstr":"Ти <m>ПОСМІВ</m><f>ПОСМІЛА</f><n>ПОСМІЛО</n><p>ПОСМІЛО</p>, черв'яче?"}
+{"key":"letters/seridia_break_up/subject_line","hash":"cd937b0ec4","msgstr":"Як ти смієш, черв'яче?"}
 {"key":"letters/valen_break_up/subject_line","hash":"2c7fa71d9d","msgstr":"Час поставити крапку"}
 {"key":"letters/baby_cradle_male/subject_line","hash":"841a5ae306","msgstr":"Дитяча колиска"}
 {"key":"letters/baby_cradle_female/subject_line","hash":"841a5ae306","msgstr":"Дитяча колиска"}
@@ -8825,7 +8825,7 @@
 {"key":"quests/fetch_quests/request_for_breath_of_flame/name","hash":"560e506b6e","msgstr":"Запит на подих полум'я"}
 {"key":"quests/fetch_quests/request_for_diamond/name","hash":"537fd8cba7","msgstr":"Запит на діамант"}
 {"key":"quests/fetch_quests/request_for_lake_trout/name","hash":"64b6c4a4cf","msgstr":"Запит на озерну форель"}
-{"key":"quests/fetch_quests/request_for_bell_berry_bakewell/name","hash":"9b57b94eea","msgstr":"Запит на тарт «Бейквелл» з дзвоновими ягодами"}
+{"key":"quests/fetch_quests/request_for_bell_berry_bakewell/name","hash":"9b57b94eea","msgstr":"Запит на тарт «Бейквелл»"}
 {"key":"quests/fetch_quests/request_for_thorn_vine/name","hash":"2de8ec1631","msgstr":"Запит на колючу ліану"}
 {"key":"quests/fetch_quests/request_for_obsidian/name","hash":"c6e05abf3a","msgstr":"Запит на обсидіан"}
 {"key":"quests/fetch_quests/request_for_gold_ore/name","hash":"a58b232d38","msgstr":"Запит на золоту руду"}
@@ -9560,9 +9560,9 @@
 {"key":"quests/story_quests/unlocking_the_mines_pt_1/name","hash":"ead01eb57f","msgstr":"Стан шахт"}
 {"key":"quests/story_quests/unlocking_the_mines_pt_2/name","hash":"f2bac44b19","msgstr":"Відкриття шахт"}
 {"key":"quests/story_quests/repair_the_bridge/name","hash":"5379c589fe","msgstr":"Ремонт мосту"}
-{"key":"quests/story_quests/the_water_tablet/name","hash":"3795b5fefa","msgstr":"Скрижаль Води"}
-{"key":"quests/story_quests/the_earth_tablet/name","hash":"5966a77621","msgstr":"Скрижаль Землі"}
-{"key":"quests/story_quests/the_fire_tablet/name","hash":"4d21ebac22","msgstr":"Скрижаль Вогню"}
+{"key":"quests/story_quests/the_water_tablet/name","hash":"3795b5fefa","msgstr":"Табличка Води"}
+{"key":"quests/story_quests/the_earth_tablet/name","hash":"5966a77621","msgstr":"Табличка Землі"}
+{"key":"quests/story_quests/the_fire_tablet/name","hash":"4d21ebac22","msgstr":"Табличка Вогню"}
 {"key":"quests/story_quests/procuring_the_sealing_scroll/name","hash":"09ef185902","msgstr":"Здобуття Сувою запечатування"}
 {"key":"quests/story_quests/delivering_the_sealing_scroll/name","hash":"26f758afcd","msgstr":"Доставка Сувою запечатування"}
 {"key":"quests/story_quests/breaking_the_fire_seal/name","hash":"37b9b4d47d","msgstr":"Злам Печаті Вогню"}
@@ -9676,11 +9676,11 @@
 {"key":"quests/story_quests/unlocking_the_mines_pt_2/stages/0/objective_description","hash":"4c85b5e1bc","msgstr":"Зустрінься з Еролом та Ейландом біля входу до шахт."}
 {"key":"quests/story_quests/repair_the_bridge/stages/0/objective_description","hash":"6900eb81d8","msgstr":"Зустрінься з Аделіною біля мосту на Східній дорозі."}
 {"key":"quests/story_quests/repair_the_bridge/stages/1/objective_description","hash":"4e22f59aaa","msgstr":"Поклади потрібні матеріали в Скриньку для пожертв біля мосту, а потім поговори з Аделіною."}
-{"key":"quests/story_quests/the_water_tablet/stages/0/objective_description","hash":"976481e331","msgstr":"Поговори з Ейландом про Скрижаль Води."}
+{"key":"quests/story_quests/the_water_tablet/stages/0/objective_description","hash":"976481e331","msgstr":"Поговори з Ейландом про Табличку Води."}
 {"key":"quests/story_quests/the_water_tablet/stages/1/objective_description","hash":"bdedbfda42","msgstr":"Принеси потрібні предмети Печаті Води."}
-{"key":"quests/story_quests/the_earth_tablet/stages/0/objective_description","hash":"f0b834ac84","msgstr":"Поговори з Джуніпер про Скрижаль Землі."}
+{"key":"quests/story_quests/the_earth_tablet/stages/0/objective_description","hash":"f0b834ac84","msgstr":"Поговори з Джуніпер про Табличку Землі."}
 {"key":"quests/story_quests/the_earth_tablet/stages/1/objective_description","hash":"19ab421b8d","msgstr":"Принеси потрібні предмети Печаті Землі."}
-{"key":"quests/story_quests/the_fire_tablet/stages/0/objective_description","hash":"964d086918","msgstr":"Поговори з Джуніпер про Скрижаль Вогню."}
+{"key":"quests/story_quests/the_fire_tablet/stages/0/objective_description","hash":"964d086918","msgstr":"Поговори з Джуніпер про Табличку Вогню."}
 {"key":"quests/story_quests/procuring_the_sealing_scroll/stages/0/objective_description","hash":"66ce2309ae","msgstr":"Чекай, поки Балор зв'яжеться з тобою щодо Сувою запечатування."}
 {"key":"quests/story_quests/procuring_the_sealing_scroll/stages/1/objective_description","hash":"1558be287a","msgstr":"Зустрінься з Балором у його кімнаті."}
 {"key":"quests/story_quests/procuring_the_sealing_scroll/stages/2/objective_description","hash":"e0f90b7b12","msgstr":"Поклади потрібні предмети в скриню біля воза Балора, потім поговори з Балором."}
@@ -9752,11 +9752,11 @@
 {"key":"quests/tali_challenges/chocolate_cake_challenge/name","hash":"7d840d8333","msgstr":"Випробування «Шоколадний торт»"}
 {"key":"quests/tali_challenges/tide_salad_challenge/name","hash":"cf1ad9c5bd","msgstr":"Випробування «Припливний салат»"}
 {"key":"quests/tali_challenges/omelet_challenge/name","hash":"52b5fefc54","msgstr":"Випробування «Омлет»"}
-{"key":"quests/tali_challenges/bell_berry_bakewell_tart_challenge/name","hash":"014ad4189b","msgstr":"Випробування «Тарт Бейквелл з дзвоновими ягодами»"}
+{"key":"quests/tali_challenges/bell_berry_bakewell_tart_challenge/name","hash":"014ad4189b","msgstr":"Випробування «Тарт Бейквелл»"}
 {"key":"quests/tali_challenges/herb_salad_challenge/name","hash":"ad58f975eb","msgstr":"Випробування «Салат із трав»"}
-{"key":"quests/tali_challenges/incredibly_hot_pot_challenge/name","hash":"b686f2f41e","msgstr":"Випробування «Неймовірно гострий хот-пот»"}
+{"key":"quests/tali_challenges/incredibly_hot_pot_challenge/name","hash":"b686f2f41e","msgstr":"Випробування «Хот-пот»"}
 {"key":"quests/tali_challenges/golden_cookies_challenge/name","hash":"0e48334165","msgstr":"Випробування «Золоте печиво»"}
-{"key":"quests/tali_challenges/veggie_sub_sandwich_challenge/name","hash":"9452be13a0","msgstr":"Випробування «Овочевий саб»"}
+{"key":"quests/tali_challenges/veggie_sub_sandwich_challenge/name","hash":"9452be13a0","msgstr":"Випробування «Овочевий сабсендвіч»"}
 {"key":"quests/tali_challenges/beet_soup_challenge/name","hash":"1d899a3501","msgstr":"Випробування «Буряковий суп»"}
 {"key":"quests/tali_challenges/rice_ball_challenge/description","hash":"4b2e6ddf48","msgstr":"Наше перше кулінарне випробування...\n\nПроста, але ситна «рисова кулька»!"}
 {"key":"quests/tali_challenges/crispy_fried_earthshroom_challenge/description","hash":"fc8b7a6cab","msgstr":"Страва кулінарного випробування цього тижня...\n\nУмамі-«хрусткий смажений землегриб»!"}
@@ -9768,7 +9768,7 @@
 {"key":"quests/tali_challenges/herb_salad_challenge/description","hash":"8d28faa743","msgstr":"Страва сьогоднішнього кулінарного випробування...\n\nНіжний і освіжний «салат із трав»!"}
 {"key":"quests/tali_challenges/incredibly_hot_pot_challenge/description","hash":"bf45601242","msgstr":"Страва сьогоднішнього кулінарного випробування...\n\nНеймовірно пекучий «неймовірно гострий хот-пот»!"}
 {"key":"quests/tali_challenges/golden_cookies_challenge/description","hash":"214e3aded7","msgstr":"Страва кулінарного випробування цього тижня...\n\nНеймовірно смачне «золоте печиво»!"}
-{"key":"quests/tali_challenges/veggie_sub_sandwich_challenge/description","hash":"f4e29123c8","msgstr":"Страва кулінарного випробування цього тижня...\n\nУлюблений «овочевий саб»!"}
+{"key":"quests/tali_challenges/veggie_sub_sandwich_challenge/description","hash":"f4e29123c8","msgstr":"Страва кулінарного випробування цього тижня...\n\nУлюблений «овочевий сабсендвіч»!"}
 {"key":"quests/tali_challenges/beet_soup_challenge/description","hash":"8cfd7c929a","msgstr":"Наша остання страва кулінарного випробування...\n\nЛегендарний «буряковий суп»!"}
 {"key":"quests/tali_challenges/rice_ball_challenge/stages/0/objective_description","hash":"78190b53d8","msgstr":"Віднеси рисову кульку Таліферро."}
 {"key":"quests/tali_challenges/crispy_fried_earthshroom_challenge/stages/0/objective_description","hash":"3f1c1a9cd3","msgstr":"Віднеси хрусткий смажений землегриб Таліферро."}
@@ -9780,7 +9780,7 @@
 {"key":"quests/tali_challenges/herb_salad_challenge/stages/0/objective_description","hash":"ece8b37819","msgstr":"Віднеси салат із трав Таліферро."}
 {"key":"quests/tali_challenges/incredibly_hot_pot_challenge/stages/0/objective_description","hash":"fba37c78e8","msgstr":"Віднеси неймовірно гострий хот-пот Таліферро."}
 {"key":"quests/tali_challenges/golden_cookies_challenge/stages/0/objective_description","hash":"7336639454","msgstr":"Віднеси золоте печиво Таліферро."}
-{"key":"quests/tali_challenges/veggie_sub_sandwich_challenge/stages/0/objective_description","hash":"324036afd7","msgstr":"Віднеси овочевий саб Таліферро."}
+{"key":"quests/tali_challenges/veggie_sub_sandwich_challenge/stages/0/objective_description","hash":"324036afd7","msgstr":"Віднеси овочевий сабсендвіч Таліферро."}
 {"key":"quests/tali_challenges/beet_soup_challenge/stages/0/objective_description","hash":"8205dc5550","msgstr":"Віднеси буряковий суп Таліферро."}
 {"key":"ranching/animals/alpaca/core/name","hash":"0acb9e17da","msgstr":"Альпака"}
 {"key":"ranching/animals/alpaca/core/plural_name","hash":"0acb9e17da","msgstr":"Альпаки"}
