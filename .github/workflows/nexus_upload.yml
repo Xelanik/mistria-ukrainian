@@ -66,6 +66,7 @@ jobs:
         run: |
           awk -v v="$VERSION" '$0 == "## " v {f=1; next} /^## / {f=0} f' docs/nexus-changelog.md \
             | sed 's/\*\*//g' \
+            | sed 's/^- //' \
             | sed -e '/./,$!d' \
             | sed -e :a -e '/^\n*$/{$d;N;ba' -e '}' > changelog.txt
           test -s changelog.txt || { echo "::error::У docs/nexus-changelog.md немає розділу '## $VERSION' (додайте запис до релізу)"; exit 1; }
