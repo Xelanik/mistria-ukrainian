@@ -1,0 +1,38 @@
+# Діагностика: читає changelog мода через API Nexus (v1) і пише записи в лог. Нічого не змінює на Nexus.
+# Запуск вручну: Actions → Check Nexus changelog → Run workflow. Потрібен той самий environment NEXUS_UPLOAD
+# (secret NEXUS_TOKEN). Номер мода на сайті (1784) — у v1 це game-scoped id, а не довгий NEXUS_MOD_ID з v3.
+name: Check Nexus changelog
+
+on:
+  workflow_dispatch:
+    inputs:
+      mod_page_id:
+        description: "Номер мода зі сторінки (адреса .../mods/1784)"
+        required: true
+        default: "1784"
+      game_domain:
+        description: "Домен гри в адресі Nexus"
+        required: true
+        default: "fieldsofmistria"
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    environment: NEXUS_UPLOAD
+    steps:
+      - name: Прочитати changelog через API
+        env:
+          NEXUS_TOKEN: ${{ secrets.NEXUS_TOKEN }}
+          GAME: ${{ inputs.game_domain }}
+          MOD: ${{ inputs.mod_page_id }}
+        run: |
+          test -n "$NEXUS_TOKEN" || { echo "::error::Не задано secret NEXUS_TOKEN"; exit 1; }
+          curl --fail-with-body -sS "https://api.nexusmods.com/v1/games/${GAME}/mods/${MOD}/changelogs.json" \
+            -H "User-Agent: FoM-UA-workflow" -H "apikey: ${NEXUS_TOKEN}" -o changelogs.json
+          echo "Версії в changelog:"
+          jq -r 'keys[]' changelogs.json
+          echo
+          jq -r 'to_entries[] | "== \(.key) ==", (.value[] | "  * " + .), ""' changelogs.json
