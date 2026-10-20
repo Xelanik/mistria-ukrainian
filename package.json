@@ -9,6 +9,7 @@
     "validate": "tsx scripts/validate.ts",
     "pack": "tsx scripts/pack.ts",
     "apply": "tsx scripts/apply.ts",
+    "batch": "tsx scripts/batch.ts",
     "build": "tsx scripts/build.ts",
     "leakcheck": "tsx scripts/leakcheck.ts",
     "release": "tsx scripts/release.ts && tsx scripts/description.ts",

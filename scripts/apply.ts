@@ -31,6 +31,8 @@ for (const { key, msgstr, note } of batch) {
   const entry = byKey.get(key);
   if (!entry) throw new Error(`Немає ключа в uk.po: ${key}`);
   if (entry.msgstr === msgstr && (note === undefined || entry.note === note)) {
+    // --final знімає fuzzy і з уже внесеного такого самого тексту (так знімаємо fuzzy з готового пакета).
+    if (final && entry.fuzzy) entry.fuzzy = false;
     stats.same++;
     continue;
   }
