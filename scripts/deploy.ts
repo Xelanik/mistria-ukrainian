@@ -16,8 +16,8 @@ if (!existsSync(join(gameDir, "FieldsOfMistria.exe"))) {
 // --include-fuzzy передається в validate і build: пробне розгортання з чернетками.
 const extraArgs = process.argv.slice(2).filter((arg) => arg === "--include-fuzzy");
 
-function run(script: string) {
-  const result = spawnSync(process.execPath, ["--import", "tsx", join(root, "scripts", script), ...extraArgs], {
+function run(script: string, args: string[] = []) {
+  const result = spawnSync(process.execPath, ["--import", "tsx", join(root, "scripts", script), ...args], {
     stdio: "inherit",
   });
   if (result.status !== 0) {
@@ -28,8 +28,8 @@ function run(script: string) {
 
 // Публічний uk.jsonl оновлюється з тим самим, що йде в гру, щоб у git не відставав від перевіреного в Poedit.
 run("pack.ts");
-run("validate.ts");
-run("build.ts");
+run("validate.ts", extraArgs);
+run("build.ts", extraArgs);
 // Англійський текст гри в пакеті чи репозиторії поширювати не можна.
 run("leakcheck.ts");
 // Зламаний GML MOMI пропустив би цілком (разом з перекладом), тому без перевірки його в Mods не копіюємо.

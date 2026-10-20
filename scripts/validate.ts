@@ -106,6 +106,12 @@ for (const { key, msgid, msgstr } of translated) {
   const russian = msgstr.match(/[ёъыэЁЪЫЭ]/g);
   if (russian) report(warnings, "російські літери", key, [...new Set(russian)].join(" "));
 
+  // Літерний «\n» у перекладі (два символи) означає, що перенос рядка не перетворено — гра покаже його як текст.
+  if (msgstr.includes(String.fromCharCode(92) + "n")) report(errors, "літерний \\n замість переносу", key, "заміни на справжній перенос рядка");
+  const originalBreaks = msgid.split("\n").length;
+  const translatedBreaks = msgstr.split("\n").length;
+  if (originalBreaks !== translatedBreaks) report(warnings, "кількість переносів рядків", key, `${originalBreaks - 1} → ${translatedBreaks - 1}`);
+
   if (key.startsWith("ui/tutorials/") && key.endsWith("/text")) {
     const lines = wrappedLines(msgstr, TUTORIAL_LINE_WIDTH);
     if (lines > TUTORIAL_MAX_LINES) report(warnings, "туторіал довший за 3 рядки", key, `${lines} рядки`);

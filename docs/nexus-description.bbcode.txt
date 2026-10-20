@@ -1,14 +1,14 @@
 [center][size=6][b]FoM-UA — Українська локалізація[/b][/size]
 [size=3][i]Unofficial Ukrainian translation for Fields of Mistria[/i][/size][/center]
 
-[center][b]Версія мода 0.2.0[/b]  |  [b]Гра 1.0.7–1.0.8[/b]  |  [b]Потрібен MOMI[/b][/center]
+[center][b]Версія мода 0.3.0[/b]  |  [b]Гра 1.0.7–1.0.8[/b]  |  [b]Потрібен MOMI[/b][/center]
 
 [line]
 
 [size=5][b]Що це[/b][/size]
-Неофіційний фанатський переклад Fields of Mistria українською мовою. Перекладено [b]інтерфейс гри[/b] і [b]усі предмети[/b]. Усе, що ще не перекладено, гра показує англійською, тож нічого не ламається.
+Неофіційний фанатський переклад Fields of Mistria українською мовою. Перекладено [b]інтерфейс гри[/b], [b]усі предмети[/b], [b]квести й листи[/b]. Усе, що ще не перекладено, гра показує англійською, тож нічого не ламається.
 
-[size=5][b]Що вже перекладено (v0.2)[/b][/size]
+[size=5][b]Що вже перекладено (v0.3)[/b][/size]
 [list]
 [*]Головне меню, налаштування, повідомлення
 [*]Туторіали й картки до них (з українськими написами)
@@ -18,11 +18,13 @@
 [*]Побачення, інфузії, дзвони, тварини
 [*]Українські мітки «Рів.» і «Крит»
 [*]Предмети (назви й описи): культури, насіння, риба, комахи, страви й напої, ковальство й броня, матеріали, тваринництво, артефакти, меблі всіх наборів, святкові предмети й речі побачень
+[*]Квести: усі запити з Дошки запитів, запити Корони, сюжетні квести й квести симпатії, випробування Стілвелла й Таліферро
+[*]206 листів: рецепти, дні народження, ранги міста, весільні подарунки, розставання
+[*]Бонуси навичок, одяг та аксесуари, тварини (види, масті, прикраси), набори колекцій Музею
 [/list]
 
 [size=5][b]Що буде далі[/b][/size]
 [list]
-[*]Квести, листи, дошка запитів
 [*]Сюжет і кат-сцени
 [*]Щоденні діалоги мешканців, реакції на подарунки, події симпатії
 [/list]
@@ -68,7 +70,7 @@
 [line]
 
 [size=5][b]English[/b][/size]
-Unofficial Ukrainian localization for [b]Fields of Mistria[/b], installed via MOMI. Version 0.2.0 translates the [b]UI[/b] (menus, settings, tutorials and tutorial cards, HUD, crafting, customization, skills, perks, festivals, locations, NPC names and jobs, dates, infusions, bells, animals) and [b]all items[/b] (names and descriptions). Quests, letters, cutscenes and dialogue follow in later versions; anything untranslated stays in English.
+Unofficial Ukrainian localization for [b]Fields of Mistria[/b], installed via MOMI. Version 0.3.0 translates the [b]UI[/b] (menus, settings, tutorials and tutorial cards, HUD, crafting, customization, skills, perks, festivals, locations, NPC names and jobs, dates, infusions, bells, animals) and [b]all items[/b] (names and descriptions). Version 0.3.0 adds quests and the Request Board, 206 letters, skill perks, clothing, animals and Museum sets. Cutscenes and dialogue follow in later versions; anything untranslated stays in English.
 
 [b]Install:[/b] update MOMI to the latest version, put the [b]FoM-UA[/b] folder into [b]mods/[/b], enable it in MOMI and press Apply, then pick Ukrainian in the in-game language menu. The startup loading bird stays in English. Do not enable it together with another mod that adds the [i]ukr[/i] language.
 

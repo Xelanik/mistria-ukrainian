@@ -1,8 +1,8 @@
 // Вносить пакет перекладів у translations/uk.po. Кожен рядок JSONL: {"key": "...", "msgstr": "...", "note"?: "..."}.
 //
-// Запуск: npm run apply -- <файл.jsonl> [--force]
+// Запуск: npm run apply -- <файл.jsonl> [--force] [--final]
 //
-// Усе, що вносить apply, позначається fuzzy: вичитує Олександр у Poedit. Вичитаний рядок (є переклад, немає fuzzy)
+// Усе, що вносить apply, позначається fuzzy (без --final): вичитує Олександр у Poedit. Вичитаний рядок (є переклад, немає fuzzy)
 // не перезаписується, доки не передано --force. Перед запуском закрийте Poedit: він тримає файл у пам'яті й
 // перезапише зміни при збереженні.
 
@@ -12,6 +12,8 @@ import { gameVersion, poPath, readPo, writePo } from "./lib";
 const file = process.argv[2];
 if (!file) throw new Error("Вкажіть файл JSONL: npm run apply -- <файл.jsonl>");
 const force = process.argv.includes("--force");
+// --final: пакет вносимо без fuzzy (рішення автора: вичитка пізніше).
+const final = process.argv.includes("--final");
 
 const batch = readFileSync(file, "utf8")
   .split(/\r?\n/)
@@ -40,7 +42,7 @@ for (const { key, msgstr, note } of batch) {
   if (entry.msgstr) stats.changed++;
   else stats.added++;
   entry.msgstr = msgstr;
-  entry.fuzzy = true;
+  entry.fuzzy = !final;
   if (note !== undefined) entry.note = note;
 }
 

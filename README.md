@@ -4,9 +4,9 @@
 [Mods of Mistria Installer (MOMI)](https://github.com/Garethp/Mods-of-Mistria-Installer).
 Репозиторій: https://github.com/Xelanik/mistria-ukrainian · помилки й пропозиції: [Issues](https://github.com/Xelanik/mistria-ukrainian/issues).
 
-**Версія мода 0.2.0 ↔ версія гри 1.0.7–1.0.8.**
+**Версія мода 0.3.0 ↔ версія гри 1.0.7–1.0.8.**
 
-## Що перекладено (v0.2)
+## Що перекладено (v0.3)
 
 Інтерфейс: меню, налаштування, туторіали з картками, HUD (сезони, дні тижня, календар), крафт і кастомізація,
 навички, перки, фестивалі, локації, мешканці (імена й посади), побачення, інфузії, дзвони, тварини.
@@ -14,8 +14,11 @@
 **Предмети** (назви й описи): культури, насіння, риба, комахи, страви й напої, ковальство й броня, матеріали,
 тваринництво, артефакти, меблі всіх наборів, святкові предмети й речі побачень.
 
-Діалоги, кат-сцени, квести й листи — у наступних версіях. Усе, що ще не перекладено, гра показує
-англійською.
+**Квести й листи:** усі запити з Дошки запитів (назви, описи, цілі, репліки при здачі), запити Корони, сюжетні квести й
+квести симпатії, випробування Стілвелла й Таліферро, 206 листів. Також бонуси навичок, одяг та аксесуари, тварини
+(види, масті, прикраси) і набори колекцій Музею.
+
+Діалоги й кат-сцени — у наступних версіях. Усе, що ще не перекладено, гра показує англійською.
 
 ## Встановлення
 
@@ -69,9 +72,9 @@ Poedit відновлюється командою `npm run extract`. Прави
 # English
 
 Unofficial fan mod adding a Ukrainian localization to Fields of Mistria, installed via
-[MOMI](https://github.com/Garethp/Mods-of-Mistria-Installer). Mod 0.2.0 targets game 1.0.7-1.0.8. This release translates the UI
+[MOMI](https://github.com/Garethp/Mods-of-Mistria-Installer). Mod 0.3.0 targets game 1.0.7-1.0.8. This release translates the UI
 (menus, settings, tutorials, HUD, crafting, perks, locations, NPC names, dates, animals) and all items (names and
-descriptions); dialogues, cutscenes, quests and letters follow in later versions, and untranslated text stays in English. Install: update MOMI, put the
+descriptions), plus (0.3) quests and the Request Board, 206 letters, skill perks, clothing, animals and Museum sets; dialogues and cutscenes follow in later versions, and untranslated text stays in English. Install: update MOMI, put the
 `FoM-UA` folder into `mods/`, enable it in MOMI and pick Ukrainian in the in-game language menu. Do not enable it alongside
 another mod that adds the `ukr` language. The startup loading bird stays in English (the engine reads it from a
 standalone PNG that stable MOMI 0.16.5 cannot replace). Code is MIT; the translation is CC BY-NC-SA 4.0. The repository contains no
