@@ -37,15 +37,27 @@ if (command === "view") {
   const numbered = todo.map((entry, i) => ({ entry, n: i + 1 }));
   numbered.sort((a, b) => order.get(sectionOf(a.entry.key))! - order.get(sectionOf(b.entry.key))! || a.n - b.n);
 
+  // У кат-сценах мовці змінюються всередині секції: позначаємо кожну зміну таблиці (`### …`) і мовця (`> …`).
   const lines: string[] = [];
   let last = "";
+  let lastTable = "";
+  let lastSpeaker = "";
   for (const { entry, n } of numbered) {
     const section = sectionOf(entry.key);
+    const speaker = entry.comments.find((c) => c.startsWith("speaker:"))?.replace("speaker: ", "") ?? "";
+    const table = entry.comments[0] ?? "";
     if (section !== last) {
-      const speaker = entry.comments.find((c) => c.startsWith("speaker:"))?.replace("speaker: ", "");
       lines.push("", `## ${section}${speaker ? ` | ${voices.get(speaker) ?? speaker}` : ""}`);
       last = section;
+      lastTable = "";
     }
+    if (table !== lastTable) {
+      lines.push(`### ${table.replace(/^.*\[/, "[")}`);
+      lastTable = table;
+      lastSpeaker = "";
+    }
+    if (speaker && speaker !== lastSpeaker) lines.push(`> ${voices.get(speaker) ?? speaker}`);
+    lastSpeaker = speaker || lastSpeaker;
     lines.push(`${n}|${entry.key.split("/").slice(3).join("/")}|${entry.msgid.split("\n").join(backslashN)}`);
   }
   writeFileSync(join(dir, `${name}-view.txt`), lines.join("\n") + "\n");
