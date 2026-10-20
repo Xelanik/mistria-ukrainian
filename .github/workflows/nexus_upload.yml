@@ -6,7 +6,10 @@
 # в цей файл ДО створення релізу, інакше workflow зупиниться до завантаження файлу.
 #
 # Ручний запуск (workflow_dispatch) з changelog_only = true додає лише запис у changelog, без завантаження файлу
-# (для старих версій, які вийшли до появи цієї автоматизації).
+# (для старих версій, які вийшли до появи цієї автоматизації). З description_only = true оновлює лише опис мода.
+#
+# Опис сторінки мода (BBCode) збирається з шаблону docs/nexus-description.bbcode.txt (scripts/description.ts) і
+# відправляється PATCH /v3/mods/<id> після кожного релізу. Правити текст опису — у шаблоні, а не на сайті Nexus.
 #
 # Налаштування (один раз):
 #   1. Settings → Environments → New environment: NEXUS_UPLOAD.
@@ -29,6 +32,10 @@ on:
         description: "Лише додати запис у changelog на Nexus, без завантаження файлу"
         type: boolean
         default: false
+      description_only:
+        description: "Лише оновити опис мода на Nexus (з шаблону docs/nexus-description.bbcode.txt на main), без файлу й changelog"
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -41,6 +48,7 @@ jobs:
       TAG: ${{ github.event.release.tag_name || inputs.tag }}
       NEXUS_MOD_ID: ${{ vars.NEXUS_MOD_ID }}
       CHANGELOG_ONLY: ${{ inputs.changelog_only && 'true' || 'false' }}
+      DESCRIPTION_ONLY: ${{ inputs.description_only && 'true' || 'false' }}
     steps:
       - name: Перевірити налаштування
         env:
@@ -49,7 +57,7 @@ jobs:
         run: |
           test -n "$NEXUS_TOKEN" || { echo "::error::Не задано secret NEXUS_TOKEN"; exit 1; }
           test -n "$NEXUS_MOD_ID" || { echo "::error::Не задано змінну NEXUS_MOD_ID (Mod ID з вкладки Files → Advanced)"; exit 1; }
-          if [ "$CHANGELOG_ONLY" != "true" ]; then
+          if [ "$CHANGELOG_ONLY" != "true" ] && [ "$DESCRIPTION_ONLY" != "true" ]; then
             test -n "$NEXUS_FILE_ID" || { echo "::error::Не задано змінну NEXUS_FILE_ID"; exit 1; }
           fi
           echo "VERSION=${TAG#v}" >> "$GITHUB_ENV"
@@ -59,10 +67,11 @@ jobs:
       - name: Отримати вихідний код
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
-          ref: ${{ env.CHANGELOG_ONLY == 'true' && 'main' || env.TAG }}
+          ref: ${{ (env.CHANGELOG_ONLY == 'true' || env.DESCRIPTION_ONLY == 'true') && 'main' || env.TAG }}
 
       - name: Витягти changelog для версії
         id: changelog
+        if: env.DESCRIPTION_ONLY != 'true'
         run: |
           awk -v v="$VERSION" '$0 == "## " v {f=1; next} /^## / {f=0} f' docs/nexus-changelog.md \
             | sed 's/\*\*//g' \
@@ -74,20 +83,20 @@ jobs:
           { echo 'text<<CHANGELOG_EOF'; cat changelog.txt; echo 'CHANGELOG_EOF'; } >> "$GITHUB_OUTPUT"
 
       - name: Завантажити архів із релізу
-        if: env.CHANGELOG_ONLY != 'true'
+        if: env.CHANGELOG_ONLY != 'true' && env.DESCRIPTION_ONLY != 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh release download "$TAG" --repo "$GITHUB_REPOSITORY" --pattern "FoM-UA-${VERSION}.zip" --dir .
 
       - name: Звірити версію в маніфесті з тегом
-        if: env.CHANGELOG_ONLY != 'true'
+        if: env.CHANGELOG_ONLY != 'true' && env.DESCRIPTION_ONLY != 'true'
         run: |
           manifest_version=$(unzip -p "FoM-UA-${VERSION}.zip" FoM-UA/manifest.toml | sed -n 's/^version *= *"\(.*\)"/\1/p')
           test "$manifest_version" = "$VERSION" || { echo "::error::manifest.toml має версію '$manifest_version', тег — '$VERSION'"; exit 1; }
 
       # Закріплено за комітом (тег v1.0.0-beta.11): сторонній action не має змінитися без нашого відома.
       - name: Залити на Nexus Mods
-        if: env.CHANGELOG_ONLY != 'true'
+        if: env.CHANGELOG_ONLY != 'true' && env.DESCRIPTION_ONLY != 'true'
         uses: Nexus-Mods/upload-action@98532f7670c27cbecc78fae03fa3e278147827e2
         with:
           api_key: ${{ secrets.NEXUS_TOKEN }}
@@ -114,3 +123,22 @@ jobs:
             -H "Content-Type: application/json" -H "User-Agent: FoM-UA-workflow" -H "apikey: ${NEXUS_TOKEN}" \
             --data @payload.json
           echo
+
+      # Опис сторінки мода: той самий шаблон docs/nexus-description.bbcode.txt, що й `npm run description`
+      # (версія з package.json, версія гри з CHANGELOG.md). PATCH /v3/mods/<id> змінює лише поле description.
+      - name: Зібрати опис мода з шаблону
+        if: env.CHANGELOG_ONLY != 'true'
+        run: |
+          npm ci --ignore-scripts --no-audit --no-fund
+          npx tsx scripts/description.ts
+
+      - name: Оновити опис мода на Nexus Mods
+        if: env.CHANGELOG_ONLY != 'true'
+        env:
+          NEXUS_TOKEN: ${{ secrets.NEXUS_TOKEN }}
+        run: |
+          jq -n --rawfile description release/nexus-description.bbcode.txt '{description: $description}' > description.json
+          curl --fail-with-body -sS -X PATCH "https://api.nexusmods.com/v3/mods/${NEXUS_MOD_ID}" \
+            -H "Content-Type: application/json" -H "User-Agent: FoM-UA-workflow" -H "apikey: ${NEXUS_TOKEN}" \
+            --data @description.json
+          echo "Опис мода оновлено"
