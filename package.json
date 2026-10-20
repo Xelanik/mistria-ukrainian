@@ -11,7 +11,8 @@
     "apply": "tsx scripts/apply.ts",
     "build": "tsx scripts/build.ts",
     "leakcheck": "tsx scripts/leakcheck.ts",
-    "release": "tsx scripts/release.ts",
+    "release": "tsx scripts/release.ts && tsx scripts/description.ts",
+    "description": "tsx scripts/description.ts",
     "preflight": "tsx scripts/preflight.ts",
     "deploy": "tsx scripts/deploy.ts",
     "typecheck": "tsc --noEmit"
