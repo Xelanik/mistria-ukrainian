@@ -2,7 +2,7 @@
 
 Неофіційний фанатський мод, що додає в Fields of Mistria українську мову. Встановлюється через
 [Mods of Mistria Installer (MOMI)](https://github.com/Garethp/Mods-of-Mistria-Installer).
-Репозиторій: https://github.com/Xelanik/mistria-ukrainian · помилки й пропозиції: [Issues](https://github.com/Xelanik/mistria-ukrainian/issues).
+Репозиторій: https://github.com/Xelanik/mistria-ukrainian · помилки й пропозиції: [Issues](https://github.com/Xelanik/mistria-ukrainian/issues). Спільнота, допомога з установкою, тести й вичитка — на [Discord-сервері FoM-UA](https://discord.gg/QEB9hYBhmm); як допомогти — у [CONTRIBUTING.md](CONTRIBUTING.md).
 
 **Версія мода 0.4.0 ↔ версія гри 1.0.7–1.0.8.**
 

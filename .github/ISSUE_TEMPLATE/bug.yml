@@ -1,0 +1,43 @@
+name: Помилка мода
+description: Вилет, мод не застосовується, англійський текст замість українського, «квадратики»
+title: "[Баг] "
+labels: ["баг"]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Що сталося
+      options:
+        - Гра вилітає
+        - Мод не застосовується або MOMI його пропускає
+        - Замість українського тексту англійський
+        - Текст не вміщається
+        - Квадратики або дивні символи
+        - Інше
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Опис і як повторити
+      description: Де саме (меню, діалог, предмет, квест) і які кроки. Новий це сейв чи старий?
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Версії мода, гри й MOMI
+      placeholder: "мод 0.4.0, гра 1.0.8, MOMI 0.16.5"
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Скриншот
+      description: Перетягніть зображення сюди.
+  - type: textarea
+    id: log
+    attributes:
+      label: Журнал (за потреби)
+      description: Якщо гра вилетіла, вставте вміст `error_log.json` з теки `%LOCALAPPDATA%\FieldsOfMistria` (якщо файл є).
+      render: text

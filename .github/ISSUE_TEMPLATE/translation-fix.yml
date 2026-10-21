@@ -1,0 +1,76 @@
+name: Правка перекладу
+description: Помилка, русизм, незграбне формулювання чи текст, що не вміщається
+title: "[Переклад] "
+labels: ["переклад"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Дякуємо, що допомагаєте! Не копіюйте текст з інших перекладів (модів чи офіційних локалізацій) і не вставляйте довгих шматків оригінального тексту гри.
+  - type: dropdown
+    id: where
+    attributes:
+      label: Де це в грі
+      options:
+        - Меню / інтерфейс
+        - Предмет (назва або опис)
+        - Квест або Дошка запитів
+        - Лист
+        - Діалог або сюжетна сцена
+        - Інше
+    validations:
+      required: true
+  - type: textarea
+    id: where-detail
+    attributes:
+      label: Точніше про місце
+      description: Предмет, квест, хто говорить, у якій сцені тощо.
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Як зараз (український текст, як він показаний у грі)
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Як краще
+    validations:
+      required: true
+  - type: dropdown
+    id: reason
+    attributes:
+      label: Чому
+      options:
+        - Помилка або неточність
+        - Русизм
+        - Неприродно або незграбно
+        - Не вміщається
+        - Не за глосарієм
+        - Не той рід або «ти/ви»
+        - Інше
+    validations:
+      required: true
+  - type: input
+    id: original
+    attributes:
+      label: Кілька слів англійського оригіналу (за потреби)
+      description: Коротко, не більше кількох слів.
+  - type: input
+    id: versions
+    attributes:
+      label: Версії мода й гри
+      placeholder: "мод 0.4.0, гра 1.0.8"
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Скриншот
+      description: Перетягніть зображення сюди.
+  - type: input
+    id: credit
+    attributes:
+      label: Як вас вказати в подяках (необов'язково)
