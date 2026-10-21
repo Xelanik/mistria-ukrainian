@@ -36,12 +36,17 @@ on:
         description: "Лише оновити опис мода на Nexus (з шаблону docs/nexus-description.bbcode.txt на main), без файлу й changelog"
         type: boolean
         default: false
+      discord_only:
+        description: "Лише надіслати оголошення про тег у Discord (для перевірки вебхука), без Nexus"
+        type: boolean
+        default: false
 
 permissions:
   contents: read
 
 jobs:
   nexus:
+    if: ${{ !inputs.discord_only }}
     runs-on: ubuntu-latest
     environment: NEXUS_UPLOAD
     env:
@@ -142,3 +147,61 @@ jobs:
             -H "Content-Type: application/json" -H "User-Agent: FoM-UA-workflow" -H "apikey: ${NEXUS_TOKEN}" \
             --data @description.json
           echo "Опис мода оновлено"
+
+  # Оголошення про реліз у Discord (вебхук каналу #оголошення). Іде ПІСЛЯ успішної заливки на Nexus, щоб посилання
+  # вже вели на нову версію. Пре-релізи й чернетки не оголошуються. Ручний запуск з discord_only = true надсилає
+  # оголошення для вказаного тегу без Nexus (щоб перевірити вебхук).
+  # Налаштування (один раз): Discord → канал оголошень → Edit Channel → Integrations → Webhooks → New Webhook → Copy
+  # Webhook URL; у репозиторії Settings → Secrets and variables → Actions → New repository secret: DISCORD_WEBHOOK_URL.
+  # Посилання вебхука — секрет: хто його має, може писати в канал від імені сервера.
+  discord:
+    needs: nexus
+    if: ${{ !cancelled() && (inputs.discord_only || (needs.nexus.result == 'success' && github.event_name == 'release' && !github.event.release.prerelease)) }}
+    runs-on: ubuntu-latest
+    env:
+      TAG: ${{ github.event.release.tag_name || inputs.tag }}
+    steps:
+      - name: Перевірити налаштування
+        id: check
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          if [ -z "$DISCORD_WEBHOOK_URL" ]; then
+            echo "::warning::Не задано secret DISCORD_WEBHOOK_URL, оголошення в Discord не надіслано"
+            echo "send=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "send=true" >> "$GITHUB_OUTPUT"
+          fi
+          echo "VERSION=${TAG#v}" >> "$GITHUB_ENV"
+
+      - name: Отримати вихідний код
+        if: steps.check.outputs.send == 'true'
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ env.TAG }}
+
+      - name: Надіслати оголошення
+        if: steps.check.outputs.send == 'true'
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          awk -v v="$VERSION" '$0 == "## " v {f=1; next} /^## / {f=0} f' docs/nexus-changelog.md \
+            | sed -e '/./,$!d' > announce.txt
+          test -s announce.txt || { echo "::error::У docs/nexus-changelog.md немає розділу '## $VERSION'"; exit 1; }
+          release_url="https://github.com/${GITHUB_REPOSITORY}/releases/tag/${TAG}"
+          nexus_url="https://www.nexusmods.com/fieldsofmistria/mods/1784"
+          jq -n --arg version "$VERSION" --arg url "$release_url" --arg nexus "$nexus_url" --rawfile text announce.txt \
+            --arg avatar "https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/docs/art/steam-guide-icon-512.png" '{
+              username: "FoM-UA",
+              avatar_url: $avatar,
+              allowed_mentions: {parse: []},
+              embeds: [{
+                title: ("Вийшла нова версія FoM-UA " + $version),
+                url: $url,
+                color: 3111914,
+                description: (($text | .[0:3500]) + "\n\n[Завантажити на Nexus Mods](" + $nexus + ") · [Реліз на GitHub](" + $url + ")\nОновіть MOMI до останньої версії й застосуйте мод."),
+                footer: {text: "Українська локалізація Fields of Mistria"}
+              }]
+            }' > discord.json
+          curl --fail-with-body -sS -H "Content-Type: application/json" -X POST "$DISCORD_WEBHOOK_URL" --data @discord.json
+          echo "Оголошення надіслано"
