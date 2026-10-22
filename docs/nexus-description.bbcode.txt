@@ -2,7 +2,7 @@
 [size=3][i]Unofficial Ukrainian translation for Fields of Mistria[/i][/size][/center]
 [center][b]Версія мода {{version}}[/b]  |  [b]Гра {{game}}[/b]  |  [b]Потрібен MOMI[/b][/center]
 [line]
-Неофіційний фанатський переклад Fields of Mistria українською мовою. Перекладено [b]інтерфейс гри[/b], [b]усі предмети[/b], [b]квести й листи[/b], [b]сюжет[/b], [b]весілля й стосунки[/b], [b]п'ятничні вечори в Заїзді[/b] та [b]усі чотири свята[/b]. Усе, що ще не перекладено, гра показує англійською, тож нічого не ламається.
+Неофіційний фанатський переклад Fields of Mistria українською мовою. Перекладено [b]інтерфейс гри[/b], [b]усі предмети[/b], [b]квести й листи[/b], [b]сюжет[/b], [b]весілля й стосунки[/b], [b]п'ятничні вечори в Заїзді[/b], [b]усі чотири свята[/b] та [b]події симпатії всіх партнерів[/b]. Усе, що ще не перекладено, гра показує англійською, тож нічого не ламається.
 
 [size=5][b]Що вже перекладено (v{{short}})[/b][/size]
 [list]
@@ -23,10 +23,11 @@
 [*]Щоденні розмови містечка (пляж, сезони, ранок і вечір) і всі п'ятничні вечори в Заїзді: карти, «Дракони й драми», книжковий клуб, шаради та інші[/*]
 [*]Свята: Весняне свято, Свято тварин, Свято падаючої зірки (побачення на Вершині з кожним партнером), Свято врожаю — кат-сцени, нагородження й репліки мешканців[/*]
 [*]Розмови містян після фіналу, міні-сюжети мешканців, розмови з партнером про дитину[/*]
+[*]Події симпатії дванадцяти партнерів: сцени на різних рівнях сердець, гілки дружби й романтики, подарунок на 10 сердець, освідчення[/*]
 [/list]
 [size=5][b]Що буде далі[/b][/size]
 [list]
-[*]Події симпатії, групові розмови, решта щоденних діалогів мешканців[/*]
+[*]Сцени весілля й дітей, групові розмови, решта щоденних діалогів мешканців[/*]
 [/list]
 [line]
 [size=5][b]Встановлення[/b][/size]
@@ -61,7 +62,7 @@
 Переклад — CC BY-NC-SA 4.0, код — MIT. Автор: Xelanik. Fields of Mistria належить NPC Studio; проєкт неофіційний і не пов'язаний з NPC Studio.
 [line]
 [b][size=5]English[/size][/b]
-Unofficial Ukrainian localization for [b]Fields of Mistria[/b], installed via MOMI. Version {{version}} translates the [b]UI[/b] (menus, settings, tutorials and tutorial cards, HUD, crafting, customization, skills, skill perks, festivals, locations, NPC names and jobs, dates, infusions, bells, animals), [b]all items[/b] (names and descriptions), quests and the Request Board, 206 letters, clothing, animals and Museum sets, the main story cutscenes, weddings and relationships, Friday nights at the Inn and all four festivals. Heart events, group conversations and the rest of the daily dialogue follow in later versions; anything untranslated stays in English.
+Unofficial Ukrainian localization for [b]Fields of Mistria[/b], installed via MOMI. Version {{version}} translates the [b]UI[/b] (menus, settings, tutorials and tutorial cards, HUD, crafting, customization, skills, skill perks, festivals, locations, NPC names and jobs, dates, infusions, bells, animals), [b]all items[/b] (names and descriptions), quests and the Request Board, 206 letters, clothing, animals and Museum sets, the main story cutscenes, weddings and relationships, Friday nights at the Inn, all four festivals and the heart events of all twelve romanceable characters. Wedding and children cutscenes, group conversations and the rest of the daily dialogue follow in later versions; anything untranslated stays in English.
 
 [b]Install:[/b] update MOMI to the latest version, put the [b]FoM-UA[/b] folder into [b]mods/[/b], enable it in MOMI and press Apply, then pick Ukrainian in the in-game language menu. The startup loading bird stays in English. Do not enable it together with another mod that adds the [i]ukr[/i] language.
 
