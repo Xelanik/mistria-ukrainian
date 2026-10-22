@@ -67,10 +67,10 @@ jobs:
           fi
           echo "VERSION=${TAG#v}" >> "$GITHUB_ENV"
 
-      # Закріплено за комітом (тег v4.2.2). Для запису лише в changelog беремо main: у старих тегах файлу
+      # Закріплено за комітом (тег v7.0.1, Node 24). Для запису лише в changelog беремо main: у старих тегах файлу
       # docs/nexus-changelog.md ще нема.
       - name: Отримати вихідний код
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           ref: ${{ (env.CHANGELOG_ONLY == 'true' || env.DESCRIPTION_ONLY == 'true') && 'main' || env.TAG }}
 
@@ -176,7 +176,7 @@ jobs:
 
       - name: Отримати вихідний код
         if: steps.check.outputs.send == 'true'
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           ref: ${{ env.TAG }}
 
