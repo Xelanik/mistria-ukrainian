@@ -4,9 +4,9 @@
 [Mods of Mistria Installer (MOMI)](https://github.com/Garethp/Mods-of-Mistria-Installer).
 Репозиторій: https://github.com/Xelanik/mistria-ukrainian · помилки й пропозиції: [Issues](https://github.com/Xelanik/mistria-ukrainian/issues). Спільнота, допомога з установкою, тести й вичитка — на [Discord-сервері FoM-UA](https://discord.gg/QEB9hYBhmm); як допомогти — у [CONTRIBUTING.md](CONTRIBUTING.md).
 
-**Версія мода 0.5.0 ↔ версія гри 1.0.7–1.0.8.**
+**Версія мода 0.8.0 ↔ версія гри 1.0.7–1.0.8.**
 
-## Що перекладено (v0.5)
+## Що перекладено (v0.8)
 
 Інтерфейс: меню, налаштування, туторіали з картками, HUD (сезони, дні тижня, календар), крафт і кастомізація,
 навички, перки, фестивалі, локації, мешканці (імена й посади), побачення, інфузії, дзвони, тварини.
@@ -20,9 +20,15 @@
 
 **Сюжет і місто (0.4):** сюжетні кат-сцени, ремонт і розвиток міста, підписи до речей у світі, підказки печатей, туторіальні репліки, запрошення на свята.
 
-**Весілля й п'ятничні вечори (0.5):** заручини, підготовка до весілля з усіма партнерами, річниці, дні народження гравця й дитини, розставання, щоденні розмови містечка (пляж, сезони, ранок і вечір) і всі п'ятничні вечори в Заїзді.
+**Весілля й п'ятничні вечори (0.5):** заручини, підготовка до весілля з усіма партнерами, річниці, дні народження гравця й дитини, розставання, щоденні розмови містечка (пляж, сезони, ранок і вечір) і всі п'ятничні вечори в Корчмі.
 
-Свята, події симпатії й решта щоденних діалогів — у наступних версіях. Усе, що ще не перекладено, гра показує англійською.
+**Свята (0.6):** Весняне свято, Свято тварин, Свято падаючої зірки, Свято врожаю; розмови після фіналу, міні-сюжети мешканців, розмови про дитину.
+
+**Події симпатії (0.7):** сцени на різних рівнях сердець з усіма дванадцятьма партнерами, освідчення.
+
+**Весілля, діти й групові розмови (0.8):** церемонія й тости з кожним партнером, народження дитини, сон із Великим птахом, понад двісті розмов мешканців між собою.
+
+Решта щоденних діалогів — у наступних версіях. Усе, що ще не перекладено, гра показує англійською.
 
 ## Встановлення
 
@@ -76,9 +82,9 @@ Poedit відновлюється командою `npm run extract`. Прави
 # English
 
 Unofficial fan mod adding a Ukrainian localization to Fields of Mistria, installed via
-[MOMI](https://github.com/Garethp/Mods-of-Mistria-Installer). Mod 0.5.0 targets game 1.0.7-1.0.8. This release translates the UI
+[MOMI](https://github.com/Garethp/Mods-of-Mistria-Installer). Mod 0.8.0 targets game 1.0.7-1.0.8. This release translates the UI
 (menus, settings, tutorials, HUD, crafting, perks, locations, NPC names, dates, animals) and all items (names and
-descriptions), plus (0.3) quests and the Request Board, 206 letters, skill perks, clothing, animals and Museum sets, and (0.4) the story cutscenes, town repair scenes and world texts, and (0.5) engagement, weddings, anniversaries, birthdays, break-ups and the Friday nights at the Inn; festivals, heart events and the remaining daily dialogues follow in later versions, and untranslated text stays in English. Install: update MOMI, put the
+descriptions), plus (0.3) quests and the Request Board, 206 letters, skill perks, clothing, animals and Museum sets, and (0.4) the story cutscenes, town repair scenes and world texts, and (0.5) engagement, weddings, anniversaries, birthdays, break-ups and the Friday nights at the Inn, (0.6) the four festivals, (0.7) the heart events and (0.8) weddings, children and group conversations; the remaining daily dialogues follow in later versions, and untranslated text stays in English. Install: update MOMI, put the
 `FoM-UA` folder into `mods/`, enable it in MOMI and pick Ukrainian in the in-game language menu. Do not enable it alongside
 another mod that adds the `ukr` language. The startup loading bird stays in English (the engine reads it from a
 standalone PNG that stable MOMI 0.16.5 cannot replace). Code is MIT; the translation is CC BY-NC-SA 4.0. The repository contains no
