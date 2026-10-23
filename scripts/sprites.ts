@@ -54,7 +54,7 @@ export function scaleBitmap(bitmap: Bitmap, sx: number, sy: number): Bitmap {
   });
 }
 
-export function paint(image: Image, bitmap: Bitmap, x0: number, y0: number, color: Color) {
+function paint(image: Image, bitmap: Bitmap, x0: number, y0: number, color: Color) {
   bitmap.forEach((row, y) =>
     row.forEach((on, x) => {
       const px = x0 + x;
@@ -256,7 +256,7 @@ const KITCHEN_COLORS: Record<string, Color> = {
 const KITCHEN_TEXT_SHADE: Color = [221, 203, 218];
 
 /** Підпис «РІВ» у стилі плашки кухні (лівий верхній кут (x0, y0)): чорні штрихи заввишки 6 пікселів і світла тінь праворуч-вниз. */
-export function paintKitchenLabel(image: Image, x0: number, y0: number) {
+function paintKitchenLabel(image: Image, x0: number, y0: number) {
   const letters = [
     ["###.", "#..#", "#..#", "###.", "#...", "#..."],
     ["#", "#", "#", "#", "#", "#"],

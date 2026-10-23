@@ -191,7 +191,7 @@ jobs:
           release_url="https://github.com/${GITHUB_REPOSITORY}/releases/tag/${TAG}"
           nexus_url="https://www.nexusmods.com/fieldsofmistria/mods/1784"
           jq -n --arg version "$VERSION" --arg url "$release_url" --arg nexus "$nexus_url" --rawfile text announce.txt \
-            --arg avatar "https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/docs/art/steam-guide-icon-512.png" '{
+            --arg avatar "https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/docs/art/icon-512.png" '{
               username: "FoM-UA",
               avatar_url: $avatar,
               allowed_mentions: {parse: []},

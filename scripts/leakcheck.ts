@@ -7,20 +7,14 @@
 // Для роботи потрібен локальний uk.po (його відновлює extract).
 
 import { spawnSync } from "node:child_process";
-import { readFileSync, readdirSync } from "node:fs";
+import { readFileSync } from "node:fs";
 import { join, relative } from "node:path";
-import { poPath, readPo, root } from "./lib";
+import { poPath, readPo, root, walk } from "./lib";
 
 const MIN_LENGTH = 25;
 const TEXT_FILE = /\.(toml|gml|json|jsonl|md|csv|ts|txt)$/;
 
 const needles = [...new Set(readPo(poPath).map((entry) => entry.msgid))].filter((text) => text.length >= MIN_LENGTH);
-
-function walk(dir: string): string[] {
-  return readdirSync(dir, { withFileTypes: true }).flatMap((entry) =>
-    entry.isDirectory() ? walk(join(dir, entry.name)) : [join(dir, entry.name)],
-  );
-}
 
 const tracked = spawnSync("git", ["ls-files"], { cwd: root, encoding: "utf8" })
   .stdout.split("\n")

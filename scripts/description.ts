@@ -10,9 +10,8 @@
 
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { root } from "./lib";
+import { packageVersion as version, root } from "./lib";
 
-const { version } = JSON.parse(readFileSync(join(root, "package.json"), "utf8")) as { version: string };
 const changelog = readFileSync(join(root, "CHANGELOG.md"), "utf8");
 const row = changelog.split(/\r?\n/).find((line) => line.startsWith(`| ${version} |`));
 if (!row) throw new Error(`У CHANGELOG.md немає рядка таблиці для версії ${version}`);

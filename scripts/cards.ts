@@ -9,7 +9,7 @@ import { readPng, writePng } from "./png";
 import { glyphBitmap, lvlBitmap, rasterize, scaleBitmap, width } from "./sprites";
 import type { Bitmap, Color } from "./sprites";
 
-export type Edit = {
+type Edit = {
   /** Де шукати рядок: [x0, y0, x1, y1] включно. Лише цей рядок, без сусідніх написів і арту. */
   region: [number, number, number, number];
   /** Кольори пікселів оригінального тексту (тінь не потрібна: вона на піксель праворуч-вниз і витирається разом). */
@@ -40,7 +40,7 @@ export type Edit = {
   fill?: Color;
 };
 
-export function editCard(assetsDir: string, path: string, edits: Edit[]) {
+function editCard(assetsDir: string, path: string, edits: Edit[]) {
   const image = readPng(path);
   const at = (x: number, y: number) => (y * image.width + x) * 4;
   const pixel = (x: number, y: number) => [image.data[at(x, y)]!, image.data[at(x, y) + 1]!, image.data[at(x, y) + 2]!] as Color;

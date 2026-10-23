@@ -6,11 +6,10 @@
 // шляхи зі скісною рискою, тож архів однаково відкривається в Windows, Linux і macOS.
 
 import { spawnSync } from "node:child_process";
-import { cpSync, mkdirSync, readFileSync, rmSync } from "node:fs";
+import { cpSync, mkdirSync, rmSync } from "node:fs";
 import { join } from "node:path";
-import { root } from "./lib";
+import { packageVersion as version, root } from "./lib";
 
-const { version } = JSON.parse(readFileSync(join(root, "package.json"), "utf8")) as { version: string };
 const stage = join(root, "release", "stage");
 const zip = join(root, "release", `FoM-UA-${version}.zip`);
 

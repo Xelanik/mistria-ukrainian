@@ -8,7 +8,7 @@
 import { copyFileSync, cpSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { basename, dirname, join, relative } from "node:path";
 import { parse, stringify } from "smol-toml";
-import { assetsDir, gameVersion, poPath, readPo, root } from "./lib";
+import { assetsDir, gameVersion, packageVersion, poPath, readPo, root } from "./lib";
 import { CARD_SPRITES, generateCards } from "./cards";
 import { generateSprites } from "./sprites";
 
@@ -18,7 +18,6 @@ const SOURCE_CACHE_ID = "02ba0acc8e5b4afb";
 // id ванільного l10n.meta.toml — файл зливається з ним за ключами.
 const L10N_ID = "b7ca18d296aab7d5";
 
-const packageVersion = (JSON.parse(readFileSync(join(root, "package.json"), "utf8")) as { version: string }).version;
 const modDir = join(root, "mod");
 
 // --include-fuzzy: пробна збірка з чернетками (для тесту в грі до перегляду в Poedit).
@@ -61,7 +60,7 @@ files.set(
 );
 
 // Займенники гравця: теги <m> <f> <n> <p> у тексті (як в офіційній ru-локалізації; назви макросів задає мова).
-// Припущення про те, як рушій обирає тег, перевіряється в грі — див. CLAUDE.md, журнал рішень.
+// Рушій приймає ці макроси й обирає тег за займенниками гравця (перевірено в грі).
 files.set(
   "localization/l10n.meta.toml",
   stringify({
@@ -110,8 +109,8 @@ for (const [path, content] of files) {
 cpSync(join(root, "gml"), join(modDir, "gml"), { recursive: true });
 
 // Гра для кожної мови просить власні спрайти з суфіксом мови (`spr_..._ukr`); без них вона падає
-// («requested asset ... does not exist»). Поки справжніх українських спрайтів немає (Фаза 5), як заглушку
-// беремо англійські з локальної копії ассетів — вони лише копіюються в mod/ і в git не потрапляють.
+// («requested asset ... does not exist»). Спершу кладемо англійські спрайти з локальної копії ассетів як основу
+// (вони лише копіюються в mod/ і в git не потрапляють), далі generateSprites() малює поверх них українські написи.
 const SPRITES_WITH_LANGUAGE = [
   "Effects/spr_fx_crit",
   "UI NEW/Calendar/spr_ui_endoftheday_calendar_weekdays",

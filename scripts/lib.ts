@@ -13,6 +13,18 @@ export const momiCliPath = join(root, "tools", "ModsOfMistriaInstaller-cli.exe")
 export const potPath = join(root, "translations", "uk.pot");
 export const poPath = join(root, "translations", "uk.po");
 export const publicPath = join(root, "translations", "uk.jsonl");
+export const packageVersion = (JSON.parse(readFileSync(join(root, "package.json"), "utf8")) as { version: string }).version;
+
+/** Усі файли теки (з вкладеними), за алфавітом; з `suffix` — лише ті, чиї назви ним закінчуються. */
+export function walk(dir: string, suffix = ""): string[] {
+  return readdirSync(dir, { withFileTypes: true })
+    .sort((a, b) => a.name.localeCompare(b.name))
+    .flatMap((entry) => {
+      const path = join(dir, entry.name);
+      if (entry.isDirectory()) return walk(path, suffix);
+      return entry.name.endsWith(suffix) ? [path] : [];
+    });
+}
 
 /** Найновіша тека в game-assets/ (або та, що передана аргументом). */
 export function gameVersion(requested?: string) {

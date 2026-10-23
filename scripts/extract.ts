@@ -3,10 +3,10 @@
 //
 // Запуск: npm run extract [-- <версія>]   (за замовчуванням — найновіша тека в game-assets/)
 
-import { existsSync, readFileSync, readdirSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { join, relative, sep } from "node:path";
 import { parse } from "smol-toml";
-import { assetsDir, gameVersion, hashOf, potPath, poPath, publicPath, readPo, readPublic, root, writePo } from "./lib";
+import { assetsDir, gameVersion, hashOf, potPath, poPath, publicPath, readPo, readPublic, root, walk, writePo } from "./lib";
 
 const version = gameVersion(process.argv[2]);
 const assets = assetsDir(version);
@@ -20,16 +20,6 @@ function add(key: string, text: string, comments: string[]) {
   if (!trimmed || seen.has(key)) return;
   seen.add(key);
   entries.push({ key, text: trimmed, comments });
-}
-
-function walk(dir: string, suffix: string): string[] {
-  const files: string[] = [];
-  for (const entry of readdirSync(dir, { withFileTypes: true }).sort((a, b) => a.name.localeCompare(b.name))) {
-    const path = join(dir, entry.name);
-    if (entry.isDirectory()) files.push(...walk(path, suffix));
-    else if (entry.name.endsWith(suffix)) files.push(path);
-  }
-  return files;
 }
 
 const slashes = (path: string) => path.split(sep).join("/");
