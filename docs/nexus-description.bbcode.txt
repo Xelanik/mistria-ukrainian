@@ -29,10 +29,11 @@
 [*]Щоденні репліки 22 мешканців (усіх, з ким не можна завести стосунків): реакції на подарунки, розмови про кіоски Суботнього ринку й експонати Музею, ворожіння Стілвелла[/*]
 [*]Серідія, Балор і Джуніпер: щоденні репліки, побачення, вітання після 8 сердець, життя в шлюбі, вагітність і діти, реакції на подарунки[/*]
 [*]Кальдарус, Аделіна й Ейланд: щоденні репліки, розмови зі статуєю Кальдаруса, побачення, вітання після 8 сердець, життя в шлюбі, вагітність і діти, реакції на подарунки[/*]
+[*]Марч, Гейден і Райс: щоденні репліки, побачення, вітання після 8 сердець, життя в шлюбі, вагітність і діти, реакції на подарунки[/*]
 [/list]
 [size=5][b]Що буде далі[/b][/size]
 [list]
-[*]Щоденні репліки решти шести партнерів: Марч, Гейден, Райс, Вален, Селіна, Рейна[/*]
+[*]Щоденні репліки решти трьох партнерів: Вален, Селіна, Рейна[/*]
 [/list]
 [line]
 [size=5][b]Встановлення[/b][/size]
@@ -67,7 +68,7 @@
 Переклад — CC BY-NC-SA 4.0, код — MIT. Автор: Xelanik. Fields of Mistria належить NPC Studio; проєкт неофіційний і не пов'язаний з NPC Studio.
 [line]
 [b][size=5]English[/size][/b]
-Unofficial Ukrainian localization for [b]Fields of Mistria[/b], installed via MOMI. Version {{version}} translates the [b]UI[/b] (menus, settings, tutorials and tutorial cards, HUD, crafting, customization, skills, skill perks, festivals, locations, NPC names and jobs, dates, infusions, bells, animals), [b]all items[/b] (names and descriptions), quests and the Request Board, 206 letters, clothing, animals and Museum sets, the main story cutscenes, weddings and relationships, Friday nights at the Inn, all four festivals, the heart events of all twelve romanceable characters, weddings, children, the group conversations between villagers, the daily lines of the 22 non-romanceable villagers (gift reactions, market and Museum comments) and the daily lines, dates, marriage and children of Seridia, Balor, Juniper, Caldarus, Adeline and Eiland. The daily lines of the other six romanceable characters follow in later versions; anything untranslated stays in English.
+Unofficial Ukrainian localization for [b]Fields of Mistria[/b], installed via MOMI. Version {{version}} translates the [b]UI[/b] (menus, settings, tutorials and tutorial cards, HUD, crafting, customization, skills, skill perks, festivals, locations, NPC names and jobs, dates, infusions, bells, animals), [b]all items[/b] (names and descriptions), quests and the Request Board, 206 letters, clothing, animals and Museum sets, the main story cutscenes, weddings and relationships, Friday nights at the Inn, all four festivals, the heart events of all twelve romanceable characters, weddings, children, the group conversations between villagers, the daily lines of the 22 non-romanceable villagers (gift reactions, market and Museum comments) and the daily lines, dates, marriage and children of Seridia, Balor, Juniper, Caldarus, Adeline, Eiland, March, Hayden and Ryis. The daily lines of the other three romanceable characters follow in later versions; anything untranslated stays in English.
 
 [b]Install:[/b] update MOMI to the latest version, put the [b]FoM-UA[/b] folder into [b]mods/[/b], enable it in MOMI and press Apply, then pick Ukrainian in the in-game language menu. The startup loading bird stays in English. Do not enable it together with another mod that adds the [i]ukr[/i] language.
 
