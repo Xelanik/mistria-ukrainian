@@ -1,0 +1,109 @@
+# Стежить за оновленнями Fields of Mistria у Steam і повідомляє про нову збірку гри.
+#
+# Кожні 6 годин бере номер публічної збірки (build id) з api.steamcmd.net. Якщо він відрізняється від
+# KNOWN_BUILD (збірка, під яку зараз зроблено мод) і для нього ще немає Issue з міткою game-update:
+#   1) відкриває Issue «Вийшло оновлення гри» (GitHub надсилає лист власникові репозиторію);
+#   2) публікує оголошення в Discord через той самий вебхук, що й релізи (secret DISCORD_WEBHOOK_URL).
+# Issue і є «пам'яттю»: на одну збірку — одне повідомлення. Після оновлення мода під нову гру
+# варто змінити KNOWN_BUILD (необов'язково: наявне Issue й так не дасть повідомити вдруге).
+#
+# Ручний запуск: Actions → «Check game updates» → Run workflow. Поле test_build імітує нову збірку
+# і лише друкує, що було б надіслано (без Issue й Discord).
+
+name: Check game updates
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      test_build:
+        description: "Імітувати збірку з цим номером (лише друк, без Issue й Discord)"
+        required: false
+        default: ""
+
+permissions:
+  issues: write
+
+env:
+  APP_ID: "2142790"
+  KNOWN_BUILD: "25915137" # гра 1.0.8
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Перевірити збірку в Steam
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          TEST_BUILD: ${{ inputs.test_build }}
+        run: |
+          info=$(curl -sS --fail --retry 3 --retry-delay 20 "https://api.steamcmd.net/v1/info/$APP_ID") || {
+            echo "::warning::api.steamcmd.net не відповів, перевірку пропущено"
+            exit 0
+          }
+          build=$(jq -r --arg id "$APP_ID" '.data[$id].depots.branches.public.buildid // empty' <<< "$info")
+          updated=$(jq -r --arg id "$APP_ID" '.data[$id].depots.branches.public.timeupdated // empty' <<< "$info")
+          if [ -z "$build" ]; then
+            echo "::warning::У відповіді Steam немає buildid публічної гілки, перевірку пропущено"
+            exit 0
+          fi
+          dry=false
+          if [ -n "$TEST_BUILD" ]; then build="$TEST_BUILD"; dry=true; fi
+          date=$(date -u -d "@${updated:-0}" '+%Y-%m-%d %H:%M UTC')
+          echo "Публічна збірка: $build (оновлено $date), мод зроблено під $KNOWN_BUILD"
+
+          if [ "$build" = "$KNOWN_BUILD" ]; then
+            echo "Нових оновлень немає"
+            exit 0
+          fi
+          found=$(gh issue list --label game-update --state all --search "$build in:title" --json number --jq 'length')
+          if [ "$found" != "0" ] && [ "$dry" = false ]; then
+            echo "Про збірку $build уже повідомлено"
+            exit 0
+          fi
+
+          news="https://store.steampowered.com/news/app/$APP_ID"
+          title="Вийшло оновлення гри: збірка $build"
+          body=$(printf '%s\n' \
+            "У Steam вийшла нова збірка Fields of Mistria: **$build** (оновлено $date; мод зроблено під збірку $KNOWN_BUILD)." \
+            "" \
+            "Новини гри: $news" \
+            "" \
+            "Що зробити (порядок — у CLAUDE.md, «Цикл після патча гри»):" \
+            "- [ ] Оновити гру, перевірити, що мод застосовується в MOMI (за потреби оновити MOMI)" \
+            "- [ ] Розпакувати чисті ассети з \`assets.bak.zip\` у \`game-assets/<версія>/\`" \
+            "- [ ] \`npm run extract\` — скільки рядків нових, змінених і переїхалих" \
+            "- [ ] Перекласти нове й fuzzy, \`validate\`, \`deploy\`, тест" \
+            "- [ ] Реліз; у цьому workflow змінити \`KNOWN_BUILD\` на $build")
+          jq -n --arg build "$build" --arg date "$date" --arg news "$news" \
+            --arg avatar "https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/docs/art/icon-512.png" '{
+              username: "FoM-UA",
+              avatar_url: $avatar,
+              allowed_mentions: {parse: []},
+              embeds: [{
+                title: "Вийшло оновлення Fields of Mistria",
+                url: $news,
+                color: 15105570,
+                description: ("У Steam нова збірка гри (" + $build + ", " + $date + ").\n\nЯкщо після оновлення MOMI пропускає мод чи гра поводиться дивно — оновіть MOMI до останньої версії й застосуйте мод ще раз. Нові або змінені рядки гра покаже англійською, доки не вийде оновлення FoM-UA.\n\n[Новини гри в Steam](" + $news + ")"),
+                footer: {text: "Українська локалізація Fields of Mistria"}
+              }]
+            }' > discord.json
+
+          if [ "$dry" = true ]; then
+            echo "Тестовий запуск, нічого не надіслано."
+            echo "--- Issue: $title"; echo "$body"
+            echo "--- Discord:"; cat discord.json
+            exit 0
+          fi
+
+          gh label create game-update --color D93F0B --description "Нова збірка гри в Steam" 2>/dev/null || true
+          gh issue create --title "$title" --label game-update --body "$body"
+          if [ -n "$DISCORD_WEBHOOK_URL" ]; then
+            curl --fail-with-body -sS -H "Content-Type: application/json" -X POST "$DISCORD_WEBHOOK_URL" --data @discord.json
+            echo "Оголошення в Discord надіслано"
+          else
+            echo "::warning::Не задано secret DISCORD_WEBHOOK_URL, оголошення в Discord не надіслано"
+          fi
