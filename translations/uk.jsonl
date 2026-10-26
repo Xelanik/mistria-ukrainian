@@ -1013,7 +1013,7 @@
 {"key":"Conversations/Bank/Adeline/Relationship Lines/Relationship/post_8h_lines_romantic/adeline_post_8h_romantic_question_2/7","hash":"7d76777ddd","msgstr":"Він, чого доброго, витратить увесь міський бюджет на відкриття мережі «Дуже велике печиво»."}
 {"key":"Conversations/Bank/Adeline/Relationship Lines/Relationship/post_8h_lines_romantic/adeline_post_8h_romantic_question_2/8","hash":"8babe235a8","msgstr":"І все ж... закладаюся, у мене непогано вийшло б із фермерством, якби випав шанс!"}
 {"key":"Conversations/Bank/Balor/Banked Lines/adeline_was_suspicious/adeline_was_suspicious/init","hash":"dc9b6b453e","msgstr":"Аделіна спершу ставилася до мене з підозрою, але дозволила лишитися. Мабуть, я таки на щось годжуся!"}
-{"key":"Conversations/Bank/Balor/Banked Lines/artisinal_pinecones/artisinal_pinecones/init","hash":"0d47d20cc2","msgstr":"Мені щойно привезли десяток ящиків \"ремісничих\" соснових шишок... і що мені робити з усіма цими шишками? І що, зрештою, ремісничого в шишці?"}
+{"key":"Conversations/Bank/Balor/Banked Lines/artisinal_pinecones/artisinal_pinecones/init","hash":"0d47d20cc2","msgstr":"Мені щойно привезли десяток ящиків «ремісничих» соснових шишок... і що мені робити з усіма цими шишками? І що, зрештою, ремісничого в шишці?"}
 {"key":"Conversations/Bank/Balor/Banked Lines/at_your_service/at_your_service/init","hash":"1e7cc61618","msgstr":"До твоїх послуг, [Ari]."}
 {"key":"Conversations/Bank/Balor/Banked Lines/basement/basement_1/init","hash":"aa89009f09","msgstr":"Радий тебе бачити."}
 {"key":"Conversations/Bank/Balor/Banked Lines/bath_smelled_nice/bath_smelled_nice/init","hash":"fcd4da319d","msgstr":"Сьогодні в лазні так гарно пахло..."}
@@ -1043,11 +1043,11 @@
 {"key":"Conversations/Bank/Balor/Banked Lines/breakfast/breakfast_2/init","hash":"3d97a4d053","msgstr":"Сніданок у Столиці — розкішне застілля, а сніданок у дорозі — скромний перекус."}
 {"key":"Conversations/Bank/Balor/Banked Lines/breakfast/breakfast_2/1","hash":"2bc526fe8d","msgstr":"А сніданок у корчмі «Сплячий дракон» — якраз золота середина."}
 {"key":"Conversations/Bank/Balor/Banked Lines/bridge_repair/bridge_repair_0/init","hash":"739bfd9852","msgstr":"Я тут тримаю вухо гостро, і всі бачили, скільки праці коштувало тобі полагодити міст."}
-{"key":"Conversations/Bank/Balor/Banked Lines/bridge_repair/bridge_repair_0/1","hash":"875b2446ec","msgstr":"Кажуть: \"[Ari] — це щось!\" і \"[Ari] ще наробить у Містрії великих справ\"!"}
+{"key":"Conversations/Bank/Balor/Banked Lines/bridge_repair/bridge_repair_0/1","hash":"875b2446ec","msgstr":"Кажуть: «[Ari] — це щось!» і «[Ari] ще наробить у Містрії великих справ»!"}
 {"key":"Conversations/Bank/Balor/Banked Lines/bridge_repair/bridge_repair_0/2","hash":"154d7249bb","msgstr":"І я теж так кажу!"}
 {"key":"Conversations/Bank/Balor/Banked Lines/business_advice/business_advice/init","hash":"ef09eec9b2","msgstr":"Якщо знати, де шукати, у Містрії безліч способів заробити."}
 {"key":"Conversations/Bank/Balor/Banked Lines/caldarus/balor_0_follow_up/init","hash":"0f138e832e","msgstr":"Останнім часом мені лишають таємничі замовлення біля сходів у Глибокий ліс. Написані старомодним почерком, а предмети іноді названо дивно."}
-{"key":"Conversations/Bank/Balor/Banked Lines/caldarus/balor_0_follow_up/1","hash":"178f863daa","msgstr":"Я не одразу збагнув, що таке \"пшеничний порошок\". Чому б не написати просто \"$борошно$\"?"}
+{"key":"Conversations/Bank/Balor/Banked Lines/caldarus/balor_0_follow_up/1","hash":"178f863daa","msgstr":"Я не одразу збагнув, що таке «пшеничний порошок». Чому б не написати просто «$борошно$»?"}
 {"key":"Conversations/Bank/Balor/Banked Lines/caldarus/balor_0_follow_up/2","hash":"0c957a917d","msgstr":"Утім, платять добре, тож питань я не ставлю. Ті старовинні монети чималого варті, тож я лишаю товар на умовленому пеньку й займаюся своїми справами."}
 {"key":"Conversations/Bank/Balor/Banked Lines/cheers/cheers/init","hash":"6d55ee3706","msgstr":"Вечір завжди вдається, коли ти заходиш привітатися, [Ari]. Будьмо!"}
 {"key":"Conversations/Bank/Balor/Banked Lines/cheers/cheers_2/init","hash":"cccdde509a","msgstr":"Тост: за ще один чудовий день у Містрії."}
@@ -1202,7 +1202,7 @@
 {"key":"Conversations/Bank/Balor/Banked Lines/preserved_ruins/preserved_ruins/init","hash":"d28e8c4fe6","msgstr":"Руїни тут розкішні. Я бачив такі по всій Алдарії, але ніде так добре збережених."}
 {"key":"Conversations/Bank/Balor/Banked Lines/preserved_ruins/preserved_ruins/1","hash":"b1f8049a38","msgstr":"Може, тут є підказка до якогось цінного сховку деінде, як гадаєш?"}
 {"key":"Conversations/Bank/Balor/Banked Lines/rain_compliment/rain_compliment/init","hash":"5f5f17f8a6","msgstr":"Ти — сонечко навіть у дощ, [Ari]."}
-{"key":"Conversations/Bank/Balor/Banked Lines/rainy_day_babysitter/rainy_day_babysitter/init","hash":"bd3bccedc3","msgstr":"З усього, що є в моєму послужному списку, \"нянька на дощові дні\", мабуть, найнесподіваніше."}
+{"key":"Conversations/Bank/Balor/Banked Lines/rainy_day_babysitter/rainy_day_babysitter/init","hash":"bd3bccedc3","msgstr":"З усього, що є в моєму послужному списку, «нянька на дощові дні», мабуть, найнесподіваніше."}
 {"key":"Conversations/Bank/Balor/Banked Lines/rare_mines/rare_mines/init","hash":"e837974d45","msgstr":"Кажуть, у Шахтах знаходять дивні речі."}
 {"key":"Conversations/Bank/Balor/Banked Lines/rare_mines/rare_mines/1","hash":"d5f300d2cb","msgstr":"А дивне — означає рідкісне, а рідкісне — добрі гроші."}
 {"key":"Conversations/Bank/Balor/Banked Lines/rarities/rarities/init","hash":"79a03b5531","msgstr":"Сьогодні в мене для тебе є кілька рідкісних речей. Поглянь."}
@@ -1640,7 +1640,7 @@
 {"key":"Conversations/Bank/Balor/Relationship Lines/Child/pregnancy/ari_pregnant_4/1","hash":"39d46cac33","msgstr":"Ах!"}
 {"key":"Conversations/Bank/Balor/Relationship Lines/Child/pregnancy/ari_pregnant_4/2","hash":"e34094cb47","msgstr":"Я... я відчув, як маля штовхнулося!"}
 {"key":"Conversations/Bank/Balor/Relationship Lines/Child/pregnancy/ari_pregnant_4/3","hash":"0ad9cfc81b","msgstr":"Як чудово!"}
-{"key":"Conversations/Bank/Balor/Relationship Lines/Child/pregnancy/ari_pregnant_5/init","hash":"115db8aae7","msgstr":"Я тут думав про імена... як тобі \"$Стерлінг$\", якщо буде хлопчик?","note":"Гра слів: sterling — і ім'я, і «надійний, бездоганний» (стерлінгове срібло); для торговця «надійне ім'я» звучить як про валюту."}
+{"key":"Conversations/Bank/Balor/Relationship Lines/Child/pregnancy/ari_pregnant_5/init","hash":"115db8aae7","msgstr":"Я тут думав про імена... як тобі «$Стерлінг$», якщо буде хлопчик?","note":"Гра слів: sterling — і ім'я, і «надійний, бездоганний» (стерлінгове срібло); для торговця «надійне ім'я» звучить як про валюту."}
 {"key":"Conversations/Bank/Balor/Relationship Lines/Child/pregnancy/ari_pregnant_5/1","hash":"169b87a3a7","msgstr":"Добре, надійне ім'я."}
 {"key":"Conversations/Bank/Balor/Relationship Lines/Child/pregnancy/ari_pregnant_5/2","hash":"a062783671","msgstr":"А ти, [Ari]? Маєш якісь імена на думці?"}
 {"key":"Conversations/Bank/Balor/Relationship Lines/Child/pregnancy/ari_pregnant_6/init","hash":"5e8629eb63","msgstr":"Не віриться, що маля от-от з'явиться на світ."}
@@ -1670,7 +1670,7 @@
 {"key":"Conversations/Bank/Balor/Relationship Lines/Child/pregnancy/stork_pregnant_4/init","hash":"37829871e4","msgstr":"Ми з Джо гадали, на кого буде схоже маля."}
 {"key":"Conversations/Bank/Balor/Relationship Lines/Child/pregnancy/stork_pregnant_4/1","hash":"a5c9d6dcc9","msgstr":"Хоч і було б весело навчити маля всього, що я знаю про торгівлю..."}
 {"key":"Conversations/Bank/Balor/Relationship Lines/Child/pregnancy/stork_pregnant_4/2","hash":"e8d117a3f2","msgstr":"Особисто я сподіваюся, що воно буде схоже на тебе."}
-{"key":"Conversations/Bank/Balor/Relationship Lines/Child/pregnancy/stork_pregnant_5/init","hash":"115db8aae7","msgstr":"Я тут думав про імена... як тобі \"$Стерлінг$\", якщо буде хлопчик?","note":"Гра слів: sterling — і ім'я, і «надійний, бездоганний» (стерлінгове срібло); для торговця «надійне ім'я» звучить як про валюту."}
+{"key":"Conversations/Bank/Balor/Relationship Lines/Child/pregnancy/stork_pregnant_5/init","hash":"115db8aae7","msgstr":"Я тут думав про імена... як тобі «$Стерлінг$», якщо буде хлопчик?","note":"Гра слів: sterling — і ім'я, і «надійний, бездоганний» (стерлінгове срібло); для торговця «надійне ім'я» звучить як про валюту."}
 {"key":"Conversations/Bank/Balor/Relationship Lines/Child/pregnancy/stork_pregnant_5/1","hash":"169b87a3a7","msgstr":"Добре, надійне ім'я."}
 {"key":"Conversations/Bank/Balor/Relationship Lines/Child/pregnancy/stork_pregnant_5/2","hash":"a062783671","msgstr":"А ти, [Ari]? Маєш якісь імена на думці?"}
 {"key":"Conversations/Bank/Balor/Relationship Lines/Child/pregnancy/stork_pregnant_6/init","hash":"22b7bb2f24","msgstr":"Схоже, маля от-от з'явиться."}
@@ -1933,7 +1933,7 @@
 {"key":"Conversations/Bank/Balor/Relationship Lines/Relationship/post_8h_lines_best_friend/balor_post_8h_best_friend_question_3/1","hash":"42ac8a530f","msgstr":"Моє дитинство було трохи... складнішим."}
 {"key":"Conversations/Bank/Balor/Relationship Lines/Relationship/post_8h_lines_best_friend/balor_post_8h_best_friend_question_3/2","hash":"899d0f8718","msgstr":"А твоє, [Ari]?"}
 {"key":"Conversations/Bank/Balor/Relationship Lines/Relationship/post_8h_lines_best_friend/balor_post_8h_best_friend_question_3/2/prompts/0","hash":"538f265397","msgstr":"У мене було досить щасливе дитинство!"}
-{"key":"Conversations/Bank/Balor/Relationship Lines/Relationship/post_8h_lines_best_friend/balor_post_8h_best_friend_question_3/2/prompts/1","hash":"14ddc75ece","msgstr":"\"Складне\" — якраз про моє."}
+{"key":"Conversations/Bank/Balor/Relationship Lines/Relationship/post_8h_lines_best_friend/balor_post_8h_best_friend_question_3/2/prompts/1","hash":"14ddc75ece","msgstr":"«Складне» — якраз про моє."}
 {"key":"Conversations/Bank/Balor/Relationship Lines/Relationship/post_8h_lines_best_friend/balor_post_8h_best_friend_question_3/3","hash":"09992ee1ae","msgstr":"Радий це чути, [Ari], справді."}
 {"key":"Conversations/Bank/Balor/Relationship Lines/Relationship/post_8h_lines_best_friend/balor_post_8h_best_friend_question_3/4","hash":"1231f00d82","msgstr":"Може, тому в тебе таке добре серце."}
 {"key":"Conversations/Bank/Balor/Relationship Lines/Relationship/post_8h_lines_best_friend/balor_post_8h_best_friend_question_3/5","hash":"08a70054f5","msgstr":"Так..."}
@@ -2275,7 +2275,7 @@
 {"key":"Conversations/Bank/Caldarus/Banked Lines/lute/lute_0/init","hash":"e4cdcb2b7b","msgstr":"(Кальдарус поринув у музику. Мабуть, краще його не турбувати.)"}
 {"key":"Conversations/Bank/Caldarus/Banked Lines/lute/lute_1/init","hash":"71677fe009","msgstr":"(Пазурі Кальдаруса ніжно перебирають струни лютні. Від цього годі відвести погляд.)"}
 {"key":"Conversations/Bank/Caldarus/Banked Lines/lute/lute_2/init","hash":"9d4c739d0e","msgstr":"(Ти не впізнаєш мелодії, яку грає Кальдарус. Вона не схожа ні на що чуте досі.)"}
-{"key":"Conversations/Bank/Caldarus/Banked Lines/lute/lute_3/init","hash":"658d97d270","msgstr":"(Кальдарус грає на дбайливо збереженій лютні. Вона іншої будови, ніж у Гемлока, і зроблена з незнайомого тобі дерева.)"}
+{"key":"Conversations/Bank/Caldarus/Banked Lines/lute/lute_3/init","hash":"658d97d270","msgstr":"(Кальдарус грає на дбайливо збереженій лютні. Вона іншої будови, ніж у Хемлока, і зроблена з незнайомого тобі дерева.)"}
 {"key":"Conversations/Bank/Caldarus/Banked Lines/lute/lute_4/init","hash":"718a00ee92","msgstr":"(У грі Кальдаруса на лютні — непроникна туга. Важко вибрати мить, щоб привернути його увагу...)"}
 {"key":"Conversations/Bank/Caldarus/Banked Lines/lute/lute_5/init","hash":"de3712a15c","msgstr":"(Кальдарус видобуває з лютні легкі, радісні ноти. Схоже, він насолоджується... мабуть, краще поки що його не турбувати.)"}
 {"key":"Conversations/Bank/Caldarus/Banked Lines/lute/lute_6/init","hash":"7094a2af4f","msgstr":"(Кальдарус напівприкритими очима розглядає лютню. Його погляд стежить за пазурами, що рухаються струнами.)"}
@@ -2903,7 +2903,7 @@
 {"key":"Conversations/Bank/Caldarus/Relationship Lines/Child/pregnancy/ari_pregnant_1/8","hash":"efb1b2f8bc","msgstr":"Я дмухав на нього всю дорогу додому, тож тепер він має бути саме такий, як треба. Прошу, смакуй!"}
 {"key":"Conversations/Bank/Caldarus/Relationship Lines/Child/pregnancy/ari_pregnant_2/init","hash":"8e6444c79a","msgstr":"Я знаю про те, що ви звете ранковою нудотою, і подумав, що тобі може нездужатися..."}
 {"key":"Conversations/Bank/Caldarus/Relationship Lines/Child/pregnancy/ari_pregnant_2/1","hash":"0714749d22","msgstr":"Тож я розпитав сусідів, як найкраще про тебе подбати."}
-{"key":"Conversations/Bank/Caldarus/Relationship Lines/Child/pregnancy/ari_pregnant_2/2","hash":"adadd6d0c6","msgstr":"Я спитав поради в Балора... який порадив спитати Гемлока, який порадив спитати Джуніпер, яка порадила спитати Вален."}
+{"key":"Conversations/Bank/Caldarus/Relationship Lines/Child/pregnancy/ari_pregnant_2/2","hash":"adadd6d0c6","msgstr":"Я спитав поради в Балора... який порадив спитати Хемлока, який порадив спитати Джуніпер, яка порадила спитати Вален."}
 {"key":"Conversations/Bank/Caldarus/Relationship Lines/Child/pregnancy/ari_pregnant_2/3","hash":"c4355e526f","msgstr":"Вален люб'язно порадила тобі приймати ось це для бадьорості й запевнила, що для дитини це безпечно. Сподіваюся, допоможе."}
 {"key":"Conversations/Bank/Caldarus/Relationship Lines/Child/pregnancy/ari_pregnant_3/init","hash":"74f56dcddf","msgstr":"[Ari], як твоє здоров'я сьогодні? Усе гаразд?"}
 {"key":"Conversations/Bank/Caldarus/Relationship Lines/Child/pregnancy/ari_pregnant_3/init/prompts/0","hash":"9ace0a0fc8","msgstr":"Здається, дитина росте!"}
@@ -3235,7 +3235,7 @@
 {"key":"Conversations/Bank/Caldarus/Relationship Lines/Relationship/post_8h_lines_best_friend/caldarus_post_8h_best_friend_4/init","hash":"c51a6493bb","msgstr":"Ти так стараєшся навідуватися до мене, знаючи, що я не можу відповісти тим самим."}
 {"key":"Conversations/Bank/Caldarus/Relationship Lines/Relationship/post_8h_lines_best_friend/caldarus_post_8h_best_friend_4/1","hash":"6298dcbc06","msgstr":"Це зворушує моє серце."}
 {"key":"Conversations/Bank/Caldarus/Relationship Lines/Relationship/post_8h_lines_best_friend/caldarus_post_8h_best_friend_4/2","hash":"8f20855f7b","msgstr":"Сподіваюся, ти й надалі мені потуратимеш."}
-{"key":"Conversations/Bank/Caldarus/Relationship Lines/Relationship/post_8h_lines_best_friend/caldarus_post_8h_best_friend_4_alt/init","hash":"851a8c0d68","msgstr":"Колись ти долав такий шлях, щоб навідати мене вдома в $Глибокому лісі$..."}
+{"key":"Conversations/Bank/Caldarus/Relationship Lines/Relationship/post_8h_lines_best_friend/caldarus_post_8h_best_friend_4_alt/init","hash":"851a8c0d68","msgstr":"Колись тобі доводилося долати такий шлях, щоб навідати мене вдома в $Глибокому лісі$..."}
 {"key":"Conversations/Bank/Caldarus/Relationship Lines/Relationship/post_8h_lines_best_friend/caldarus_post_8h_best_friend_4_alt/1","hash":"c9fc5c1dd9","msgstr":"Мене зворушує ця згадка."}
 {"key":"Conversations/Bank/Caldarus/Relationship Lines/Relationship/post_8h_lines_best_friend/caldarus_post_8h_best_friend_4_alt/2","hash":"adeee16002","msgstr":"Тепер, коли я можу блукати вільно, маю намір відповісти тим самим."}
 {"key":"Conversations/Bank/Caldarus/Relationship Lines/Relationship/post_8h_lines_best_friend/caldarus_post_8h_best_friend_5/init","hash":"2cdf6a3765","msgstr":"Тут, у серці Глибокого лісу, плин часу може здаватися повільним і розміреним."}
@@ -3652,7 +3652,7 @@
 {"key":"Conversations/Bank/Caldarus/Statue Lines/general_lines/townsfolk_errol/init","hash":"4fcd84cc1a","msgstr":"Щось спонукає тебе заговорити до статуї Кальдаруса."}
 {"key":"Conversations/Bank/Caldarus/Statue Lines/general_lines/townsfolk_errol/1","hash":"04d42cdd7d","msgstr":"Із Еролом, схоже, було б добре згадувати минуле. Можливо, він допоміг би розворушити мою пам'ять."}
 {"key":"Conversations/Bank/Caldarus/Statue Lines/general_lines/townsfolk_hemlock/init","hash":"4fcd84cc1a","msgstr":"Щось спонукає тебе заговорити до статуї Кальдаруса."}
-{"key":"Conversations/Bank/Caldarus/Statue Lines/general_lines/townsfolk_hemlock/1","hash":"c3d0f46ab6","msgstr":"Гемлок — знавець напоїв, кажеш? Хм... хотів би я скуштувати плоди його ремесла."}
+{"key":"Conversations/Bank/Caldarus/Statue Lines/general_lines/townsfolk_hemlock/1","hash":"c3d0f46ab6","msgstr":"Хемлок — знавець напоїв, кажеш? Хм... хотів би я скуштувати плоди його ремесла."}
 {"key":"Conversations/Bank/Caldarus/Statue Lines/general_lines/townsfolk_henrietta/init","hash":"4fcd84cc1a","msgstr":"Щось спонукає тебе заговорити до статуї Кальдаруса."}
 {"key":"Conversations/Bank/Caldarus/Statue Lines/general_lines/townsfolk_henrietta/1","hash":"404627092e","msgstr":"Перепрошую, чи я не дочув? Ця Генрієтта, про яку ти розповідаєш, — курка? Я гадав, ми говоримо про людину."}
 {"key":"Conversations/Bank/Caldarus/Statue Lines/general_lines/townsfolk_holt/init","hash":"4fcd84cc1a","msgstr":"Щось спонукає тебе заговорити до статуї Кальдаруса."}
@@ -4601,7 +4601,7 @@
 {"key":"Conversations/Bank/Celine/Relationship Lines/Child/pregnancy/pregnancy_celine_dell_0/2","hash":"e4d930e67f","msgstr":"Не можу дочекатися, щоб показати малому всі класні місця в Містрії!"}
 {"key":"Conversations/Bank/Celine/Relationship Lines/Child/pregnancy/pregnancy_celine_holt_0/init","hash":"c0962e9296","msgstr":"Чув новину, вітаю тебе й Селіну!"}
 {"key":"Conversations/Bank/Celine/Relationship Lines/Child/pregnancy/pregnancy_celine_holt_0/1","hash":"6d7b3ea9a6","msgstr":"Ото так, я — дідусь..."}
-{"key":"Conversations/Bank/Celine/Relationship Lines/Child/pregnancy/pregnancy_celine_holt_0/2","hash":"fa2348f90b","msgstr":"Я аж на сьомому небі... чи то вже на схилі віку!","note":"Гра слів: в оригіналі «на сьомому небі» змішано з «на схилі віку» (Голт уже немолодий); у перекладі обидва звороти поруч."}
+{"key":"Conversations/Bank/Celine/Relationship Lines/Child/pregnancy/pregnancy_celine_holt_0/2","hash":"fa2348f90b","msgstr":"Я аж на сьомому небі... чи то вже на схилі віку!","note":"Гра слів: в оригіналі «на сьомому небі» змішано з «на схилі віку» (Холт уже немолодий); у перекладі обидва звороти поруч."}
 {"key":"Conversations/Bank/Celine/Relationship Lines/Child/pregnancy/pregnancy_celine_nora_0/init","hash":"24336ed711","msgstr":"[Ari], вітаю."}
 {"key":"Conversations/Bank/Celine/Relationship Lines/Child/pregnancy/pregnancy_celine_nora_0/1","hash":"c3525b5b68","msgstr":"Не віриться... моя маленька дівчинка зовсім виросла й створює власну родину..."}
 {"key":"Conversations/Bank/Celine/Relationship Lines/Child/pregnancy/pregnancy_celine_nora_0/2","hash":"ef0bb78954","msgstr":"Може, мені взятися за в'язання? Здається, треба."}
@@ -5274,7 +5274,7 @@
 {"key":"Conversations/Bank/Eiland/Banked Lines/beach/beach_1/init","hash":"8a0888a956","msgstr":"Ерол розповідав, що малим за ним ганялися краби."}
 {"key":"Conversations/Bank/Eiland/Banked Lines/beach/beach_1/1","hash":"123026488d","msgstr":"Важко уявити, щоб за ним хтось ганявся."}
 {"key":"Conversations/Bank/Eiland/Banked Lines/beer_and_cookies/beer_and_cookies/init","hash":"18a84844fa","msgstr":"[Ari]! Будеш сьогодні ввечері в Корчмі?"}
-{"key":"Conversations/Bank/Eiland/Banked Lines/beer_and_cookies/beer_and_cookies/1","hash":"47a48ce6f6","msgstr":"У Гемлока нове пиво, яке чудово пасує до печива з шоколадною крихтою, хочеш вір, хочеш ні."}
+{"key":"Conversations/Bank/Eiland/Banked Lines/beer_and_cookies/beer_and_cookies/1","hash":"47a48ce6f6","msgstr":"У Хемлока нове пиво, яке чудово пасує до печива з шоколадною крихтою, хочеш вір, хочеш ні."}
 {"key":"Conversations/Bank/Eiland/Banked Lines/better_pickaxe/better_pickaxe/init","hash":"981048276c","msgstr":"Здається, мені знадобиться краще кайло, щоб розбити деякі з цих каменів."}
 {"key":"Conversations/Bank/Eiland/Banked Lines/boring_archaeology/boring_archaeology/init","hash":"8eb98258cc","msgstr":"Сьогодні я не знайшов жодних артефактів епохального значення, але й це частина археології."}
 {"key":"Conversations/Bank/Eiland/Banked Lines/breakfast/breakfast/init","hash":"8d319ca1d6","msgstr":"Не годиться їсти торт на сніданок..."}
@@ -5340,7 +5340,7 @@
 {"key":"Conversations/Bank/Eiland/Banked Lines/impressive_ruins/impressive_ruins_alt/3","hash":"2e27a3439f","msgstr":"Якби ж хоч одна вціліла!"}
 {"key":"Conversations/Bank/Eiland/Banked Lines/in_situ/in_situ/init","hash":"b958dac911","msgstr":"Коли знаходиш щось у первісному контексті, тобто in situ, це дає безліч підказок, яких інакше не мав би."}
 {"key":"Conversations/Bank/Eiland/Banked Lines/in_situ/in_situ/1","hash":"86219816bc","msgstr":"Так значно легше датувати уламки ваз!"}
-{"key":"Conversations/Bank/Eiland/Banked Lines/inn_drink/inn_drink/init","hash":"23e013847c","msgstr":"У Гемлока сьогодні на розлив щось солодке, [Ari]!"}
+{"key":"Conversations/Bank/Eiland/Banked Lines/inn_drink/inn_drink/init","hash":"23e013847c","msgstr":"У Хемлока сьогодні на розлив щось солодке, [Ari]!"}
 {"key":"Conversations/Bank/Eiland/Banked Lines/inn_drink/inn_drink_2/init","hash":"7e0140b4f1","msgstr":"Зимова ніч вимагає гарячого напою. Підсолодженого, звісно."}
 {"key":"Conversations/Bank/Eiland/Banked Lines/inn_family_is_nice/inn_family_is_nice/init","hash":"f733ae0e25","msgstr":"Рейна завжди лишає мені щось солоденьке, а її мама Жозефіна завжди частує своїм чаєм... Уся їхня родина така щедра!"}
 {"key":"Conversations/Bank/Eiland/Banked Lines/inn_history/inn_history/init","hash":"b320e1ff36","msgstr":"«Сплячий дракон» має й власну історію. Ця корчма вже кілька поколінь — осердя міського життя."}
@@ -5395,7 +5395,7 @@
 {"key":"Conversations/Bank/Eiland/Banked Lines/peat/peat/1","hash":"9f1e1bde89","msgstr":"Ах, це грудка торфу."}
 {"key":"Conversations/Bank/Eiland/Banked Lines/peat/peat_2/init","hash":"df7b55dc97","msgstr":"Сьогодні стільки торфу. Забагато торфу!"}
 {"key":"Conversations/Bank/Eiland/Banked Lines/peat/peat_2/1","hash":"afd7d4329f","msgstr":"[Ari], ти мусиш мені допомогти! Ось, візьми трохи!"}
-{"key":"Conversations/Bank/Eiland/Banked Lines/performance/performance/init","hash":"904bd4309a","msgstr":"Імпровізований музичний вечір! Гемлок і Жозефіна люблять нас дивувати. А тітонька Елсі завжди рада публіці!"}
+{"key":"Conversations/Bank/Eiland/Banked Lines/performance/performance/init","hash":"904bd4309a","msgstr":"Імпровізований музичний вечір! Хемлок і Жозефіна люблять нас дивувати. А тітонька Елсі завжди рада публіці!"}
 {"key":"Conversations/Bank/Eiland/Banked Lines/plenty_to_see/plenty_to_see/init","hash":"7b9138e3f4","msgstr":"Добре роздивися довкола, [Ari]. Тут є що побачити!"}
 {"key":"Conversations/Bank/Eiland/Banked Lines/post_beach_day/post_beach_day/init","hash":"00d6518c52","msgstr":"Я шукав артефакти, а моя сестра оглядала Пляж..."}
 {"key":"Conversations/Bank/Eiland/Banked Lines/post_beach_day/post_beach_day/1","hash":"4fc75f1d73","msgstr":"Ми обоє мали сьогодні відпочивати, але яка сестра — такий і брат..."}
@@ -8290,7 +8290,7 @@
 {"key":"Conversations/Bank/Juniper/Banked Lines/brewing_tonight/brewing_tonight/init","hash":"a7f9ce5429","msgstr":"Тсс, [Ari], я обмірковую нове зілля... на мене чекає цілий вечір варіння."}
 {"key":"Conversations/Bank/Juniper/Banked Lines/caldarus/juniper_0_follow_up/init","hash":"6d6a219f0b","msgstr":"Відколи розчистили шлях до Глибокого лісу, лей-лінії Містрії дивно вібрують."}
 {"key":"Conversations/Bank/Juniper/Banked Lines/caldarus/juniper_0_follow_up/1","hash":"02c61a25eb","msgstr":"Я пішла на цей резонанс туди, але загубила слід..."}
-{"key":"Conversations/Bank/Juniper/Banked Lines/caldarus/juniper_0_follow_up/2","hash":"ddbab3b05a","msgstr":"А тоді таємничий безтілесний голос сказав: \"трохи лівіше\"."}
+{"key":"Conversations/Bank/Juniper/Banked Lines/caldarus/juniper_0_follow_up/2","hash":"ddbab3b05a","msgstr":"А тоді таємничий безтілесний голос сказав: «трохи лівіше»."}
 {"key":"Conversations/Bank/Juniper/Banked Lines/caldarus/juniper_0_follow_up/2/prompts/0","hash":"c53efb12a5","msgstr":"Певно, тобі просто почулося."}
 {"key":"Conversations/Bank/Juniper/Banked Lines/caldarus/juniper_0_follow_up/2/prompts/1","hash":"c81a93b79e","msgstr":"Може, то був привид..."}
 {"key":"Conversations/Bank/Juniper/Banked Lines/caldarus/juniper_0_follow_up/3","hash":"d59cad546e","msgstr":"Т-так... певно, нічого такого..."}
@@ -8324,7 +8324,7 @@
 {"key":"Conversations/Bank/Juniper/Banked Lines/eiland_bathhouse/eiland_bathhouse/init","hash":"2fc6fbd955","msgstr":"Подивімося... Улюблені олії для ванни в Ейланда — ті, що пахнуть тортом."}
 {"key":"Conversations/Bank/Juniper/Banked Lines/eiland_bathhouse/eiland_bathhouse/1","hash":"9ec0e8c959","msgstr":"Вони трохи занадто, навіть для мене."}
 {"key":"Conversations/Bank/Juniper/Banked Lines/errol_cant_sleep/errol_cant_sleep/init","hash":"d1a1bd98eb","msgstr":"Чула, що Ерол не може спати. У мене є зілля, яке його миттю вирубить..."}
-{"key":"Conversations/Bank/Juniper/Banked Lines/errol_cant_sleep/errol_cant_sleep/1","hash":"49a5c359ac","msgstr":"Але Вален вічно питає про всякі \"ефективність\" і \"побічні дії\". ТЬХУ."}
+{"key":"Conversations/Bank/Juniper/Banked Lines/errol_cant_sleep/errol_cant_sleep/1","hash":"49a5c359ac","msgstr":"Але Вален вічно питає про всякі «ефективність» і «побічні дії». ТЬХУ."}
 {"key":"Conversations/Bank/Juniper/Banked Lines/floral_scents/floral_scents/init","hash":"22da2784f5","msgstr":"Жозефіна, здається, любить квіткові аромати для ванни. Саме в такі дні вона тут найчастіше."}
 {"key":"Conversations/Bank/Juniper/Banked Lines/fnati_anticipation/fnati_anticipation/init","hash":"0d650f1574","msgstr":"Не те щоб я хотіла йти на сьогоднішні посиденьки в Корчмі. Я просто роблю цьому селищу ласку своєю присутністю."}
 {"key":"Conversations/Bank/Juniper/Banked Lines/foraging_verdant/foraging_verdant/init","hash":"6968859a11","msgstr":"У Містрії така зелена місцевість, що збирати дари природи завжди вигідно."}
@@ -8398,7 +8398,7 @@
 {"key":"Conversations/Bank/Juniper/Banked Lines/orb_viewing/orb_viewing_4/init","hash":"ade96f5c60","msgstr":"Тихо, я нарешті впіймала чіткий сигнал."}
 {"key":"Conversations/Bank/Juniper/Banked Lines/orb_viewing/orb_viewing_5/init","hash":"f66169e72f","msgstr":"Можеш лишитися, але сиди тихо. Моя передача якраз стає цікавою."}
 {"key":"Conversations/Bank/Juniper/Banked Lines/orb_viewing/orb_viewing_6/init","hash":"eb543dbce3","msgstr":"Туман у моїй кришталевій кулі розвіюється... образи проступають..."}
-{"key":"Conversations/Bank/Juniper/Banked Lines/orb_viewing/orb_viewing_6/1","hash":"9b8522e7fb","msgstr":"Нарешті... \"42 кумедні фото лабрадорів, від яких я впала зі сміху\"."}
+{"key":"Conversations/Bank/Juniper/Banked Lines/orb_viewing/orb_viewing_6/1","hash":"9b8522e7fb","msgstr":"Нарешті... «42 кумедні фото лабрадорів, від яких я впала зі сміху»."}
 {"key":"Conversations/Bank/Juniper/Banked Lines/orb_viewing/orb_viewing_7/init","hash":"ac0d65d0b9","msgstr":"Отже, подивімося, яка завтра погода..."}
 {"key":"Conversations/Bank/Juniper/Banked Lines/orb_viewing/orb_viewing_7/1","hash":"8c78d657a5","msgstr":"Важливо вже сьогодні спланувати завтрашнє взуття."}
 {"key":"Conversations/Bank/Juniper/Banked Lines/pet_dozy/pet_dozy/init","hash":"ff34cf5603","msgstr":"Дозі сьогодні вже отримав свою порцію погладжувань?"}
@@ -8477,7 +8477,7 @@
 {"key":"Conversations/Bank/Juniper/Banked Lines/week_one_pt_1/week_one_pt_1/init","hash":"9773895216","msgstr":"О, нове обличчя. Мабуть, варто радіти: до твого приїзду новим обличчям була я."}
 {"key":"Conversations/Bank/Juniper/Banked Lines/week_one_pt_1/week_one_pt_1/1","hash":"d1ffd6c75c","msgstr":"Тепер у Жозефіни є з ким панькатися."}
 {"key":"Conversations/Bank/Juniper/Banked Lines/week_one_pt_2/week_one_pt_2/init","hash":"3810596dbd","msgstr":"Знаю, про що ти думаєш..."}
-{"key":"Conversations/Bank/Juniper/Banked Lines/week_one_pt_2/week_one_pt_2/1","hash":"c02bc895c2","msgstr":"\"Не думала я, що мої найгарячіші роки минуть у цій глухомані, а от поглянь.\""}
+{"key":"Conversations/Bank/Juniper/Banked Lines/week_one_pt_2/week_one_pt_2/1","hash":"c02bc895c2","msgstr":"«Не думала я, що мої найгарячіші роки минуть у цій глухомані, а от поглянь.»"}
 {"key":"Conversations/Bank/Juniper/Banked Lines/week_one_pt_2/week_one_pt_2/2","hash":"300ede5f42","msgstr":"О, це лише я так думаю? Хм."}
 {"key":"Conversations/Bank/Juniper/Banked Lines/weekend/weekend/init","hash":"d525b289d4","msgstr":"Тиждень був насичений... Що б я робила без вихідних?"}
 {"key":"Conversations/Bank/Juniper/Banked Lines/weekend/weekend/1","hash":"ecdee52f15","msgstr":"Здригаюся від самої думки."}
@@ -8715,7 +8715,7 @@
 {"key":"Conversations/Bank/Juniper/Market Lines/market_stillwell_1/market_stillwell_1/init","hash":"a8ac3c369b","msgstr":"Усе, що каже Стілвелл, формально правда, але чи мусить він так драматизувати? Хай би брав приклад із мене... я в житті жодного дня не драматизувала."}
 {"key":"Conversations/Bank/Juniper/Market Lines/market_stillwell_2/market_stillwell_2/init","hash":"1ca8923aa3","msgstr":"Вален вважає мене дурною, бо я вірю пророцтвам Стілвелла, але він ніколи не помиляється. Хоча іноді говорить трохи туманно..."}
 {"key":"Conversations/Bank/Juniper/Market Lines/market_stillwell_3/market_stillwell_3/init","hash":"364a9efc39","msgstr":"Божественне передбачення... у томах давніх Відьом-королев є оповіді про таку силу, але я б її собі не хотіла. Ну подивися лише, який похмурий Стілвелл. Ні, дякую."}
-{"key":"Conversations/Bank/Juniper/Market Lines/market_stillwell_4/market_stillwell_4/init","hash":"4761b9d57e","msgstr":"\"Болісне скреготіння колеса часу згноїть саме зерно твого буття\"... це Стілвелл про закваску в глибині моєї шафки? Тоді зрозуміло, звідки запах..."}
+{"key":"Conversations/Bank/Juniper/Market Lines/market_stillwell_4/market_stillwell_4/init","hash":"4761b9d57e","msgstr":"«Болісне скреготіння колеса часу згноїть саме зерно твого буття»... це Стілвелл про закваску в глибині моєї шафки? Тоді зрозуміло, звідки запах..."}
 {"key":"Conversations/Bank/Juniper/Market Lines/market_taliferro/market_taliferro_1/init","hash":"5f6d0b24ed","msgstr":"Той Таліферро..."}
 {"key":"Conversations/Bank/Juniper/Market Lines/market_taliferro/market_taliferro_1/1","hash":"a183d6ff84","msgstr":"Він не оцінив би доброї страви, навіть якби вона влучила йому в обличчя!"}
 {"key":"Conversations/Bank/Juniper/Market Lines/market_taliferro/market_taliferro_1/2","hash":"3326d9b9ed","msgstr":"Навіть якби гарніри теж влучили йому в обличчя! І десерт також!"}
@@ -8735,12 +8735,12 @@
 {"key":"Conversations/Bank/Juniper/Market Lines/market_wheedle_1/market_wheedle_1/2","hash":"3a86e91e26","msgstr":"Він точнісінько як отруйна жаба..."}
 {"key":"Conversations/Bank/Juniper/Market Lines/market_wheedle_1/market_wheedle_1/3","hash":"ad7596fbf9","msgstr":"О-хо-хо-хо!"}
 {"key":"Conversations/Bank/Juniper/Market Lines/market_wheedle_2/market_wheedle_2/init","hash":"22b85fbf92","msgstr":"Я пропонувала Відлу обміняти одну зі своїх домашніх настоянок на пляшку його $зміїної олії$, а він навідріз відмовив!"}
-{"key":"Conversations/Bank/Juniper/Market Lines/market_wheedle_2/market_wheedle_2/1","hash":"1a58706a9c","msgstr":"\"Готівка — цар\", аякже... підбором би йому! Він не уявляє, які цінні мої відвари!","note":"Ідіома my left foot («аякже!»); у Джуніпер — підбор (my left heel), тому «підбором би йому»."}
+{"key":"Conversations/Bank/Juniper/Market Lines/market_wheedle_2/market_wheedle_2/1","hash":"1a58706a9c","msgstr":"«Готівка — цар», ще чого! Він і гадки не має, які цінні мої відвари!","note":"Ідіома my left foot («аякже!»); у Джуніпер — підбор (my left heel), тому «підбором би йому»."}
 {"key":"Conversations/Bank/Juniper/Market Lines/market_wheedle_3/market_wheedle_3/init","hash":"b23743e914","msgstr":"Мені, звісно, не потрібні сторонні підсилювачі, але Відлів $фастфуд$ виглядає спокусливо, правда?"}
 {"key":"Conversations/Bank/Juniper/Market Lines/market_wheedle_3/market_wheedle_3/1","hash":"397a7a1043","msgstr":"Хто ж не любить чогось смаженого у фритюрі?"}
 {"key":"Conversations/Bank/Juniper/Market Lines/market_wheedle_4/market_wheedle_4/init","hash":"5b6c05207c","msgstr":"Відл намагався продати мені підробне зілля! Мені!"}
 {"key":"Conversations/Bank/Juniper/Market Lines/market_wheedle_4/market_wheedle_4/1","hash":"f26f47c87d","msgstr":"Яке нахабство!"}
-{"key":"Conversations/Bank/Juniper/Market Lines/market_zorel_1/market_zorel_1/init","hash":"c025d102bf","msgstr":"Який жанр $кришталю пісні$, на твою думку, більше сподобається Дозі: \"експериментальний джаз\" чи \"треш-метал\"?"}
+{"key":"Conversations/Bank/Juniper/Market Lines/market_zorel_1/market_zorel_1/init","hash":"c025d102bf","msgstr":"Який жанр $кришталю пісні$, на твою думку, більше сподобається Дозі: «експериментальний джаз» чи «треш-метал»?"}
 {"key":"Conversations/Bank/Juniper/Market Lines/market_zorel_1/market_zorel_1/1","hash":"bfe6339aef","msgstr":"Мабуть, просто куплю йому обидва."}
 {"key":"Conversations/Bank/Juniper/Museum Lines/ancient_royal_scepter/ancient_royal_scepter/init","hash":"4a0907a1ac","msgstr":"Вражаєш, [Ari]. =Стародавній королівський скіпетр=, переданий тобою до Музею, — символ влади Відьми-королеви."}
 {"key":"Conversations/Bank/Juniper/Museum Lines/ancient_royal_scepter/ancient_royal_scepter/1","hash":"9d3ecc9de7","msgstr":"Може, колись мої досягнення будуть його гідні!"}
@@ -8912,7 +8912,7 @@
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Child/pregnancy/spouse_pregnant_4/2","hash":"c871dd4f83","msgstr":"Швидше, поклади руку мені на живіт, може, воно знову штовхнеться!"}
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Child/pregnancy/spouse_pregnant_5/init","hash":"23cede74d5","msgstr":"Є в тебе думки щодо імені для маляти, [Ari]?"}
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Child/pregnancy/spouse_pregnant_5/1","hash":"91ce0ad7d9","msgstr":"Імена мають силу, тож обирати треба уважно."}
-{"key":"Conversations/Bank/Juniper/Relationship Lines/Child/pregnancy/spouse_pregnant_5/2","hash":"ddab47756b","msgstr":"Якщо в нас буде дівчинка, я подумала, що \"$Руна$\" підійде."}
+{"key":"Conversations/Bank/Juniper/Relationship Lines/Child/pregnancy/spouse_pregnant_5/2","hash":"ddab47756b","msgstr":"Якщо в нас буде дівчинка, я подумала, що «$Руна$» підійде."}
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Child/pregnancy/spouse_pregnant_5/3","hash":"a361818ef0","msgstr":"Звісно, я відкрита й до твоїх ідей."}
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Child/pregnancy/spouse_pregnant_6/init","hash":"35e202c0d5","msgstr":"Ох... здається, маля от-от з'явиться."}
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Child/pregnancy/spouse_pregnant_6/1","hash":"443c895f96","msgstr":"Почуваюся як повітряна кулька, що от-от лусне."}
@@ -8951,7 +8951,7 @@
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Child/pregnancy/ari_pregnant_4/3","hash":"8ffc80a5d8","msgstr":"Так, так. Рости здоровим і сильним, маленьке."}
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Child/pregnancy/ari_pregnant_5/init","hash":"23cede74d5","msgstr":"Є в тебе думки щодо імені для маляти, [Ari]?"}
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Child/pregnancy/ari_pregnant_5/1","hash":"91ce0ad7d9","msgstr":"Імена мають силу, тож обирати треба уважно."}
-{"key":"Conversations/Bank/Juniper/Relationship Lines/Child/pregnancy/ari_pregnant_5/2","hash":"ddab47756b","msgstr":"Якщо в нас буде дівчинка, я подумала, що \"$Руна$\" підійде."}
+{"key":"Conversations/Bank/Juniper/Relationship Lines/Child/pregnancy/ari_pregnant_5/2","hash":"ddab47756b","msgstr":"Якщо в нас буде дівчинка, я подумала, що «$Руна$» підійде."}
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Child/pregnancy/ari_pregnant_5/3","hash":"a361818ef0","msgstr":"Звісно, я відкрита й до твоїх ідей."}
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Child/pregnancy/ari_pregnant_6/init","hash":"fb1f752cf7","msgstr":"Дивно думати, що вже майже час маляті народитися..."}
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Child/pregnancy/ari_pregnant_6/1","hash":"ef6704e93c","msgstr":"Коли настане час, знай: я буду поруч."}
@@ -8989,7 +8989,7 @@
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Child/pregnancy/stork_pregnant_4/2","hash":"9004839a73","msgstr":"Мабуть, скоро дізнаємося!"}
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Child/pregnancy/stork_pregnant_5/init","hash":"23cede74d5","msgstr":"Є в тебе думки щодо імені для маляти, [Ari]?"}
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Child/pregnancy/stork_pregnant_5/1","hash":"91ce0ad7d9","msgstr":"Імена мають силу, тож обирати треба уважно."}
-{"key":"Conversations/Bank/Juniper/Relationship Lines/Child/pregnancy/stork_pregnant_5/2","hash":"ddab47756b","msgstr":"Якщо в нас буде дівчинка, я подумала, що \"$Руна$\" підійде."}
+{"key":"Conversations/Bank/Juniper/Relationship Lines/Child/pregnancy/stork_pregnant_5/2","hash":"ddab47756b","msgstr":"Якщо в нас буде дівчинка, я подумала, що «$Руна$» підійде."}
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Child/pregnancy/stork_pregnant_5/3","hash":"a361818ef0","msgstr":"Звісно, я відкрита й до твоїх ідей."}
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Child/pregnancy/stork_pregnant_6/init","hash":"62c1c41c9b","msgstr":"Не віриться, що маля вже от-от з'явиться..."}
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Child/pregnancy/stork_pregnant_6/1","hash":"d2c120495e","msgstr":"Я трохи хвилююся, а ти?"}
@@ -9112,7 +9112,7 @@
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/workstation_3/1","hash":"2922951ebe","msgstr":"Можу позичити тобі, коли дочитаю, якщо хочеш."}
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/workstation_4/init","hash":"21158426a8","msgstr":"Мусила трохи дати ногам перепочити."}
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/workstation_4/1","hash":"d1c0e1e01e","msgstr":"Здається, ці нові підбори таки зависокі..."}
-{"key":"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/workstation_5/init","hash":"c1141647a0","msgstr":"Елсі позичила мені книжку, яку я \"просто мушу прочитати\"."}
+{"key":"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/workstation_5/init","hash":"c1141647a0","msgstr":"Елсі позичила мені книжку, яку я «просто мушу прочитати»."}
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/workstation_5/1","hash":"6c70d5edc6","msgstr":"Це бульварний любовний роман, пишномовний і пристрасний аж до непристойності."}
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/workstation_5/2","hash":"7e088376d5","msgstr":"Сподіваюся, це частина серії."}
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Marriage/marriage_daily_dialogue/workstation_6/init","hash":"cea818b839","msgstr":"Не підходь занадто близько до казана."}
@@ -9300,7 +9300,7 @@
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Relationship/post_8h_lines_romantic/juniper_post_8h_romantic_question_0/3","hash":"5c832b6898","msgstr":"Хіба так не питають?"}
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Relationship/post_8h_lines_romantic/juniper_post_8h_romantic_question_0/4","hash":"06ceff2ccd","msgstr":"Годі так шкіритися! Геть!"}
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Relationship/post_8h_lines_romantic/juniper_post_8h_romantic_1/init","hash":"0719882704","msgstr":"Останнім часом у мене тривожні думки..."}
-{"key":"Conversations/Bank/Juniper/Relationship Lines/Relationship/post_8h_lines_romantic/juniper_post_8h_romantic_1/1","hash":"03f2b067f9","msgstr":"Наприклад, \"Цікаво, як там [Ari]\" і \"Цікаво, чи [Ari] досить їсть\"."}
+{"key":"Conversations/Bank/Juniper/Relationship Lines/Relationship/post_8h_lines_romantic/juniper_post_8h_romantic_1/1","hash":"03f2b067f9","msgstr":"Наприклад, «Цікаво, як там [Ari]» і «Цікаво, чи [Ari] досить їсть»."}
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Relationship/post_8h_lines_romantic/juniper_post_8h_romantic_1/2","hash":"dd62473fc0","msgstr":"Певно, це побічна дія якогось твого закляття."}
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Relationship/post_8h_lines_romantic/juniper_post_8h_romantic_question_1/init","hash":"72108e9c4f","msgstr":"Знаєш... мої мрії останнім часом трохи змінилися."}
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Relationship/post_8h_lines_romantic/juniper_post_8h_romantic_question_1/1","hash":"62923e8166","msgstr":"І це твоя провина!"}
@@ -9309,7 +9309,7 @@
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Relationship/post_8h_lines_romantic/juniper_post_8h_romantic_question_1/2","hash":"0f71fd548d","msgstr":"Ну, зазвичай я мрію стати могутньою чаклункою—"}
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Relationship/post_8h_lines_romantic/juniper_post_8h_romantic_question_1/3","hash":"727162732c","msgstr":"і повернутися, щоб позловтішатися над колишніми однокурсниками."}
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Relationship/post_8h_lines_romantic/juniper_post_8h_romantic_question_1/4","hash":"d5aab8f737","msgstr":"Але тепер я уявляю, як з'являюся там ще й під руку з тобою."}
-{"key":"Conversations/Bank/Juniper/Relationship Lines/Relationship/post_8h_lines_romantic/juniper_post_8h_romantic_question_1/5","hash":"7d40be56de","msgstr":"Уявляєш? Ми б надали нового сенсу словам \"могутня пара\".","note":"Гра слів: power couple — «могутня пара», а в Джуніпер і гравця справжня магічна сила."}
+{"key":"Conversations/Bank/Juniper/Relationship Lines/Relationship/post_8h_lines_romantic/juniper_post_8h_romantic_question_1/5","hash":"7d40be56de","msgstr":"Уявляєш? Ми б надали нового сенсу словам «могутня пара».","note":"Гра слів: power couple — «могутня пара», а в Джуніпер і гравця справжня магічна сила."}
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Relationship/post_8h_lines_romantic/juniper_post_8h_romantic_question_1/6","hash":"5f192fdeab","msgstr":"Ну... у певному сенсі."}
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Relationship/post_8h_lines_romantic/juniper_post_8h_romantic_question_1/7","hash":"893903dfb7","msgstr":"Зазвичай я мрію стати могутньою чаклункою—"}
 {"key":"Conversations/Bank/Juniper/Relationship Lines/Relationship/post_8h_lines_romantic/juniper_post_8h_romantic_2/init","hash":"40742f543f","msgstr":"Добре, ти тут."}
@@ -11806,7 +11806,7 @@
 {"key":"Conversations/Bank/Reina/Banked Lines/seridia/seridia_pickle/1","hash":"a8155c44bf","msgstr":"А вона просто... взяла й зникла банку!"}
 {"key":"Conversations/Bank/Reina/Banked Lines/seridia/seridia_pickle/2","hash":"2df254de14","msgstr":"Ще й не запропонувала допомогти прибрати! Огірки були скрізь!"}
 {"key":"Conversations/Bank/Reina/Banked Lines/skip_dinner/skip_dinner/init","hash":"0fba84974c","msgstr":"Я стільки всього поскуштувала, поки працювала на кухні, що зрештою пропустила вечерю."}
-{"key":"Conversations/Bank/Reina/Banked Lines/sleepy_dragon_inn/sleepy_dragon_inn/init","hash":"551dba0df3","msgstr":"Олрік постійно називає її «Корчма \"Сонний дракон\"».","note":"Гра слів: Олрік плутає назву корчми («Сплячий дракон») і називає її «Сонний дракон»."}
+{"key":"Conversations/Bank/Reina/Banked Lines/sleepy_dragon_inn/sleepy_dragon_inn/init","hash":"551dba0df3","msgstr":"Олрік постійно називає її «Корчма «Сонний дракон»».","note":"Гра слів: Олрік плутає назву корчми («Сплячий дракон») і називає її «Сонний дракон»."}
 {"key":"Conversations/Bank/Reina/Banked Lines/sleepy_dragon_inn/sleepy_dragon_inn/1","hash":"1aaa1dd92a","msgstr":"Це неправильно, але так мило..."}
 {"key":"Conversations/Bank/Reina/Banked Lines/slow_day/slow_day/init","hash":"3aff6195e0","msgstr":"Який гарний, неквапливий день. Після ринкового дня я завжди трохи сонніша."}
 {"key":"Conversations/Bank/Reina/Banked Lines/soup/soup/init","hash":"f533d76aa9","msgstr":"Їсти хочеш, [Ari]? Суп сьогодні вийшов досить непоганий. Не соромся, бери миску!"}
@@ -12232,7 +12232,7 @@
 {"key":"Conversations/Bank/Reina/Relationship Lines/Child/pregnancy/spouse_pregnant_5/init","hash":"29b83b3db8","msgstr":"Не знаю, чи ти колись про це думаєш, але в мого тата досить незвичайне ім'я."}
 {"key":"Conversations/Bank/Reina/Relationship Lines/Child/pregnancy/spouse_pregnant_5/1","hash":"2809efcf05","msgstr":"У нас у родині така собі традиція — давати дітям імена на честь природи."}
 {"key":"Conversations/Bank/Reina/Relationship Lines/Child/pregnancy/spouse_pregnant_5/2","hash":"ef018cd0ae","msgstr":"Так і Мейпл отримала своє ім'я!"}
-{"key":"Conversations/Bank/Reina/Relationship Lines/Child/pregnancy/spouse_pregnant_5/3","hash":"e993714b5e","msgstr":"Якщо буде хлопчик... хіба «$Сідар$» — не миле ім'я для нього?","note":"Ім'я Сідар (Cedar — кедр) продовжує традицію «природних» імен у родині Рейни; у перекладі транслітеровано, як і Гемлок, Мейпл."}
+{"key":"Conversations/Bank/Reina/Relationship Lines/Child/pregnancy/spouse_pregnant_5/3","hash":"e993714b5e","msgstr":"Якщо буде хлопчик... хіба «$Сідар$» — не миле ім'я для нього?","note":"Ім'я Сідар (Cedar — кедр) продовжує традицію «природних» імен у родині Рейни; у перекладі транслітеровано, як і Хемлок, Мейпл."}
 {"key":"Conversations/Bank/Reina/Relationship Lines/Child/pregnancy/spouse_pregnant_5/4","hash":"2a1b5bc7d0","msgstr":"Я хочу почути й твої ідеї!"}
 {"key":"Conversations/Bank/Reina/Relationship Lines/Child/pregnancy/spouse_pregnant_6/init","hash":"11c6cd900c","msgstr":"Фух!"}
 {"key":"Conversations/Bank/Reina/Relationship Lines/Child/pregnancy/spouse_pregnant_6/1","hash":"b2f6b920f1","msgstr":"Здається, маля от-от з'явиться."}
@@ -12271,7 +12271,7 @@
 {"key":"Conversations/Bank/Reina/Relationship Lines/Child/pregnancy/ari_pregnant_5/init","hash":"29b83b3db8","msgstr":"Не знаю, чи ти колись про це думаєш, але в мого тата досить незвичайне ім'я."}
 {"key":"Conversations/Bank/Reina/Relationship Lines/Child/pregnancy/ari_pregnant_5/1","hash":"2809efcf05","msgstr":"У нас у родині така собі традиція — давати дітям імена на честь природи."}
 {"key":"Conversations/Bank/Reina/Relationship Lines/Child/pregnancy/ari_pregnant_5/2","hash":"ef018cd0ae","msgstr":"Так і Мейпл отримала своє ім'я!"}
-{"key":"Conversations/Bank/Reina/Relationship Lines/Child/pregnancy/ari_pregnant_5/3","hash":"e993714b5e","msgstr":"Якщо буде хлопчик... хіба «$Сідар$» — не миле ім'я для нього?","note":"Ім'я Сідар (Cedar — кедр) продовжує традицію «природних» імен у родині Рейни; у перекладі транслітеровано, як і Гемлок, Мейпл."}
+{"key":"Conversations/Bank/Reina/Relationship Lines/Child/pregnancy/ari_pregnant_5/3","hash":"e993714b5e","msgstr":"Якщо буде хлопчик... хіба «$Сідар$» — не миле ім'я для нього?","note":"Ім'я Сідар (Cedar — кедр) продовжує традицію «природних» імен у родині Рейни; у перекладі транслітеровано, як і Хемлок, Мейпл."}
 {"key":"Conversations/Bank/Reina/Relationship Lines/Child/pregnancy/ari_pregnant_5/4","hash":"2a1b5bc7d0","msgstr":"Я хочу почути й твої ідеї!"}
 {"key":"Conversations/Bank/Reina/Relationship Lines/Child/pregnancy/ari_pregnant_6/init","hash":"835c1e02cf","msgstr":"Схоже, маля от-от з'явиться, еге ж?"}
 {"key":"Conversations/Bank/Reina/Relationship Lines/Child/pregnancy/ari_pregnant_6/1","hash":"78fb75c752","msgstr":"Ми так чекаємо зустрічі з тобою, маленьке!"}
@@ -12299,7 +12299,7 @@
 {"key":"Conversations/Bank/Reina/Relationship Lines/Child/pregnancy/stork_pregnant_5/init","hash":"29b83b3db8","msgstr":"Не знаю, чи ти колись про це думаєш, але в мого тата досить незвичайне ім'я."}
 {"key":"Conversations/Bank/Reina/Relationship Lines/Child/pregnancy/stork_pregnant_5/1","hash":"2809efcf05","msgstr":"У нас у родині така собі традиція — давати дітям імена на честь природи."}
 {"key":"Conversations/Bank/Reina/Relationship Lines/Child/pregnancy/stork_pregnant_5/2","hash":"ef018cd0ae","msgstr":"Так і Мейпл отримала своє ім'я!"}
-{"key":"Conversations/Bank/Reina/Relationship Lines/Child/pregnancy/stork_pregnant_5/3","hash":"e993714b5e","msgstr":"Якщо буде хлопчик... хіба «$Сідар$» — не миле ім'я для нього?","note":"Ім'я Сідар (Cedar — кедр) продовжує традицію «природних» імен у родині Рейни; у перекладі транслітеровано, як і Гемлок, Мейпл."}
+{"key":"Conversations/Bank/Reina/Relationship Lines/Child/pregnancy/stork_pregnant_5/3","hash":"e993714b5e","msgstr":"Якщо буде хлопчик... хіба «$Сідар$» — не миле ім'я для нього?","note":"Ім'я Сідар (Cedar — кедр) продовжує традицію «природних» імен у родині Рейни; у перекладі транслітеровано, як і Хемлок, Мейпл."}
 {"key":"Conversations/Bank/Reina/Relationship Lines/Child/pregnancy/stork_pregnant_5/4","hash":"2a1b5bc7d0","msgstr":"Я хочу почути й твої ідеї!"}
 {"key":"Conversations/Bank/Reina/Relationship Lines/Child/pregnancy/stork_pregnant_6/init","hash":"835c1e02cf","msgstr":"Схоже, маля от-от з'явиться, еге ж?"}
 {"key":"Conversations/Bank/Reina/Relationship Lines/Child/pregnancy/stork_pregnant_6/1","hash":"4e47d79df9","msgstr":"Не можу дочекатися, коли познайомимося з нашим маленьким!"}
@@ -14050,8 +14050,8 @@
 {"key":"Conversations/Bank/Seridia/Banked Lines/villagers/olric_0/2","hash":"d4943cddab","msgstr":"Певна, з часом я знайду йому застосування."}
 {"key":"Conversations/Bank/Seridia/Banked Lines/villagers/reina_0/init","hash":"2ac4cdf227","msgstr":"Хочеш їсти, [Ari]?"}
 {"key":"Conversations/Bank/Seridia/Banked Lines/villagers/reina_0/1","hash":"a4949e2c96","msgstr":"Що?"}
-{"key":"Conversations/Bank/Seridia/Banked Lines/villagers/reina_0/2","hash":"6c8db3f35f","msgstr":"Я лише випробовувала сучасний спосіб здобувати їжу, що зветься \"на виніс\"."}
-{"key":"Conversations/Bank/Seridia/Banked Lines/villagers/reina_0/3","hash":"351af692e8","msgstr":"Я \"винесла\" більше їжі, ніж розраховувала.","note":"Гра слів: take out — їжа «на виніс»; Серідія розуміє буквально — «винесла»."}
+{"key":"Conversations/Bank/Seridia/Banked Lines/villagers/reina_0/2","hash":"6c8db3f35f","msgstr":"Я лише випробовувала сучасний спосіб здобувати їжу, що зветься «на виніс»."}
+{"key":"Conversations/Bank/Seridia/Banked Lines/villagers/reina_0/3","hash":"351af692e8","msgstr":"Я «винесла» більше їжі, ніж розраховувала.","note":"Гра слів: take out — їжа «на виніс»; Серідія розуміє буквально — «винесла»."}
 {"key":"Conversations/Bank/Seridia/Banked Lines/villagers/reina_0/4","hash":"553d10b376","msgstr":"Ось, бери $пиріг із кришталевих ягід$, поки теплий!"}
 {"key":"Conversations/Bank/Seridia/Banked Lines/villagers/ryis_0/init","hash":"21c57bf77c","msgstr":"Той мовчазний тесляр, Райс..."}
 {"key":"Conversations/Bank/Seridia/Banked Lines/villagers/ryis_0/1","hash":"6f4239fac8","msgstr":"Я відчуваю в ньому іскру магії землі. Можливо, він розвинув би її, якби мав належного вчителя."}
@@ -14106,7 +14106,7 @@
 {"key":"Conversations/Bank/Seridia/Banked Lines/writing/writing_1/init","hash":"55d9db736b","msgstr":"Ми з Кальдарусом маємо різні підходи до магії."}
 {"key":"Conversations/Bank/Seridia/Banked Lines/writing/writing_1/1","hash":"7b008e2866","msgstr":"Навіть коли він століття тому намагався мене зупинити, то зміг запечатати лише тимчасово."}
 {"key":"Conversations/Bank/Seridia/Banked Lines/writing/writing_1/2","hash":"0ee4ad7f92","msgstr":"Якби ми помінялися місцями..."}
-{"key":"Conversations/Bank/Seridia/Banked Lines/writing/writing_1/3","hash":"b5ad6e2ea3","msgstr":"\"Сплячий дракон\" Містрії таким би й лишився."}
+{"key":"Conversations/Bank/Seridia/Banked Lines/writing/writing_1/3","hash":"b5ad6e2ea3","msgstr":"«Сплячий дракон» Містрії таким би й лишився."}
 {"key":"Conversations/Bank/Seridia/Banked Lines/writing/writing_2/init","hash":"2bce65c9ee","msgstr":"Джуніпер передала мені свою розвідку лей-ліній Містрії."}
 {"key":"Conversations/Bank/Seridia/Banked Lines/writing/writing_2/1","hash":"b79e4dc506","msgstr":"Вона вельми точна... Її наполегливість вражає."}
 {"key":"Conversations/Bank/Seridia/Banked Lines/writing/writing_2/2","hash":"b1d30a6bb6","msgstr":"Бачиш, де я фіолетовим підтвердила її спостереження?"}
@@ -14540,7 +14540,7 @@
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Child/pregnancy/spouse_pregnant_1/2/prompts/1","hash":"5a3dcbccf6","msgstr":"Для тебе — що завгодно!"}
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Child/pregnancy/spouse_pregnant_1/3","hash":"39e56be0d9","msgstr":"Я б ніколи не жадала такого буденного, легковажного десерту."}
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Child/pregnancy/spouse_pregnant_1/4","hash":"550313052f","msgstr":"Тож так. Не розчаруй маля, [Ari]."}
-{"key":"Conversations/Bank/Seridia/Relationship Lines/Child/pregnancy/spouse_pregnant_1/5","hash":"0413621516","msgstr":"\"Що завгодно для маляти\" — так правильніше."}
+{"key":"Conversations/Bank/Seridia/Relationship Lines/Child/pregnancy/spouse_pregnant_1/5","hash":"0413621516","msgstr":"«Що завгодно для маляти» — так правильніше."}
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Child/pregnancy/spouse_pregnant_1/6","hash":"7e924739f5","msgstr":"Що ж, байдуже. Я... ми чекатимемо на твоє повернення із сандеєм у руках."}
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Child/pregnancy/seridia_pregnancy_request_turn_in/init","hash":"7ca32ac846","msgstr":"О, так! Це саме те, що я... кхм."}
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Child/pregnancy/seridia_pregnancy_request_turn_in/1","hash":"a58cb84cb6","msgstr":"Саме те, чого хотіло маля."}
@@ -14630,7 +14630,7 @@
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Child/pregnancy/stork_pregnant_3/1","hash":"0de3a8b48d","msgstr":"Колись у мене були суворі уявлення про те, як найкраще виховувати дитину..."}
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Child/pregnancy/stork_pregnant_3/2","hash":"982a22ec37","msgstr":"Але цього разу все здається... інакшим. Я інакша."}
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Child/pregnancy/stork_pregnant_3/3","hash":"459e06d3db","msgstr":"І тоді я почула його мудрість..."}
-{"key":"Conversations/Bank/Seridia/Relationship Lines/Child/pregnancy/stork_pregnant_3/4","hash":"346e24b144","msgstr":"\"Треба пливти за течією!\""}
+{"key":"Conversations/Bank/Seridia/Relationship Lines/Child/pregnancy/stork_pregnant_3/4","hash":"346e24b144","msgstr":"«Треба пливти за течією!»"}
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Child/pregnancy/stork_pregnant_3/5","hash":"6d6519e5c6","msgstr":"І я подумала: так. Я дозволю тобі й дитині вести мене."}
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Child/pregnancy/stork_pregnant_3/6","hash":"b30b61afe0","msgstr":"Часом і з простацьких вуст золото сиплеться.","note":"Ідіома fool's gold (пірит, «золото дурнів») про пораду простака Олріка; замінено на «з простацьких вуст золото сиплеться»."}
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Child/pregnancy/stork_pregnant_4/init","hash":"cecd144d30","msgstr":"Цікаво, які драконячі риси проявляться в маляти? А які людські."}
@@ -14934,7 +14934,7 @@
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Relationship/post_8h_lines_best_friend/seridia_post_8h_best_friend_3/2r","hash":"498d2d3665","msgstr":"Але твоє бажання — це... справжня близькість."}
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Relationship/post_8h_lines_best_friend/seridia_post_8h_best_friend_3/2f","hash":"4ed2ff99a6","msgstr":"Але твоє бажання — це... справжня дружба."}
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Relationship/post_8h_lines_best_friend/seridia_post_8h_best_friend_4/init","hash":"dd6f72e811","msgstr":"Серед стосунків драконів і людей є давня приказка, що виражає тісний зв'язок. Приблизно вона перекладається так..."}
-{"key":"Conversations/Bank/Seridia/Relationship Lines/Relationship/post_8h_lines_best_friend/seridia_post_8h_best_friend_4/1","hash":"1f38a46b4c","msgstr":"\"Моя луска — твій щит, моє полум'я — твій меч\"."}
+{"key":"Conversations/Bank/Seridia/Relationship Lines/Relationship/post_8h_lines_best_friend/seridia_post_8h_best_friend_4/1","hash":"1f38a46b4c","msgstr":"«Моя луска — твій щит, моє полум'я — твій меч»."}
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Relationship/post_8h_lines_best_friend/seridia_post_8h_best_friend_4/2","hash":"efe158b9f6","msgstr":"Я повергла безліч ворогів своїм драконячим вогнем..."}
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Relationship/post_8h_lines_best_friend/seridia_post_8h_best_friend_4/3","hash":"3a1241fb43","msgstr":"Знай, що я оберну його на будь-якого ворога, на якого ти вкажеш, [Ari]. Тобі досить лише попросити."}
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Relationship/post_8h_lines_best_friend/seridia_post_8h_best_friend_5/init","hash":"1782902388","msgstr":"Я тут розмірковувала. З усіх моїх численних життів це — незвичайне."}
@@ -15021,7 +15021,7 @@
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Relationship/post_8h_lines_romantic/seridia_post_8h_romantic_0/7","hash":"ab5df625bc","msgstr":"..."}
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Relationship/post_8h_lines_romantic/seridia_post_8h_romantic_0/8","hash":"0967a18ea1","msgstr":"Ти... вже довго дивишся."}
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Relationship/post_8h_lines_romantic/seridia_post_8h_romantic_0/9","hash":"4872fa32f6","msgstr":"Скажи, [Ari]. Це був хитрий привід потримати мене за руку?"}
-{"key":"Conversations/Bank/Seridia/Relationship Lines/Relationship/post_8h_lines_romantic/seridia_post_8h_romantic_0/10","hash":"063f171cb3","msgstr":"Мій хвіст... \"класний\"?"}
+{"key":"Conversations/Bank/Seridia/Relationship Lines/Relationship/post_8h_lines_romantic/seridia_post_8h_romantic_0/10","hash":"063f171cb3","msgstr":"Мій хвіст... «класний»?"}
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Relationship/post_8h_lines_romantic/seridia_post_8h_romantic_0/11","hash":"8c8460bcb2","msgstr":"Я... ясно. Можеш доторкнутися, якщо хочеш. Однак—"}
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Relationship/post_8h_lines_romantic/seridia_post_8h_romantic_0/12","hash":"e0e6604418","msgstr":"Бережи пальці біля жала... воно гостре."}
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Relationship/post_8h_lines_romantic/seridia_post_8h_romantic_0/13","hash":"7daf78a27a","msgstr":"Не бійся. Я тебе не отрую."}
@@ -15029,14 +15029,14 @@
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Relationship/post_8h_lines_romantic/seridia_post_8h_romantic_1/init","hash":"3ef7dc9af9","msgstr":"Те, як ти мене вітаєш... без титулу чи церемоній..."}
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Relationship/post_8h_lines_romantic/seridia_post_8h_romantic_1/1","hash":"e0c97488af","msgstr":"Це сміливо. І не неприємно."}
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Relationship/post_8h_lines_romantic/seridia_post_8h_romantic_2/init","hash":"76d74fdcb1","msgstr":"[Ari]. У мене є питання, на яке я хотіла б почути відповідь."}
-{"key":"Conversations/Bank/Seridia/Relationship Lines/Relationship/post_8h_lines_romantic/seridia_post_8h_romantic_2/1","hash":"774f5d0503","msgstr":"Чи ці \"$побачення$\" — звичайна практика серед сучасних смертних, чи просто місцева дивовижа?"}
-{"key":"Conversations/Bank/Seridia/Relationship Lines/Relationship/post_8h_lines_romantic/seridia_post_8h_romantic_2/2","hash":"8cdca67fed","msgstr":"За всі мої попередні життя я не пригадую звичаю, щоб пара займалася приємними, невимушеними справами заради... \"розваги\"."}
+{"key":"Conversations/Bank/Seridia/Relationship Lines/Relationship/post_8h_lines_romantic/seridia_post_8h_romantic_2/1","hash":"774f5d0503","msgstr":"Чи ці «$побачення$» — звичайна практика серед сучасних смертних, чи просто місцева дивовижа?"}
+{"key":"Conversations/Bank/Seridia/Relationship Lines/Relationship/post_8h_lines_romantic/seridia_post_8h_romantic_2/2","hash":"8cdca67fed","msgstr":"За всі мої попередні життя я не пригадую звичаю, щоб пара займалася приємними, невимушеними справами заради... «розваги»."}
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Relationship/post_8h_lines_romantic/seridia_post_8h_romantic_2/2/prompts/0","hash":"fe4685b668","msgstr":"Ти ніколи не ходила на побачення?"}
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Relationship/post_8h_lines_romantic/seridia_post_8h_romantic_2/2/prompts/1","hash":"517fa62998","msgstr":"Як на мене, це досить поширено."}
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Relationship/post_8h_lines_romantic/seridia_post_8h_romantic_2/3","hash":"2ed959e784","msgstr":"Не треба так ставити питання! Я ж не якесь невинне дівча."}
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Relationship/post_8h_lines_romantic/seridia_post_8h_romantic_2/4","hash":"c7ecca561f","msgstr":"Звісно, я мала залицяльників. Щоб укладати союзи й зміцнювати владу."}
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Relationship/post_8h_lines_romantic/seridia_post_8h_romantic_2/5","hash":"9faf900148","msgstr":"Однак приємний час із тобою — це зовсім інше."}
-{"key":"Conversations/Bank/Seridia/Relationship Lines/Relationship/post_8h_lines_romantic/seridia_post_8h_romantic_2/6","hash":"7fee1866c4","msgstr":"Я чекаю, що ти покажеш мені більше цих... \"$побачень$\"."}
+{"key":"Conversations/Bank/Seridia/Relationship Lines/Relationship/post_8h_lines_romantic/seridia_post_8h_romantic_2/6","hash":"7fee1866c4","msgstr":"Я чекаю, що ти покажеш мені більше цих... «$побачень$»."}
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Relationship/post_8h_lines_romantic/seridia_post_8h_romantic_2/7","hash":"b9f50c9a3e","msgstr":"Ясно. Як цікаво."}
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Relationship/post_8h_lines_romantic/seridia_post_8h_romantic_2/8","hash":"4412d00d67","msgstr":"Коли я була королевою, метою залицянь було укладати союзи й зміцнювати владу."}
 {"key":"Conversations/Bank/Seridia/Relationship Lines/Relationship/post_8h_lines_romantic/seridia_post_8h_romantic_2/9","hash":"816e126547","msgstr":"Приємний час із тобою — це зовсім інше."}
@@ -16614,7 +16614,7 @@
 {"key":"Conversations/Bank/Valen/Relationship Lines/Relationship/post_8h_lines_best_friend/valen_post_8h_best_friend_6/9","hash":"73541e2cbc","msgstr":"Лікарка? Що розкриває злочини? Цікава думка!"}
 {"key":"Conversations/Bank/Valen/Relationship Lines/Relationship/post_8h_lines_best_friend/valen_post_8h_best_friend_6/10","hash":"6dc4feeafd","msgstr":"Це нагадує мені, як я попросила Селіну виростити трохи $кульбаб$ для моїх ліків."}
 {"key":"Conversations/Bank/Valen/Relationship Lines/Relationship/post_8h_lines_best_friend/valen_post_8h_best_friend_6/11","hash":"def9ec9907","msgstr":"А потім її город розорили! Увесь урожай знищено!"}
-{"key":"Conversations/Bank/Valen/Relationship Lines/Relationship/post_8h_lines_best_friend/valen_post_8h_best_friend_6/12","hash":"ebefa312d4","msgstr":"Згодом з'ясувалося, що це Голт старанно, але необачно полов бур'яни..."}
+{"key":"Conversations/Bank/Valen/Relationship Lines/Relationship/post_8h_lines_best_friend/valen_post_8h_best_friend_6/12","hash":"ebefa312d4","msgstr":"Згодом з'ясувалося, що це Холт старанно, але необачно полов бур'яни..."}
 {"key":"Conversations/Bank/Valen/Relationship Lines/Relationship/post_8h_lines_best_friend/valen_post_8h_best_friend_6/13","hash":"5d9df6ed1f","msgstr":"Чи таку захопливу правдиву кримінальну історію хочуть читати шанувальники детективів?"}
 {"key":"Conversations/Bank/Valen/Relationship Lines/Relationship/post_8h_lines_best_friend/valen_post_8h_best_friend_6/14","hash":"ca0e1afe9f","msgstr":"Ха-ха!"}
 {"key":"Conversations/Bank/Valen/Relationship Lines/Relationship/post_8h_lines_best_friend/valen_post_8h_best_friend_7/init","hash":"dd8acb8a71","msgstr":"А, [Ari], привіт."}
@@ -18861,7 +18861,7 @@
 {"key":"Conversations/fetch_quests/request_for_coffee_turn_in/init/prompts/1","hash":"bbe6ef49ef","msgstr":"Е-е, ти ж знаєш, що кіоск Дарсі зовсім поруч?"}
 {"key":"Conversations/fetch_quests/request_for_coffee_turn_in/1","hash":"5af35db6f8","msgstr":"Ну..."}
 {"key":"Conversations/fetch_quests/request_for_coffee_turn_in/2","hash":"fd6116a6e8","msgstr":"Так, знаю. Але..."}
-{"key":"Conversations/fetch_quests/request_for_coffee_turn_in/3","hash":"af9c5eac89","msgstr":"Якби я не відволік тебе цим запитом, ти збирався вчинити щось монументально безрозсудне."}
+{"key":"Conversations/fetch_quests/request_for_coffee_turn_in/3","hash":"af9c5eac89","msgstr":"Якби я не відволік тебе цим запитом, тебе понесло б на щось монументально безрозсудне."}
 {"key":"Conversations/fetch_quests/request_for_coffee_turn_in/4","hash":"f7034cec88","msgstr":"І відправити цей світ у невідворотно жахливу часову лінію."}
 {"key":"Conversations/fetch_quests/request_for_coffee_turn_in/4/prompts/0","hash":"41031066ff","msgstr":"Ого! Тоді тим паче прошу."}
 {"key":"Conversations/fetch_quests/request_for_coffee_turn_in/4/prompts/1","hash":"882c76e3ed","msgstr":"Не знаю, чи вірити тобі..."}
@@ -38867,14 +38867,14 @@
 {"key":"items/other/cooked_dishes/big_cookie/name","hash":"543feda743","msgstr":"Велике печиво"}
 {"key":"items/other/cooked_dishes/honey_curry/name","hash":"0172f75f29","msgstr":"Медове каррі"}
 {"key":"items/other/cooked_dishes/espresso/name","hash":"e25dc4762c","msgstr":"Еспресо"}
-{"key":"items/other/cooked_dishes/pbm_sandwich/name","hash":"1c0ce6903e","msgstr":"Сендвіч PBM"}
-{"key":"items/other/cooked_dishes/pbjt_sandwich/name","hash":"26a4df7612","msgstr":"Сендвіч PBJT"}
+{"key":"items/other/cooked_dishes/pbm_sandwich/name","hash":"1c0ce6903e","msgstr":"Сендвіч з арахісом і маршмелоу"}
+{"key":"items/other/cooked_dishes/pbjt_sandwich/name","hash":"26a4df7612","msgstr":"Сендвіч з арахісом, халапеньйо й тунцем"}
 {"key":"items/other/cooked_dishes/nachos/name","hash":"e20723e6f9","msgstr":"Начос"}
 {"key":"items/other/cooked_dishes/honey_toast/name","hash":"029d91d444","msgstr":"Медовий тост"}
 {"key":"items/other/cooked_dishes/dark_chocolate/name","hash":"cb2ad2f5b0","msgstr":"Чорний шоколад"}
 {"key":"items/other/cooked_dishes/milk_chocolate/name","hash":"dadcc4a330","msgstr":"Молочний шоколад"}
 {"key":"items/other/cooked_dishes/white_chocolate/name","hash":"38c5f16af6","msgstr":"Білий шоколад"}
-{"key":"items/other/cooked_dishes/tesserae_cake/name","hash":"1051d33c7a","msgstr":"Торт «Тесери»"}
+{"key":"items/other/cooked_dishes/tesserae_cake/name","hash":"1051d33c7a","msgstr":"Тесерний торт"}
 {"key":"items/other/cooked_dishes/blackberry_jam/description","hash":"5d523e0b25","msgstr":"Цей осінній джем солодкий і кислуватий."}
 {"key":"items/other/cooked_dishes/blueberry_jam/description","hash":"0cad44299a","msgstr":"Джем лише зі свіжої лохини. Має солодкий м'який смак."}
 {"key":"items/other/cooked_dishes/bread/description","hash":"4d7c8caf4c","msgstr":"М'який і пухкий буханець свіжого хліба."}
@@ -40963,7 +40963,7 @@
 {"key":"misc_local/mount","hash":"d5605821c4","msgstr":"Осідлати"}
 {"key":"misc_local/select_an_appearance","hash":"972bbaa1ac","msgstr":"Обери вигляд"}
 {"key":"misc_local/you_cant_do_that_here","hash":"2b66df7f59","msgstr":"Тут цього робити не можна!"}
-{"key":"misc_local/crown_requests","hash":"b2511f5979","msgstr":"Королівські запити"}
+{"key":"misc_local/crown_requests","hash":"b2511f5979","msgstr":"Запити Корони"}
 {"key":"misc_local/gift_discovered","hash":"d29ce2de1e","msgstr":"Відкрито вподобання!"}
 {"key":"misc_local/select_a_villager","hash":"28b45b3d74","msgstr":"Обери мешканця"}
 {"key":"misc_local/gossip","hash":"725628b0e0","msgstr":"Плітки"}
@@ -41626,7 +41626,7 @@
 {"key":"perks/heavy_duty/description","hash":"6721124b73","msgstr":"Обробіток ґрунту іноді дає шматок каменю або дерева."}
 {"key":"perks/well_watered/description","hash":"6b46309d60","msgstr":"Политі культури іноді зберігають вологу й наступного дня."}
 {"key":"perks/school_crasher/description","hash":"fec68db0dd","msgstr":"Запливши в зграю риби, можна отримати половину її вмісту, не витрачаючи витривалості."}
-{"key":"perks/lucky_haul/description","hash":"0598d51e86","msgstr":"Спіймана риба іноді випадає вдвічі більше."}
+{"key":"perks/lucky_haul/description","hash":"0598d51e86","msgstr":"Улов риби іноді подвоюється."}
 {"key":"perks/restorative_cooking/description","hash":"804090ba82","msgstr":"Приготування страви іноді додає бонусну інфузію відновлення: після з'їдання вона дає ефект відновлення здоров'я й витривалості."}
 {"key":"perks/seasoned/description","hash":"4ccdb692d3","msgstr":"Рідкісніші й незвичайні дари природи знаходити легше."}
 {"key":"perks/time_to_eat/description","hash":"6abc509983","msgstr":"Час приготування всіх кулінарних рецептів скорочується на 10 хвилин."}
@@ -41650,7 +41650,7 @@
 {"key":"perks/aquatic_antiquities/description","hash":"5bf6b98c53","msgstr":"Водні артефакти іноді можна виловити вудкою."}
 {"key":"perks/working_with_the_grain/description","hash":"5ea9129c66","msgstr":"Створення предмета іноді повертає один з його інгредієнтів."}
 {"key":"perks/quality_crafting/description","hash":"51121c8bc3","msgstr":"Створення предмета іноді додає бонусну інфузію якості, що підвищує ціну продажу на 10%."}
-{"key":"perks/natural/description","hash":"bca2263cdf","msgstr":"Зрубане будь-яке дерево іноді дає твердолисту деревину."}
+{"key":"perks/natural/description","hash":"bca2263cdf","msgstr":"Будь-яке зрубане дерево іноді дає тверду деревину."}
 {"key":"perks/leech_blacksmithing/description","hash":"fcfceb1b1c","msgstr":"Створення зброї іноді додає бонусну інфузію п'явки: кожна атака по монстру відновлює 1 одиницю здоров'я."}
 {"key":"perks/lightweight_blacksmithing/description","hash":"30adff0616","msgstr":"Створення інструмента іноді додає бонусну інфузію легкості: під час використання з нього іноді випадають кулі витривалості."}
 {"key":"perks/stoneturner/description","hash":"2b18cb971a","msgstr":"Розбиття каменів у шахтах іноді дає артефакти."}
@@ -41729,14 +41729,14 @@
 {"key":"perks/lost_to_history/description","hash":"ccaeb4b1fc","msgstr":"У шахтах іноді з'являються поверхи з ритуальними залами."}
 {"key":"perks/former_farmers/description","hash":"632c233fa6","msgstr":"Щодня на твоїй фермі з'являється місце розкопок з новим набором артефактів."}
 {"key":"perks/horsepower/description","hash":"4c39b63902","msgstr":"Твій містмер тепер біжить на 10% швидше."}
-{"key":"perks/harvest_horse/description","hash":"6921ade39d","msgstr":"Коли твій містмер біжить по місцю збору або повністю виросшій культурі, вона вискакує з землі."}
+{"key":"perks/harvest_horse/description","hash":"6921ade39d","msgstr":"Коли твій містмер пробігає через місце збору чи достиглу культуру, урожай сам вискакує з землі."}
 {"key":"perks/nice_ride/description","hash":"43bbc724ed","msgstr":"Вигляд великих тварин можна відкрити на 5 рівнях симпатії, щоб їздити на них."}
 {"key":"perks/museum_quality_three/description","hash":"47736a6cd6","msgstr":"Викопувати легендарні артефакти стає легше."}
 {"key":"perks/sonic_boom/description","hash":"491a66cddb","msgstr":"Якщо вдарити по звуковій атаці есенційного кажана, вивільниться звуковий бум, що завдає шкоди всім ворогам навколо."}
 {"key":"perks/gift_exchange/description","hash":"b090b13cd5","msgstr":"Коли кинути предмет у сплячу скриню-мімік, з неї випаде два предмети замість одного."}
-{"key":"perks/mist_sight/description","hash":"d8ac0529e9","msgstr":"З'являється шанс виловити скриню безодні з унікальним набором одягу або каменем есенції, піднятим із таємничих затонулих руїн."}
+{"key":"perks/mist_sight/description","hash":"d8ac0529e9","msgstr":"Щодня десь у Містрії з'являється туманна пляма — місце, де межа між світами тонка: крізь неї можна дістати незвичайні предмети з чарівного світу в обмін на есенцію."}
 {"key":"perks/earthly_essence/description","hash":"5d86676b41","msgstr":"Зібрані культури мають невеликий шанс залишити чарівне насіння. Хто знає, що виросте, якщо його посадити?"}
-{"key":"perks/abyssal_ascendence/description","hash":"b5663fe62c","msgstr":"З'являється шанс виловити безодню скриню, що містить унікальний набір одягу або камінь есенції, піднятий із таємничих затонулих руїн."}
+{"key":"perks/abyssal_ascendence/description","hash":"b5663fe62c","msgstr":"З'являється шанс виловити скриню безодні з унікальним набором одягу або каменем есенції, піднятим із таємничих затонулих руїн."}
 {"key":"perks/gold_expert/description","hash":"57f526f2ac","msgstr":"Кількість золотої руди, потрібної для створення золотих злитків, зменшується на 1."}
 {"key":"perks/time_sensitive_four/description","hash":"613f11fb06","msgstr":"Час створення всіх ковальських рецептів скорочується ще на 10 хвилин, разом на 40 хвилин."}
 {"key":"perks/back_in_vogue_two/description","hash":"2bb136dea3","msgstr":"Артефакти тепер продаються ще на 25% дорожче в тесерах."}
@@ -41744,7 +41744,7 @@
 {"key":"perks/good_as_gold/description","hash":"0ba5aacae9","msgstr":"Розбиття золотої жили іноді дає додатковий шматок золота."}
 {"key":"perks/refined_rockery/description","hash":"3060bc57b5","msgstr":"Час створення всіх рецептів кам'яної очисної скорочується на 10 хвилин."}
 {"key":"perks/break_one_get_two/description","hash":"1c62add343","msgstr":"Створення за рецептом у кам'яній очисній іноді дає додатковий виготовлений предмет."}
-{"key":"perks/lucky_haul_two/description","hash":"a70021e10e","msgstr":"Спіймана риба ще частіше випадає вдвічі більше."}
+{"key":"perks/lucky_haul_two/description","hash":"a70021e10e","msgstr":"Улов риби ще частіше подвоюється."}
 {"key":"perks/lumberjack_two/description","hash":"967fa8090d","msgstr":"Розбиття гілки, зрубане дерево чи викорчуваний пень завжди дають додатковий шматок дерева."}
 {"key":"perks/magic_design/description","hash":"d592dc1862","msgstr":"Тепер можна створювати гігантські камені есенції, які живлять статую 40 днів."}
 {"key":"perks/natural_beauty_two/description","hash":"83b56561de","msgstr":"Рецепти меблів, властивих біому, тепер частіше випадають з місць розкопок у шахтах."}
@@ -43217,7 +43217,7 @@
 {"key":"quests/story_quests/meet_the_new_vendors/name","hash":"de70bc91d5","msgstr":"Познайомся з новими торговцями"}
 {"key":"quests/story_quests/repair_the_bell_tower/name","hash":"4b54ec3cc5","msgstr":"Ремонт Дзвіниці"}
 {"key":"quests/story_quests/complete_the_museum/name","hash":"19717c859b","msgstr":"Завершення Музею"}
-{"key":"quests/story_quests/greet_the_townsfolk/description","hash":"a6c6a3d69a","msgstr":"Мабуть, ти вже перетнувся з деякими сусідами, але ж було б гарно привітатися з усіма?\n\nНе соромся, представся!"}
+{"key":"quests/story_quests/greet_the_townsfolk/description","hash":"a6c6a3d69a","msgstr":"Мабуть, із кимось із сусідів ви вже бачилися, але ж було б гарно привітатися з усіма?\n\nНе соромся, представся!"}
 {"key":"quests/story_quests/do_a_bro_a_favor/description","hash":"18824001ea","msgstr":"Ласкаво просимо до міста!\n\nМістрія, до речі, повна каменів. У мене є саме той інструмент, щоб із ними впоратися, і він твій, якщо зробиш мені послугу!\n\nПідійди, розповім подробиці!"}
 {"key":"quests/story_quests/stinky_stamina_potion/description","hash":"e041c250bd","msgstr":"Привабливій і надзвичайно талановитій власниці лазні потрібен посильний, який знайде й принесе бузок."}
 {"key":"quests/story_quests/friday_at_the_sleeping_dragon_inn/description","hash":"c6a926ebd4","msgstr":"Рейна попросила зустрітися після 6 вечора в корчмі «Сплячий дракон» на п'ятничні посиденьки."}
