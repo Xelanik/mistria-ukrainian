@@ -4,7 +4,7 @@
 [Mods of Mistria Installer (MOMI)](https://github.com/Garethp/Mods-of-Mistria-Installer).
 Репозиторій: https://github.com/Xelanik/mistria-ukrainian · помилки й пропозиції: [Issues](https://github.com/Xelanik/mistria-ukrainian/issues). Спільнота, допомога з установкою, тести й вичитка — на [Discord-сервері FoM-UA](https://discord.gg/QEB9hYBhmm); як допомогти — у [CONTRIBUTING.md](CONTRIBUTING.md).
 
-**Версія мода 0.14.0 ↔ версія гри 1.0.7–1.0.8.**
+**Версія мода 0.14.1 ↔ версія гри 1.0.7–1.0.8.**
 
 ## Що перекладено
 
@@ -73,7 +73,7 @@ Poedit відновлюється командою `npm run extract`. Прави
 # English
 
 Unofficial fan mod adding a Ukrainian localization to Fields of Mistria, installed via
-[MOMI](https://github.com/Garethp/Mods-of-Mistria-Installer). Mod 0.14.0 targets game 1.0.7-1.0.8. The whole game text is translated: UI, items, quests and letters, the story, festivals, heart events, weddings and children, and the daily lines of every villager and romanceable character (draft quality; next come proofreading, community fixes and in-game testing before 1.0). Install: update MOMI, put the
+[MOMI](https://github.com/Garethp/Mods-of-Mistria-Installer). Mod 0.14.1 targets game 1.0.7-1.0.8. The whole game text is translated: UI, items, quests and letters, the story, festivals, heart events, weddings and children, and the daily lines of every villager and romanceable character (draft quality; next come proofreading, community fixes and in-game testing before 1.0). Install: update MOMI, put the
 `FoM-UA` folder into `mods/`, enable it in MOMI and pick Ukrainian in the in-game language menu. Do not enable it alongside
 another mod that adds the `ukr` language. The startup loading bird stays in English (the engine reads it from a
 standalone PNG that stable MOMI 0.16.5 cannot replace). Code is MIT; the translation is CC BY-NC-SA 4.0. The repository contains no
