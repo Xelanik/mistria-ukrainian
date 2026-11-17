@@ -127,8 +127,9 @@ function xelanik_fomua_tutorial_cards() {
         for (var s = 0; s < array_length(_raw_tutorial.steps); s++) {
             var _eng = _raw_tutorial.steps[s].sprite[$ "eng"];
             if (!is_string(_eng) || string_length(_eng) < 5) continue;
-            if (string_copy(_eng, string_length(_eng) - 3, 4) != "_eng") continue;
-            var _base = string_copy(_eng, 1, string_length(_eng) - 4);
+            // Cards with per-language variants end in "_eng"; single-language cards (museum, crafting...) have a bare name.
+            var _base = _eng;
+            if (string_copy(_eng, string_length(_eng) - 3, 4) == "_eng") _base = string_copy(_eng, 1, string_length(_eng) - 4);
             if (!xelanik_fomua_has_card(_base)) continue;
             _tutorial.steps[s].sprite[_slot] = string_to_asset(_base + "_ukr");
             _replaced += 1;

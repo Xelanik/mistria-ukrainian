@@ -38481,11 +38481,11 @@
 {"key":"items/other/blacksmithing/dragon_forged_horn/name","hash":"3cb96a68d1","msgstr":"Ріг, викутий драконом"}
 {"key":"items/other/blacksmithing/dragon_forged_core/name","hash":"d975bae8e8","msgstr":"Ядро, викуте драконом"}
 {"key":"items/other/blacksmithing/dragon_forged_powder/name","hash":"28d9179714","msgstr":"Порошок, викутий драконом"}
-{"key":"items/other/blacksmithing/copper_ingot/description","hash":"b0d8edb97f","msgstr":"Злиток суцільної міді. Використовується в багатьох ковальських рецептах і рецептах створення."}
-{"key":"items/other/blacksmithing/iron_ingot/description","hash":"ad0eb0f3c7","msgstr":"Злиток чистого заліза. Використовується в багатьох ковальських рецептах і рецептах створення."}
-{"key":"items/other/blacksmithing/silver_ingot/description","hash":"3bcaab2126","msgstr":"Злиток чистого срібла. Використовується в багатьох ковальських рецептах і рецептах створення."}
-{"key":"items/other/blacksmithing/gold_ingot/description","hash":"5b7d16adb6","msgstr":"Злиток чистого золота. Використовується в багатьох ковальських рецептах і рецептах створення."}
-{"key":"items/other/blacksmithing/mistril_ingot/description","hash":"3957c47899","msgstr":"Злиток чистого містрилу. Використовується в багатьох ковальських рецептах і рецептах створення."}
+{"key":"items/other/blacksmithing/copper_ingot/description","hash":"b0d8edb97f","msgstr":"Злиток суцільної міді. Потрібен для ковальських рецептів і створення."}
+{"key":"items/other/blacksmithing/iron_ingot/description","hash":"ad0eb0f3c7","msgstr":"Злиток чистого заліза. Потрібен для ковальських рецептів і створення."}
+{"key":"items/other/blacksmithing/silver_ingot/description","hash":"3bcaab2126","msgstr":"Злиток чистого срібла. Потрібен для ковальських рецептів і створення."}
+{"key":"items/other/blacksmithing/gold_ingot/description","hash":"5b7d16adb6","msgstr":"Злиток чистого золота. Потрібен для ковальських рецептів і створення."}
+{"key":"items/other/blacksmithing/mistril_ingot/description","hash":"3957c47899","msgstr":"Злиток чистого містрилу. Потрібен для ковальських рецептів і створення."}
 {"key":"items/other/blacksmithing/axe_worn/description","hash":"9fa3ca7b68","msgstr":"Потерта, але ще придатна сокира. Нею рубають гілки й дерева."}
 {"key":"items/other/blacksmithing/fishing_rod_worn/description","hash":"ace13fc7b2","msgstr":"Потерта, але ще придатна вудка. Дальність закидання - 6."}
 {"key":"items/other/blacksmithing/hoe_worn/description","hash":"3cf644426f","msgstr":"Потерта, але ще придатна мотика. Нею розпушують ґрунт перед посівом насіння."}
@@ -40345,7 +40345,7 @@
 {"key":"letters/baked_sweetroot/subject_line","hash":"54d9310930","msgstr":"Рецепт запеченого солодкокореня"}
 {"key":"letters/deep_sea_soup/subject_line","hash":"2d8b68c449","msgstr":"Рецепт глибоководного супу"}
 {"key":"letters/horsing_around/subject_line","hash":"78ba04857f","msgstr":"Потрібен мій піддослідний"}
-{"key":"letters/replenishing_mistrias_food_reserves_1/subject_line","hash":"45b9a12d73","msgstr":"Поповнення харчових запасів Містрії"}
+{"key":"letters/replenishing_mistrias_food_reserves_1/subject_line","hash":"45b9a12d73","msgstr":"Запаси їжі для Містрії"}
 {"key":"letters/an_open_book/subject_line","hash":"51775e4261","msgstr":"Ділова розмова"}
 {"key":"letters/repair_the_general_store/subject_line","hash":"903290d980","msgstr":"Універмаг"}
 {"key":"letters/crafting_tutorial/subject_line","hash":"697a3a4878","msgstr":"Огляд створення предметів"}
@@ -40753,7 +40753,7 @@
 {"key":"misc_local/play_time","hash":"2a225931a7","msgstr":"Час гри:"}
 {"key":"misc_local/save_game","hash":"d64f623d89","msgstr":"Зберегти гру"}
 {"key":"misc_local/saturday_market","hash":"14a663780a","msgstr":"Суботній ринок"}
-{"key":"misc_local/take_items","hash":"f28d7c5c96","msgstr":"Забрати предмети"}
+{"key":"misc_local/take_items","hash":"f28d7c5c96","msgstr":"Забрати"}
 {"key":"misc_local/attached_items","hash":"17381d0af7","msgstr":"Прикріплені предмети"}
 {"key":"misc_local/save_your_progress","hash":"ab6c81a5ed","msgstr":"Зберегти прогрес?"}
 {"key":"misc_local/cannot_save_outside_home","hash":"00481c362b","msgstr":"Не можна зберегти"}
@@ -40967,8 +40967,8 @@
 {"key":"misc_local/gift_discovered","hash":"d29ce2de1e","msgstr":"Відкрито вподобання!"}
 {"key":"misc_local/select_a_villager","hash":"28b45b3d74","msgstr":"Обери мешканця"}
 {"key":"misc_local/gossip","hash":"725628b0e0","msgstr":"Плітки"}
-{"key":"misc_local/loved_gift","hash":"8a64228cff","msgstr":"Улюблений подарунок"}
-{"key":"misc_local/liked_gift","hash":"eaa3f46c13","msgstr":"Вподобаний подарунок"}
+{"key":"misc_local/loved_gift","hash":"8a64228cff","msgstr":"Улюблене"}
+{"key":"misc_local/liked_gift","hash":"eaa3f46c13","msgstr":"Вподобане"}
 {"key":"misc_local/default_player_name","hash":"f6302850cc","msgstr":"Арі"}
 {"key":"misc_local/default_farm_name","hash":"140ec59f33","msgstr":"Ферма «Туманний гай»"}
 {"key":"misc_local/stuck","hash":"328e3b6b4e","msgstr":"Перемістити на вільне місце"}
@@ -41294,7 +41294,7 @@
 {"key":"museum_wings/flora/sets/ruins/name","hash":"2ce7568a6d","msgstr":"Дари Руїн"}
 {"key":"museum_wings/flora/sets/void/name","hash":"6659ecd12a","msgstr":"Дари Порожнечі"}
 {"key":"museum_wings/flora/sets/spring_crops/description","hash":"775230b86a","msgstr":"Колекція культур, що вирощуються навесні."}
-{"key":"museum_wings/flora/sets/spring_flowers/description","hash":"ab1098ba61","msgstr":"Колекція квітів, що вирощуються навесні."}
+{"key":"museum_wings/flora/sets/spring_flowers/description","hash":"ab1098ba61","msgstr":"Колекція квітів, що ростуть навесні."}
 {"key":"museum_wings/flora/sets/spring_forage/description","hash":"e22fbc9abb","msgstr":"Колекція дарів природи, зібраних навесні."}
 {"key":"museum_wings/flora/sets/summer_crops/description","hash":"c2654671a9","msgstr":"Колекція культур, що вирощуються влітку."}
 {"key":"museum_wings/flora/sets/summer_flowers/description","hash":"21902b7709","msgstr":"Колекція квітів, що вирощуються влітку."}
@@ -41440,7 +41440,7 @@
 {"key":"perks/welcome_home_two/name","hash":"6e194329db","msgstr":"Ласкаво просимо додому II"}
 {"key":"perks/green_thumb/name","hash":"5f7944d314","msgstr":"Легка рука"}
 {"key":"perks/nice_swing/name","hash":"4dce155bc7","msgstr":"Гарний замах"}
-{"key":"perks/refreshing/name","hash":"f92e2ad582","msgstr":"Освіжання","note":"Показано на картці туторіалу (skill_perks_3/4); узгоджувати з рештою перків при перекладі групи perks."}
+{"key":"perks/refreshing/name","hash":"f92e2ad582","msgstr":"Відновлення","note":"Показано на картці туторіалу (skill_perks_3/4); узгоджувати з рештою перків при перекладі групи perks."}
 {"key":"perks/sunken_treasure/name","hash":"b99fedf630","msgstr":"Затонулий скарб"}
 {"key":"perks/sunken_secrets/name","hash":"bf7e9bd589","msgstr":"Таємниці глибин"}
 {"key":"perks/unpeatable/name","hash":"de9b54d97f","msgstr":"Неперевершений торф"}
@@ -43182,12 +43182,12 @@
 {"key":"quests/story_quests/breaking_the_fire_seal/name","hash":"37b9b4d47d","msgstr":"Злам Печаті Вогню"}
 {"key":"quests/story_quests/the_spring_festival/name","hash":"090b3b65be","msgstr":"Весняне свято"}
 {"key":"quests/story_quests/the_shooting_star_festival/name","hash":"d10c20ae6e","msgstr":"Свято падаючої зірки"}
-{"key":"quests/story_quests/replenishing_mistrias_food_reserves_1/name","hash":"45b9a12d73","msgstr":"Поповнення харчових запасів Містрії"}
+{"key":"quests/story_quests/replenishing_mistrias_food_reserves_1/name","hash":"45b9a12d73","msgstr":"Запаси їжі для Містрії"}
 {"key":"quests/story_quests/repair_the_general_store/name","hash":"29f55bd7c4","msgstr":"Ремонт Універмагу"}
 {"key":"quests/story_quests/crafting_tutorial/name","hash":"1065060681","msgstr":"Основи створення предметів"}
 {"key":"quests/story_quests/repair_the_summit_stairs/name","hash":"249a7f46ad","msgstr":"Проєкт благоустрою"}
 {"key":"quests/story_quests/repair_haydens_barn/name","hash":"504082fadf","msgstr":"Оновлення хліву Гейдена"}
-{"key":"quests/story_quests/replenishing_mistrias_food_reserves_2/name","hash":"7595eefb68","msgstr":"Поповнення харчових запасів Містрії 2"}
+{"key":"quests/story_quests/replenishing_mistrias_food_reserves_2/name","hash":"7595eefb68","msgstr":"Запаси їжі для Містрії 2"}
 {"key":"quests/story_quests/repair_the_beach_bridge/name","hash":"9540f1935a","msgstr":"Ремонт Пляжного мосту"}
 {"key":"quests/story_quests/repair_the_inn/name","hash":"e24d572407","msgstr":"Оновлення Корчми"}
 {"key":"quests/story_quests/find_the_weathervane/name","hash":"578b85e0b2","msgstr":"Знайди флюгер"}
